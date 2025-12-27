@@ -15,10 +15,8 @@ for both computer science and biology researchers.
 
 ![agent workflow](images/agent_workflow.png)
 
-<!-- ## Taxonomy
 
-![taxonomy](images/taxonomy_r1_sj.png) -->
-
+![taxonomy](images/taxonomy_r1_sj.png)
 
 ---
 
