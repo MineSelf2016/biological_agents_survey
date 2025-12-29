@@ -18,6 +18,8 @@ for both computer science and biology researchers.
 
 ![taxonomy](images/taxonomy_r1_sj.png)
 
+![mapping](images/mapping.png)
+
 ---
 
 ## 📑 Table of Contents
