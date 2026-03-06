@@ -3,6 +3,7 @@
 This repository is a companion resource for the paper:
 
 > **[Artificial Intelligence agents for biological research: a survey](https://academic.oup.com/bib/article/27/1/bbag075/8499367)**
+> 
 > Cong Qi*, Wenbo Wang*, Siqi Jiang, Qin Liu, Xun Song, Hanzhang Fang, Zhi Wei  
 > Briefings in Bioinformatics 27, no. 1 (2026).
 
