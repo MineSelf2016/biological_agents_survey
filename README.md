@@ -1495,11 +1495,14 @@ and evaluation practices emerge.
 
 If you find this repository useful, please cite the corresponding paper:
 ```
-@article{qi2025ai,
-  title={AI Agent in Biology Research: A Survey},
+@article{qi2026artificial,
+  title={Artificial Intelligence agents for biological research: a survey},
   author={Qi, Cong and Wang, Wenbo and Jiang, Siqi and Liu, Qin and Song, Xun and Fang, Hanzhang and Wei, Zhi},
-  journal={Authorea Preprints},
-  year={2025},
-  publisher={Authorea}
+  journal={Briefings in Bioinformatics},
+  volume={27},
+  number={1},
+  pages={bbag075},
+  year={2026},
+  publisher={Oxford University Press}
 }
 ```
