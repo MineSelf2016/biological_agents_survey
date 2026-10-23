@@ -5,6 +5,7 @@
 """
 import datetime as dt
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -16,7 +17,10 @@ DATA = ROOT / "data"
 SITE_URL = "https://mineself2016.github.io/biological_agents_survey/"
 PAPER_URL = "https://academic.oup.com/bib/article/27/1/bbag075/8499367"
 DIMENSIONS = ["task", "architecture", "interaction", "evaluation", "resources"]
-RECENT_DAYS = 120
+LATEST_N = 20
+READING_N = 15
+FIRST_YEAR_PAGE = 2025
+TOP_VENUE = re.compile(r"^(nature|science|cell\b|the new england|nejm|the lancet|lancet)", re.I)
 RESOURCE_FILES = [
     ("benchmarks", "Benchmarks"),
     ("libraries", "Libraries"),
@@ -60,24 +64,6 @@ def anchor(text):
     return keep.replace(" ", "-")
 
 
-def is_recent(p, today):
-    added = p.get("added")
-    return bool(added) and (today - dt.date.fromisoformat(str(added))).days <= RECENT_DAYS
-
-
-def paper_line(taxonomy, p, primary_task=None):
-    venue = f" · *{p['venue']}*" if p.get("venue") else ""
-    tags = [label(taxonomy, d, t) for d in DIMENSIONS for t in p.get(d) or []
-            if not (d == "task" and t == primary_task)]
-    tag_str = " " + " ".join(f"`{t}`" for t in tags) if tags else ""
-    code = f" · [code]({p['code']})" if p.get("code") else ""
-    dagger = " †" if p.get("in_survey") else ""
-    out = [f"- **[{p['title']}]({p['url']})**{dagger} · {p['year']}{venue}{code}{tag_str}"]
-    if p.get("summary"):
-        out.append(f"  <details><summary>Summary</summary>\n\n  {p['summary']}\n\n  </details>\n")
-    return "\n".join(out)
-
-
 def coverage_table(taxonomy, papers, col_dim):
     cols = list(taxonomy[col_dim]["categories"])
     head = ["Task \\ " + taxonomy[col_dim]["label"]] + [label(taxonomy, col_dim, c) for c in cols]
@@ -110,15 +96,73 @@ def resource_section(title, items):
     return "\n".join(out)
 
 
+def compact_line(taxonomy, p):
+    venue = f" · *{p['venue']}*" if p.get("venue") else ""
+    tags = [label(taxonomy, d, t) for d in DIMENSIONS for t in p.get(d) or []]
+    tag_str = " " + " ".join(f"`{t}`" for t in tags) if tags else ""
+    dagger = " †" if p.get("in_survey") else ""
+    name = f"**{p['name']}**: " if p.get("name") else ""
+    return f"- {name}[{p['title']}]({p['url']}){dagger} · {pub_month(p)}{venue}{tag_str}"
+
+
+def pub_month(p):
+    d = str(p.get("date") or "")
+    if len(d) >= 7:
+        return dt.date(int(d[:4]), int(d[5:7]), 1).strftime("%b %Y")
+    return str(p["year"])
+
+
+def score(p, today):
+    d = str(p.get("date") or "")
+    months = 12
+    if len(d) >= 7:
+        months = max(1, (today.year - int(d[:4])) * 12 + today.month - int(d[5:7]) + 1)
+    top = bool(TOP_VENUE.match(p.get("venue") or ""))
+    return (1e6 if p.get("featured") else 0) + 10 * (p.get("citations") or 0) / months + 5 * top
+
+
+def year_file(year):
+    return f"papers/{year}.md" if year >= FIRST_YEAR_PAGE else "papers/earlier.md"
+
+
+def build_year_page(taxonomy, papers, title):
+    parts = [f"# {title}\n", f"[← Back to the main page](../README.md) · {len(papers)} papers · "
+             "† cited in the survey\n"]
+    for tag, meta in taxonomy["task"]["categories"].items():
+        group = [p for p in papers if (p.get("task") or [None])[0] == tag]
+        if not group:
+            continue
+        group.sort(key=lambda p: (str(p.get("date") or p["year"])), reverse=True)
+        parts.append(f"## {meta['label']} ({len(group)})\n")
+        parts += [compact_line(taxonomy, p) for p in group]
+        parts.append("")
+    return "\n".join(parts)
+
+
+def build_resources_page(resources):
+    parts = ["# Building blocks\n", "[← Back to the main page](README.md)\n",
+             "Benchmarks, libraries, knowledge sources and tools that biological agents are built on and evaluated with.\n"]
+    for key, title in RESOURCE_FILES:
+        if resources[key]:
+            parts.append(resource_section(title, resources[key]))
+    return "\n".join(parts)
+
+
 def build_readme(taxonomy, papers, resources, today):
-    recent = sorted((p for p in papers if is_recent(p, today)),
-                    key=lambda p: str(p["added"]), reverse=True)
     badge_date = today.isoformat().replace("-", "--")
+    latest = sorted((p for p in papers if p.get("date")), key=lambda p: str(p["date"]), reverse=True)[:LATEST_N]
+    picks = sorted(papers, key=lambda p: score(p, today), reverse=True)[:READING_N]
+    years = sorted({p["year"] for p in papers}, reverse=True)
+    pages = {}
+    for p in papers:
+        pages.setdefault(year_file(p["year"]), []).append(p)
+    page_links = " · ".join(
+        f"[{f[7:-3].title()}]({f}) ({len(pages[f])})" for f in sorted(pages, key=lambda f: f if f[7:-3].isdigit() else "", reverse=True))
     parts = [f"""# AI Agents in Biology
 
-[![papers](https://img.shields.io/badge/papers-{len(papers)}-2a78d6)](#papers-by-biological-task)
-[![updated](https://img.shields.io/badge/updated-{badge_date}-1baf7a)](#recently-added)
-[![explorer](https://img.shields.io/badge/interactive-explorer-6250d6)]({SITE_URL})
+[![papers](https://img.shields.io/badge/papers-{len(papers)}-2a78d6)](#all-papers)
+[![updated](https://img.shields.io/badge/updated-{badge_date}-1baf7a)](#latest-papers)
+[![website](https://img.shields.io/badge/project-page-6250d6)]({SITE_URL})
 
 Companion resource for
 
@@ -126,28 +170,29 @@ Companion resource for
 > Cong Qi\\*, Wenbo Wang\\*, Siqi Jiang, Qin Liu, Xun Song, Hanzhang Fang, Zhi Wei.
 > *Briefings in Bioinformatics* 27(1), bbag075 (2026).
 
-Every paper is tagged on all five dimensions of the survey's taxonomy — biological task,
-system architecture, interaction mode, evaluation strategy and resource integration.
-**[Open the interactive explorer]({SITE_URL})** to filter by any combination of tags,
-see where the field is crowded or empty, and track growth over time.
-
-This README is generated from [`data/`](data/) by `scripts/build.py`; please edit the
-YAML rather than this file (see [Contributing](#contributing)).
+A curated, weekly updated list of LLM-driven AI agents for biological and biomedical research,
+from journals, bioRxiv, medRxiv and arXiv. Every paper is tagged on the survey's five dimensions:
+biological task, system architecture, interaction mode, evaluation strategy and resource integration.
+**[Browse it on the project page]({SITE_URL})** to filter by any combination of tags and see
+how the field grows month by month.
 
 ![taxonomy](images/taxonomy_r1_sj.png)
 """]
 
-    parts.append("## Recently added\n")
-    if recent:
-        parts += [paper_line(taxonomy, p) for p in recent]
-    else:
-        parts.append(f"_Nothing added in the last {RECENT_DAYS} days._")
+    parts.append("## Recommended reading\n")
+    parts.append("Most-cited papers per month since publication (citation counts from OpenAlex).\n")
+    for p in picks:
+        cites = f" · {p['citations']} citations" if p.get("citations") else ""
+        parts.append(compact_line(taxonomy, p) + cites)
     parts.append("")
+
+    parts.append(f"## Latest papers\n")
+    parts += [compact_line(taxonomy, p) for p in latest]
+    parts.append(f"\nSee the [{years[0]} list]({year_file(years[0])}) for more.\n")
 
     parts.append(f"""## Where the field is
 
 Counts across all {len(papers)} papers; a paper can sit in more than one cell.
-Empty cells (·) are combinations nobody has published yet.
 
 **Task × architecture**
 
@@ -158,37 +203,24 @@ Empty cells (·) are combinations nobody has published yet.
 {coverage_table(taxonomy, papers, "resources")}
 """)
 
-    parts.append("## Papers by biological task\n")
-    parts.append("Each paper is listed once, under its first task tag; its other tags follow the title. † cited in the survey.\n")
-    for tag, meta in taxonomy["task"]["categories"].items():
-        group = [p for p in papers if (p.get("task") or [None])[0] == tag]
-        if not group:
-            continue
-        group.sort(key=lambda p: (-p["year"], p["title"]))
-        parts.append(f"### {meta['label']}\n\n_{meta['description']}_\n")
-        parts += [paper_line(taxonomy, p, primary_task=tag) for p in group]
-        parts.append("")
-    untagged = [p for p in papers if not p.get("task")]
-    if untagged:
-        parts.append("### Not yet classified\n")
-        parts += [paper_line(taxonomy, p) for p in untagged]
-        parts.append("")
+    parts.append(f"""## All papers
 
-    parts.append("## Building blocks\n")
-    parts.append("Benchmarks, libraries, knowledge sources and tools that biological agents are built on and evaluated with.\n")
-    for key, title in RESOURCE_FILES:
-        if resources[key]:
-            parts.append(resource_section(title, resources[key]))
+Grouped by year, then by biological task: {page_links}.
+
+Benchmarks, agent libraries, knowledge sources and bioinformatics tools are listed in [resources.md](resources.md).
+""")
 
     parts.append("""## Contributing
 
-New papers are welcome — open an issue with the **Add a paper** template, or send a pull
-request that appends an entry to [`data/papers.yaml`](data/papers.yaml):
+Missing a paper? Open an issue with the **Add a paper** template, or send a pull request that
+appends an entry to [`data/papers.yaml`](data/papers.yaml):
 
 ```yaml
 - id: shortname-2026            # unique, lowercase
+  name: ShortName               # optional
   title: "Full paper title"
   url: https://doi.org/...
+  date: 2026-05-14
   year: 2026
   venue: Nature Methods
   code: https://github.com/...   # optional
@@ -198,11 +230,10 @@ request that appends an entry to [`data/papers.yaml`](data/papers.yaml):
   interaction: [step-by-step]
   evaluation: [automated]
   resources: [tool-augmented]
-  added: 2026-10-22
 ```
 
 Allowed tag values are listed in [`data/taxonomy.yaml`](data/taxonomy.yaml).
-Run `python scripts/build.py` to validate and regenerate this README and the explorer data.
+`python scripts/build.py` validates the data and regenerates this README, the year pages and the project page data.
 
 ## Citation
 
@@ -219,7 +250,7 @@ Run `python scripts/build.py` to validate and regenerate this README and the exp
 }
 ```
 """)
-    return "\n".join(parts)
+    return "\n".join(parts), pages
 
 
 def main(check_only=False):
@@ -234,13 +265,19 @@ def main(check_only=False):
         print(f"ok: {len(papers)} papers")
         return
     today = dt.date.today()
-    (ROOT / "README.md").write_text(build_readme(taxonomy, papers, resources, today))
+    readme, pages = build_readme(taxonomy, papers, resources, today)
+    (ROOT / "README.md").write_text(readme)
+    (ROOT / "papers").mkdir(exist_ok=True)
+    for f, group in pages.items():
+        title = f"Papers from {f[7:-3]}" if f[7:-3].isdigit() else f"Papers before {FIRST_YEAR_PAGE}"
+        (ROOT / f).write_text(build_year_page(taxonomy, group, title))
+    (ROOT / "resources.md").write_text(build_resources_page(resources))
     payload = {"generated": today.isoformat(), "taxonomy": taxonomy, "papers": papers,
                **resources}
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "docs" / "data.js").write_text(
         "window.SURVEY = " + json.dumps(payload, ensure_ascii=False, default=str) + ";\n")
-    print(f"wrote README.md and docs/data.js: {len(papers)} papers")
+    print(f"wrote README.md, {len(pages)} year pages, resources.md and docs/data.js: {len(papers)} papers")
 
 
 if __name__ == "__main__":
