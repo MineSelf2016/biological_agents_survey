@@ -1,0 +1,226 @@
+- name: AutoGen
+  subtitle: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
+  url: https://github.com/microsoft/autogen
+  category: agent frameworks and orchestration
+  organization: Microsoft Research
+  summary: AutoGen is a framework for building agent conversation systems that enables the development
+    of LLM applications using conversational agents. It provides foundations for task orchestration and
+    agent coordination, implementing event-driven architecture with asynchronous message-passing protocols.
+    The framework handles agent instantiation with specific functional roles and manages structured message-passing
+    that supports both forward task progression and retrospective error correction across specialized
+    agents (e.g., Planner, Reasoner, Memory, RAG, Tool executors, Code, Critic, Reporter).
+- name: CodeAct
+  subtitle: Executable Code Actions Elicit Better LLM Agents
+  url: https://github.com/xingyaoww/code-act
+  category: agent frameworks and orchestration
+  organization: UIUC & Apple
+  summary: CodeAct is a framework that consolidates LLM agents' actions into a unified code action space.
+    Enables agents to execute Python code dynamically, revise prior actions through self-debugging, and
+    emit new actions upon observations in multi-turn interactions. Supports complex operations through
+    control and data flow, leverages extensive software packages for expanded action space, and provides
+    automated feedback mechanisms for iterative task solving.
+- name: LangChain
+  subtitle: Platform for Reliable Agents
+  url: https://github.com/langchain-ai/langchain
+  category: agent frameworks and orchestration
+  organization: LangChain
+  summary: LangChain is a comprehensive framework for building agent systems and LLM-powered applications.
+    Provides modular components for chaining interoperable elements, integrating with diverse data sources
+    and external systems, and enabling rapid prototyping through component-based architecture. Supports
+    model interoperability, real-time data augmentation, and production-ready features with built-in monitoring
+    and evaluation capabilities for deploying reliable agent applications.
+- name: LangGraph
+  subtitle: Build Resilient Language Agents as Graphs
+  url: https://github.com/langchain-ai/langgraph
+  category: agent frameworks and orchestration
+  organization: LangChain
+  summary: LangGraph is a low-level orchestration framework for building controllable, stateful multi-agent
+    applications with complex workflows. Enables customizable agent architectures with built-in support
+    for persistent checkpoints, cycles, and human-in-the-loop interactions. Provides graph-based workflow
+    management for coordinating multiple agents, long-term memory capabilities, and production-ready deployment
+    tools. Integrates seamlessly with LangChain ecosystem while supporting standalone usage for agent
+    systems requiring precise control over execution flow.
+- name: CrewAI
+  subtitle: Framework for Orchestrating Role-Playing, Autonomous AI Agents
+  url: https://github.com/joaomdmoura/crewai
+  category: agent frameworks and orchestration
+  organization: CrewAI
+  summary: CrewAI is a framework for building collaborative multi-agent systems with role-based task delegation.
+    Enables developers to create crews of specialized agents that work together to accomplish complex
+    tasks, with built-in process orchestration (sequential, hierarchical, consensual). Provides task decomposition
+    and assignment mechanisms, inter-agent communication protocols, and memory sharing across agent crews
+    for collaborative problem-solving.
+- name: BioChatter
+  subtitle: A Platform for the Biomedical Application of Large Language Models
+  url: https://biochatter.org
+  category: agent frameworks and orchestration
+  organization: Heidelberg University & EMBL-EBI
+  summary: BioChatter is an open-source Python framework designed for developing custom biomedical research
+    software using LLMs while adhering to open science principles. Provides unified API abstraction layer
+    that harmonizes different LLM deployment tools and proprietary providers, enabling seamless model
+    switching without code changes. Integrates with BioCypher knowledge graphs and vector databases for
+    retrieval-augmented generation, facilitates external API integration through robust parameterization,
+    and supports multi-agent systems with reflection-based workflows. Features continuous benchmarking
+    infrastructure for reproducibility, customizable system prompts for domain alignment, and modular
+    architecture supporting deployment spectrum from rapid prototyping to fully encapsulated production
+    systems with complete data sovereignty.
+- name: LlamaIndex
+  subtitle: Building LLM-powered Agents over Data
+  url: https://github.com/run-llama/llama_index
+  category: agent memory systems
+  organization: LlamaIndex
+  summary: LlamaIndex is a data framework for building context-aware agent systems with persistent knowledge
+    management capabilities. Provides data connectors to ingest information from diverse sources (APIs,
+    PDFs, databases, documents), structures data through customizable indices and knowledge graphs for
+    efficient retrieval, and offers advanced query interfaces for agents to access relevant context. Enables
+    agents to augment LLM reasoning with external and private data through RAG (Retrieval-Augmented Generation)
+    patterns, supports both high-level APIs for rapid prototyping and low-level components for custom
+    memory architectures, and integrates seamlessly with agent frameworks for building knowledge-grounded
+    applications.
+- name: Mem0
+  subtitle: Building Production-Ready AI Agents with Scalable Long-Term Memory
+  url: https://github.com/mem0ai/mem0
+  category: agent memory systems
+  organization: Mem0 AI
+  summary: Mem0 is a framework designed for building AI agents with scalable, persistent memory capabilities.
+    It provides hierarchical memory design, implementing both short-term memory (STM) for transient task-level
+    context and long-term memory (LTM) for persistent knowledge storage. The framework supports user-profile
+    stores and vector-based factual stores with semantic retrieval capabilities, enabling agents to maintain
+    context across sessions and perform analogical reasoning across different problems.
+- name: Redis
+  subtitle: The Real-Time Data Platform
+  url: https://github.com/redis/redis
+  category: agent memory systems
+  organization: Redis
+  summary: Redis is an in-memory data structure store used as a database, cache, and message broker. In
+    agent systems, Redis provides the backing store for agent memory with real-time state tracking capabilities.
+    It supports memory buffers (with first-in-first-out eviction) and serves as an indexing layer for
+    approximate nearest-neighbor search in vector stores, enabling fast semantic retrieval of validated
+    facts, procedural workflows, and experimental findings across agent sessions.
+- name: ChromaDB
+  subtitle: Open-source search and retrieval database for AI applications
+  url: https://github.com/chroma-core/chroma
+  category: agent memory systems
+  organization: Chroma
+  summary: ChromaDB is an AI-native embedding database designed for building LLM applications with semantic
+    search capabilities. Provides efficient storage and retrieval of embeddings for agent memory systems,
+    supports metadata filtering and hybrid search, and offers both in-memory and persistent storage options.
+    Enables agents to maintain vector-based knowledge stores with fast similarity search, integrates seamlessly
+    with LangChain and LlamaIndex, and includes built-in embedding functions for multiple models.
+- name: Qdrant
+  subtitle: Vector Search Engine for the Next Generation of AI Applications
+  url: https://github.com/qdrant/qdrant
+  category: agent memory systems
+  organization: Qdrant
+  summary: Qdrant is a high-performance vector similarity search engine designed for agent memory and
+    retrieval systems. Features advanced filtering, payload-based queries, and efficient approximate nearest
+    neighbor search. Supports distributed deployments, provides JSON-based filtering for complex queries,
+    and offers both cloud and self-hosted options for production agent applications.
+- name: Transformers
+  subtitle: State-of-the-Art Natural Language Processing
+  url: https://github.com/huggingface/transformers
+  category: llm backends and agent inference
+  organization: Hugging Face
+  summary: Transformers is a library providing thousands of pretrained models for natural language processing
+    tasks. It serves as the core inference engine for agent reasoning capabilities, enabling systems to
+    leverage large language models for task decomposition, scientific reasoning, and decision-making.
+    The library powers various LLM-based agent components including query rewriting, information synthesis,
+    and LLM-driven consolidation processes in memory systems.
+- name: vLLM
+  subtitle: High-throughput and memory-efficient LLM inference engine
+  url: https://github.com/vllm-project/vllm
+  category: llm backends and agent inference
+  organization: UC Berkeley
+  summary: vLLM is a fast and memory-efficient inference engine for large language models. Optimizes agent
+    inference with PagedAttention for efficient memory management, continuous batching for high throughput,
+    and optimized CUDA kernels. Enables agents to handle multiple concurrent requests efficiently, supports
+    various quantization methods for reduced memory footprint, and provides OpenAI-compatible API for
+    seamless integration with agent frameworks.
+- name: Ollama
+  subtitle: Get Up and Running With Large Language Models
+  url: https://github.com/ollama/ollama
+  category: llm backends and agent inference
+  organization: Ollama
+  summary: Ollama is a local runtime for running large language models on personal machines without relying
+    on cloud services. Enables agents to execute LLM inference locally with support for multiple open-source
+    models including Llama, Mistral, Gemma, and DeepSeek. Provides a unified API for model management,
+    supports model customization through Modelfiles, and offers GPU acceleration with CUDA and Vulkan.
+    Allows agents to maintain data privacy while accessing powerful language models, includes support
+    for multimodal inputs, and integrates seamlessly with agent frameworks through its REST API and Python/JavaScript
+    libraries.
+- name: OpenAI Python
+  subtitle: Official Python client for the OpenAI API
+  url: https://github.com/openai/openai-python
+  category: llm backends and agent inference
+  organization: OpenAI
+  summary: OpenAI Python is the official Python library for accessing OpenAI's REST API, providing agent
+    systems with direct access to GPT models and other OpenAI services. Features type-safe request and
+    response handling with full autocomplete support, both synchronous and asynchronous client implementations,
+    and auto-paginating iterators for list operations. Enables agents to leverage OpenAI's language models
+    for reasoning, text generation, vision understanding, and tool calling capabilities. Supports streaming
+    responses for real-time agent interactions, comprehensive timeout and retry configurations, and integration
+    with various agent frameworks for building production-ready AI applications.
+- name: Anthropic Python
+  subtitle: Official Python client for the Anthropic API
+  url: https://github.com/anthropics/anthropic-sdk-python
+  category: llm backends and agent inference
+  organization: Anthropic
+  summary: Anthropic Python is the official Python library for accessing Anthropic's REST API, providing
+    agent systems with direct access to Claude models and advanced AI capabilities. Features type-safe
+    request and response handling with Pydantic models, both synchronous and asynchronous client implementations,
+    and native support for streaming responses. Enables agents to leverage Claude's language models for
+    reasoning, analysis, tool use (function calling), and extended thinking capabilities. Supports prompt
+    caching for cost optimization, vision understanding for multimodal inputs, and seamless integration
+    with agent frameworks. Provides comprehensive configuration options for timeouts, retries, and custom
+    headers, with built-in support for Amazon Bedrock deployments for enterprise agent applications.
+- name: MLflow
+  subtitle: Open-Source Platform for Productionizing AI
+  url: https://github.com/mlflow/mlflow
+  category: agent serving and monitoring
+  organization: Databricks
+  summary: MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. For
+    agent systems, MLflow enables logging and versioning of agent episodes, ensuring reproducibility across
+    experimental runs. It tracks agent execution traces, intermediate results, tool invocations, and decision
+    rationales, maintaining provenance metadata for all computational experiments. The platform enables
+    auditing of entire workflows from planning through execution and validation, with deterministic seed
+    initialization for reproducible agent behaviors.
+- name: Chainlit
+  subtitle: Build Conversational AI in minutes
+  url: https://github.com/Chainlit/chainlit
+  category: agent serving and monitoring
+  organization: Chainlit
+  summary: Chainlit is a framework for rapidly building conversational interfaces for agent systems. Enables
+    developers to create chat-based UIs with built-in support for streaming responses, multi-step interactions,
+    and visualization of agent workflows. Features automatic conversation history management, file upload
+    handling, and integration with major frameworks including LangChain, LlamaIndex, and OpenAI. Provides
+    decorators for defining message handlers and tool execution steps, supports real-time collaboration,
+    and includes data layer capabilities for persistent storage with PostgreSQL and cloud storage backends.
+    Allows rapid prototyping of agent interfaces with minimal code while maintaining production-ready
+    scalability.
+- name: Flask
+  subtitle: Lightweight Web Framework
+  url: https://github.com/pallets/flask
+  category: agent serving and monitoring
+  organization: Pallets
+  summary: Flask is a lightweight WSGI web framework for building web applications and APIs in Python.
+    Commonly used to create HTTP endpoints for agent systems, providing flexible routing, request handling,
+    and response formatting capabilities. Features a minimalist core with extensive ecosystem of extensions
+    for authentication, database integration, and API development. Enables developers to build custom
+    web interfaces for agent interactions, deploy agent services as REST APIs, and integrate agent systems
+    into larger web applications. Supports both synchronous and asynchronous operations, offers template
+    rendering with Jinja2, and provides straightforward deployment options for serving agent-powered applications.
+    FastAPI is a modern, high-performance web framework for building APIs with Python. Widely used for
+    deploying agent systems as production services with automatic API documentation, asynchronous request
+    handling, and type validation through Pydantic. Provides WebSocket support for real-time agent interactions,
+    dependency injection for managing agent lifecycles, and OpenAPI schema generation for agent endpoint
+    documentation. Enables rapid development of agent APIs with built-in data validation and serialization.
+- name: Gradio
+  subtitle: Build Machine Learning Web Apps
+  url: https://github.com/gradio-app/gradio
+  category: agent serving and monitoring
+  organization: Hugging Face
+  summary: Gradio is a Python library for quickly creating customizable UI components for machine learning
+    models and agent systems. Enables developers to build interactive interfaces for agent demonstrations
+    with minimal code, supports various input types including text, images, and audio, and provides real-time
+    feedback visualization. Features built-in sharing capabilities, component composition for complex
+    workflows, and seamless integration with Hugging Face Spaces for public deployment of agent applications.

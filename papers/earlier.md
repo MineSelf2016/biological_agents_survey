@@ -1,0 +1,62 @@
+# Papers before 2025
+
+[← Back to the main page](../README.md) · 44 papers · † cited in the survey
+
+## Clinical decision support (13)
+
+- [Attitudes Toward Use of an APOL1 Genetic Testing Chatbot in Living Kidney Donor Evaluation: A Focus Group Study](https://onlinelibrary.wiley.com/doi/abs/10.1111/ctr.70026) † · Dec 2024 · *Clinical Transplantation* `Clinical decision support` `Human-in-the-loop` `Knowledge-augmented`
+- [OpenAI o1-Preview vs. ChatGPT in Healthcare: A New Frontier in Medical AI Reasoning](https://www.cureus.com/articles/301598-openai-o1-preview-vs-chatgpt-in-healthcare-a-new-frontier-in-medical-ai-reasoning.pdf) † · Oct 2024 · *Cureus* `Clinical decision support` `Single-agent` `Zero-shot planner`
+- [Approximating facial expression effects on diagnostic accuracy via generative AI in medical genetics](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i110/7700869) † · Jun 2024 · *Bioinformatics* `Clinical decision support` `Automated, model-centric` `Human-in-the-loop`
+- [Evolution of publicly available large language models for complex decision-making in breast cancer care](https://link.springer.com/article/10.1007/s00404-024-07565-4) † · May 2024 · *Archives of Gynecology and Obstetrics* `Clinical decision support` `Single-agent` `Zero-shot planner` `Human-in-the-loop`
+- [A Comparative Evaluation of ChatGPT 3.5 and ChatGPT 4 in Responses to Selected Genetics Questions](https://pubmed.ncbi.nlm.nih.gov/38872284/) † · May 2024 · *Journal of the American Medical Informatics Association* `Clinical decision support` `Single-agent` `Zero-shot planner` `Human-in-the-loop`
+- [Innovations in Medicine: Exploring ChatGPT’s Impact on Rare Disorder Management](https://www.mdpi.com/2073-4425/15/4/421) † · Mar 2024 · *Genes* `Clinical decision support`
+- [Assessing the Utility of Large Language Models for Phenotype-Driven Gene Prioritization in Rare Genetic Disorder Diagnosis](https://www.cell.com/ajhg/fulltext/S0002-9297(24)00296-9) † · Mar 2024 · *The American Journal of Human Genetics* `Clinical decision support` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [Tokensome: Towards a Genetic Vision-Language GPT for Explainable and Cognitive Karyotyping](https://arxiv.org/abs/2403.11073) † · Mar 2024 · *arXiv* `Clinical decision support` `Neuro-symbolic` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information](https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338) † · Feb 2024 · *Bioinformatics* `Clinical decision support` `Knowledge discovery & hypothesis generation` `Single-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented`
+- [Advancing Healthcare: The Role and Impact of AI and Foundation Models](https://pmc.ncbi.nlm.nih.gov/articles/PMC11236664/) † · Jan 2024 · *American Journal of Translational Research* `Clinical decision support`
+- [Leveraging Large Language Models for Decision Support in Personalized Oncology](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2812097#google_vignette) † · Nov 2023 · *JAMA Network Open* `Clinical decision support` `Single-agent` `Zero-shot planner` `Human-in-the-loop`
+- [ChatGPT for phenotypes extraction: one model to rule them all?](https://ieeexplore.ieee.org/abstract/document/10340611/) † · Jul 2023 · *IEEE EMBC* `Clinical decision support` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [Can Large Language Models Democratize Access to Dual-use Biotechnology?](https://arxiv.org/abs/2306.03809) † · Jun 2023 · *Arxiv* `Clinical decision support` `Molecular & drug design` `Exploratory applications` `Single-agent` `Step-by-step` `Human-in-the-loop`
+
+## Knowledge discovery & hypothesis generation (8)
+
+- [Steering veridical large language model analyses by correcting and enriching generated database queries: first steps toward ChatGPT bioinformatics](https://academic.oup.com/bib/article-abstract/26/1/bbaf045/8002976) † · Nov 2024 · *Briefings in Bioinformatics* `Knowledge discovery & hypothesis generation` `Multi-omics analysis` `Multi-agent` `Neuro-symbolic` `Step-by-step` `Automated, model-centric` `Tool-augmented` `Knowledge-augmented`
+- [RNA-GPT: Multimodal Generative System for RNA Sequence Understanding](https://arxiv.org/abs/2411.08900) † · Oct 2024 · *arXiv* `Knowledge discovery & hypothesis generation` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Tool-augmented`
+- [GP-GPT: Large Language Model for Gene-phenotype Mapping](https://arxiv.org/abs/2409.09825) † · Sep 2024 · *arXiv* `Knowledge discovery & hypothesis generation` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [VarChat: the generative AI assistant for the interpretation of human genomic variations](https://academic.oup.com/bioinformatics/article-abstract/40/4/btae183/7641533) † · Mar 2024 · *Bioinformatics* `Knowledge discovery & hypothesis generation` `Clinical decision support` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [ChIP-GPT: a managed large language model for robust data extraction from biomedical database records](https://academic.oup.com/bib/article/25/2/bbad535/7600389) † · Jan 2024 · *Briefings in Bioinformatics* `Knowledge discovery & hypothesis generation` `Single-agent` `Step-by-step` `Automated, model-centric`
+- [FAVOR-GPT: A Generative Natural Language Interface to Whole Genome Variant Functional Annotations](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae143/7789482) † · Jan 2024 · *Bioinformatics Advances* `Knowledge discovery & hypothesis generation` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [Evaluating GPT and BERT Models for Protein-Protein Interaction Identification in Biomedical Text](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae133/7755482) † · Jan 2024 · *Bioinformatics Advances* `Knowledge discovery & hypothesis generation` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [Generative Artificial Intelligence GPT-4 Accelerates Knowledge Mining and Machine Learning for Synthetic Biology](https://pubs.acs.org/doi/full/10.1021/acssynbio.3c00310) † · Sep 2023 · *ACS synthetic biology* `Knowledge discovery & hypothesis generation` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+
+## Molecular & drug design (3)
+
+- [Generative Design of Functional Metal Complexes Utilizing the Internal Knowledge of Large Language Models](https://arxiv.org/abs/2410.18136) † · Oct 2024 · *arXiv* `Molecular & drug design` `Single-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented`
+- [CancerGPT for few shot drug pair synergy prediction using large pretrained language models](https://www.nature.com/articles/s41746-024-01024-9) † · Feb 2024 · *npj Digital Medicine* `Molecular & drug design` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [Autonomous chemical research with large language models](https://www.nature.com/articles/s41586-023-06792-0) † · Dec 2023 · *Nature* `Molecular & drug design` `Multi-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented` `Knowledge-augmented`
+
+## Multi-omics analysis (10)
+
+- [BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments](https://arxiv.org/abs/2405.17631) † · May 2024 · *arXiv* `Multi-omics analysis` `Single-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented` `Knowledge-augmented`
+- [PheNormGPT: a framework for extraction and normalization of key medical findings](https://academic.oup.com/database/article-abstract/doi/10.1093/database/baae103/7833209) † · Jan 2024 · *Database* `Multi-omics analysis` `Clinical decision support` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [CellAgent: An LLM-driven MultiAgent Framework for Automated Single-cell Data Analysis](https://arxiv.org/abs/2407.09811) † · 2024 · *arXiv* `Multi-omics analysis` `Multi-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented`
+- [Genetic Analysis of Milk Citrate Predicted by Milk Mid-infrared Spectra of Holstein Cows in Early Lactation](https://www.sciencedirect.com/science/article/pii/S0022030223008263) † · Dec 2023 · *Journal of Dairy Science* `Multi-omics analysis`
+- [Using ChatGPT to predict the future of personalized medicine](https://www.nature.com/articles/s41397-023-00316-9) † · Sep 2023 · *The Pharmacogenomics Journal* `Multi-omics analysis` `Exploratory applications` `Neuro-symbolic` `Single-agent` `Zero-shot planner` `Human-in-the-loop`
+- [Automated Bioinformatics Analysis via AutoBA](https://arxiv.org/abs/2309.03242) † · Sep 2023 · *arXiv* `Multi-omics analysis` `Single-agent` `Step-by-step` `Human-in-the-loop` `Tool-augmented`
+- [Genome-Wide Association Study of Lactation Traits in Chinese Holstein Cows in Southern China](https://www.mdpi.com/2076-2615/13/15/2545) † · Aug 2023 · *Animals* `Multi-omics analysis`
+- [Generative Methods for Pediatric Genetics Education](https://pmc.ncbi.nlm.nih.gov/articles/PMC10543060/) † · Aug 2023 · *medRxiv* `Multi-omics analysis` `Exploratory applications` `Human-in-the-loop`
+- [Influence of the Concentrate Inclusion Level in a Grass Silage–based Diet on Hepatic Transcriptomic Profiles in Holstein-Friesian Dairy Cows in Early Lactation](https://www.sciencedirect.com/science/article/pii/S0022030223003764) † · Jul 2023 · *Journal of Dairy Science* `Multi-omics analysis`
+- [Leveraging large language models for data analysis automation](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317084) † · 2023 · *PLOS ONE* `Multi-omics analysis` `Single-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented`
+
+## Exploratory applications (10)
+
+- [SteLLA: A Structured Grading System Using LLMs with RAG](https://ieeexplore.ieee.org/abstract/document/10825385/) † · Dec 2024 · *IEEE Big Data* `Exploratory applications` `Single-agent` `Zero-shot planner` `Automated, model-centric` `Knowledge-augmented`
+- [Large Language Models as Efficient Reward Function Searchers for Custom-Environment Multi-Objective Reinforcement Learning](https://arxiv.org/abs/2409.02428) † · Sep 2024 · *Arxiv* `Exploratory applications` `Single-agent` `Step-by-step` `Automated, model-centric`
+- [Hematological and Biochemical Characterization of Aging Farm Male Rat Strains in the National Center for Geriatrics and Gerontology](https://www.jstage.jst.go.jp/article/expanim/74/1/74_24-0028/_article/-char/ja/) † · Aug 2024 · *Experimental Animals* `Exploratory applications`
+- [SeqMate: A Novel Large Language Model Pipeline for Automating RNA Sequencing](https://arxiv.org/abs/2407.03381) † · Jul 2024 · *arXiv* `Exploratory applications` `Multi-omics analysis` `Single-agent` `Step-by-step` `Automated, model-centric` `Tool-augmented` `Knowledge-augmented`
+- [Bioinformatics and biomedical informatics with ChatGPT: Year one review](https://onlinelibrary.wiley.com/doi/abs/10.1002/qub2.67) † · Jun 2024 · *Quantitative Biology* `Exploratory applications` `Knowledge discovery & hypothesis generation` `Multi-omics analysis` `Molecular & drug design` `Knowledge-augmented`
+- [Explaining Genetic Programming Trees using Large Language Models](https://arxiv.org/abs/2403.03397) † · Mar 2024 · *arXiv* `Exploratory applications` `Single-agent` `Hybrid` `Human-in-the-loop`
+- [Regulatory barriers to USChina collaboration for generative AI development in genomic research](https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00130-7) † · 2024 · *Cell Genomics* `Exploratory applications`
+- [Evaluating the Symbol Binding Ability of Large Language Models for Multiple-Choice Questions in Vietnamese General Education](https://doi.org/10.1145/3628797.3628837) † · Dec 2023 · *ACM* `Exploratory applications` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [Enhancing phenotype recognition in clinical notes using large language models: PhenoBCBERT and PhenoGPT](https://www.cell.com/patterns/fulltext/S2666-3899(23)00288-X) † · Dec 2023 · *Patterns* `Exploratory applications` `Clinical decision support` `Single-agent` `Zero-shot planner` `Automated, model-centric`
+- [Ten Quick Tips for Harnessing the Power of ChatGPT/GPT-4 in Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011319) † · Mar 2023 · *PLoS Computational Biology* `Exploratory applications` `Multi-omics analysis`

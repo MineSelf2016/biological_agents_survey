@@ -1,0 +1,422 @@
+- name: ClinVar
+  subtitle: Public archive of interpretations of clinically relevant variants
+  url: https://www.ncbi.nlm.nih.gov/clinvar/
+  category: genomic clinical databases
+  organization: NCBI
+  summary: ClinVar is a freely accessible database archiving clinical interpretations of genomic variations
+    and their relationships to human health conditions. Aggregates variant classifications from clinical
+    testing laboratories, research groups, expert panels, and locus-specific databases worldwide, providing
+    agents with authoritative variant-disease associations essential for clinical diagnosis and precision
+    medicine. Features structured submission records (SCV accessions), aggregated variant interpretations
+    (RCV accessions), evidence documentation, and review status indicators. Supports programmatic access
+    through E-utilities API and monthly data releases in XML, VCF, and tabular formats for systematic
+    variant interpretation workflows.
+- name: MyGene2
+  subtitle: Sharing Information to Learn About Genes and Rare Conditions
+  url: https://mygene2.org/
+  category: genomic clinical databases
+  organization: University of Washington
+  summary: MyGene2 is a patient-driven registry and data-sharing platform connecting individuals and families
+    affected by rare genetic conditions to facilitate gene discovery and improve variant interpretation.
+    Provides genetic variants, phenotypic descriptions, clinical histories, and natural history data reported
+    directly by patients and families with rare and ultra-rare disorders often lacking sufficient published
+    literature. Enables agents to access patient-reported genotype-phenotype correlations, novel variant-disease
+    associations, clinical outcome data, and family experiences supporting variant classification, gene-disease
+    relationship validation, and natural history studies for rare disease research and clinical interpretation
+    of variants of uncertain significance.
+- name: MPD
+  subtitle: Mouse Phenome Database
+  url: https://www.jax.org/research-and-faculty/resources/mouse-phenome-database
+  category: genomic clinical databases
+  organization: The Jackson Laboratory
+  summary: MPD is a comprehensive resource for strain characteristics, phenotypic data, genotypic information,
+    and experimental protocols for laboratory mouse strains used in biomedical research. Provides standardized
+    phenotype measurements across cardiovascular, metabolic, behavioral, hematological, and other physiological
+    systems for hundreds of inbred, recombinant inbred, and mutant mouse strains. Enables agents to access
+    comparative phenotypic data, quantitative trait loci (QTL) mapping results, genetic variation information,
+    and experimental protocols supporting translational research, disease modeling, and genotype-phenotype
+    correlation studies in model organism research.
+- name: gnomAD
+  subtitle: Genome Aggregation Database
+  url: https://gnomad.broadinstitute.org/
+  category: genomic clinical databases
+  organization: Broad Institute
+  summary: gnomAD is the world's largest public database of human genetic variation, aggregating and harmonizing
+    exome and genome sequencing data from over 800,000 individuals across diverse global populations.
+    Provides population allele frequencies, constraint metrics, and variant annotations enabling agents
+    to distinguish pathogenic variants from benign population variation in clinical interpretation workflows.
+    Features ancestry-specific frequency data, loss-of-function variant catalogues, structural variant
+    annotations, and quality-controlled variant calls accessible through browser interface, API, and cloud-based
+    data releases on AWS, Azure, and Google Cloud platforms.
+- name: UCSC Genome Browser
+  subtitle: Integrated tool for visualizing and analyzing genome assemblies
+  url: https://genome.ucsc.edu/
+  category: genomic clinical databases
+  organization: UC Santa Cruz Genomics Institute
+  summary: UCSC Genome Browser is a comprehensive platform for exploring genomic annotations, comparative
+    genomics, and experimental data across multiple species and genome assemblies. Provides agents with
+    integrated access to reference sequences, gene predictions, regulatory elements, conservation scores,
+    variation data, and thousands of experimental tracks from ENCODE, GTEx, and other large-scale projects.
+    Supports programmatic data retrieval through REST API, MySQL database access, and downloadable track
+    data for systematic genome analysis and cross-species comparative studies.
+- name: COSMIC
+  subtitle: Catalogue of Somatic Mutations in Cancer
+  url: https://cancer.sanger.ac.uk/cosmic
+  category: genomic clinical databases
+  organization: Wellcome Sanger Institute
+  summary: COSMIC is the world's most comprehensive database of somatic mutations in human cancer, cataloging
+    millions of tumor-associated genetic alterations across cancer types and genes. Integrates data from
+    large-scale cancer genome sequencing projects (TCGA, ICGC) with manually curated literature-derived
+    mutations, providing agents with mutation frequencies, tissue distributions, functional predictions,
+    and drug resistance associations. Features cancer gene census annotations, fusion gene data, copy
+    number variants, and structural rearrangements accessible through web interface, downloads, and programmatic
+    API for cancer genomics analysis.
+- name: Open Targets Genetics
+  subtitle: Systematic drug target identification and prioritization
+  url: https://genetics.opentargets.org/
+  category: genomic clinical databases
+  organization: Open Targets
+  summary: Open Targets Genetics is a comprehensive platform integrating genome-wide association studies
+    (GWAS), functional genomics, and variant-to-gene mapping to establish disease-gene relationships for
+    therapeutic target discovery. Aggregates data from GWAS Catalog, UK Biobank, FinnGen, and other sources
+    with locus-to-gene scoring, quantitative trait loci (QTL) data, and pathway enrichment analyses. Enables
+    agents to prioritize drug targets based on genetic evidence strength, explore variant functional consequences,
+    and assess target tractability through systematic integration of population genetics and molecular
+    data.
+- name: RegulomeDB
+  subtitle: Annotation of regulatory variants in the human genome
+  url: http://www.regulomedb.org/
+  category: genomic clinical databases
+  organization: Stanford University
+  summary: RegulomeDB is a database annotating regulatory potential of human genetic variants using evidence
+    from ENCODE, Roadmap Epigenomics, and other functional genomics projects. Provides scoring of non-coding
+    variants based on transcription factor binding, DNase hypersensitivity, histone modifications, chromatin
+    states, and expression quantitative trait loci (eQTL) associations. Enables agents to prioritize regulatory
+    variants, predict functional impacts on gene expression, and identify variants affecting transcriptional
+    regulation in cell type-specific contexts.
+- name: GEO
+  subtitle: Gene Expression Omnibus
+  url: https://www.ncbi.nlm.nih.gov/geo/
+  category: genomic clinical databases
+  organization: NCBI
+  summary: GEO is a public repository archiving high-throughput gene expression and functional genomics
+    data from microarray, RNA-seq, ChIP-seq, and other platforms across millions of samples. Provides
+    curated datasets (GEO DataSets), standardized sample metadata, platform annotations, and processed
+    expression matrices enabling agents to perform meta-analyses and comparative transcriptomics studies.
+    Supports programmatic access through GEOquery API, direct data downloads, and integration with NCBI's
+    analysis tools for systematic exploration of gene expression patterns across experimental conditions,
+    tissues, and diseases.
+- name: SRA
+  subtitle: Sequence Read Archive
+  url: https://www.ncbi.nlm.nih.gov/sra/
+  category: genomic clinical databases
+  organization: NCBI
+  summary: SRA is the largest public repository for high-throughput sequencing data, storing raw sequencing
+    reads and alignment information from next-generation sequencing platforms. Part of the International
+    Nucleotide Sequence Database Collaboration (INSDC) with EBI and DDBJ, SRA contains over 25 petabase
+    pairs from 14.8M+ runs spanning all branches of life including genomic, transcriptomic, metagenomic,
+    and epigenomic studies. Agents access SRA data through E-utilities API, SRA Toolkit for format conversion
+    (FASTQ, BAM), and cloud platforms (AWS S3, Google Cloud BigQuery) enabling large-scale sequence data
+    retrieval, reanalysis of published datasets, and meta-analyses across thousands of sequencing experiments
+    for comparative genomics and variant discovery.
+- name: ENCODE
+  subtitle: Encyclopedia of DNA Elements
+  url: https://www.encodeproject.org/
+  category: genomic clinical databases
+  organization: NHGRI
+  summary: ENCODE systematically maps functional elements in human and mouse genomes through comprehensive
+    experimental characterization of transcription, transcription factor binding, chromatin structure,
+    histone modifications, and DNA methylation. Phase III data includes 5,992 experimental datasets across
+    503 cell/tissue types, defining 926,535 human and 339,815 mouse candidate cis-regulatory elements
+    covering 7.9% and 3.4% of respective genomes. Agents utilize ENCODE data for regulatory element annotation,
+    epigenomic state analysis, variant interpretation in non-coding regions, and understanding gene regulation
+    mechanisms. Data accessible through ENCODE Portal REST API, available on AWS Open Data Registry, with
+    uniform processing pipelines ensuring high-quality ChIP-seq, RNA-seq, ATAC-seq, and Hi-C datasets.
+- name: NCBI RefSeq
+  subtitle: Reference Sequence Database
+  url: https://www.ncbi.nlm.nih.gov/refseq/
+  category: genomic clinical databases
+  organization: NCBI
+  summary: RefSeq provides curated, non-redundant reference sequences for genomes, transcripts, and proteins
+    across 55,000+ organisms spanning prokaryotes, eukaryotes, and viruses. Distinguished by unique accession
+    format (e.g., NM_, NP_), RefSeq records integrate information from multiple sources with expert curation,
+    representing current consensus sequences with comprehensive functional annotation including coding
+    regions, conserved domains, variation, and standardized nomenclature. Agents use RefSeq as the gold
+    standard for sequence alignment, variant annotation, gene identification, and comparative genomics.
+    Accessible via Entrez queries, BLAST searches, FTP downloads, and programmatic retrieval through E-utilities,
+    with specialized projects including MANE (matched clinical transcripts), RefSeqGene (clinical reference
+    standards), and RefSeq Functional Elements.
+- name: Ensembl
+  subtitle: Genome Browser and Annotation System
+  url: http://www.ensembl.org/index.html
+  category: genomic clinical databases
+  organization: EMBL-EBI
+  summary: Ensembl provides comprehensive genome annotation, comparative genomics, and variation data
+    for 50,000+ genomes through automated annotation pipelines and expert curation. The system integrates
+    gene predictions, homology relationships, regulatory features, genetic variation (SNPs, indels, structural
+    variants), and phenotype associations within an interactive genome browser supporting vertebrates
+    via main Ensembl site and non-vertebrates through Ensembl Genomes (Plants, Metazoa, Bacteria, Fungi,
+    Protists). Agents leverage Ensembl's REST API and Perl API to programmatically retrieve gene structures,
+    orthology mappings, variant annotations, regulatory build data, and cross-species alignments. Includes
+    Variant Effect Predictor (VEP) for variant consequence prediction and BioMart for bulk data extraction
+    across multiple species and data types.
+- name: PDB
+  subtitle: Protein Data Bank
+  url: https://www.rcsb.org/
+  category: molecular structural databases
+  organization: RCSB
+  summary: PDB is the global repository for experimentally determined three-dimensional structures of
+    proteins, nucleic acids, and complex assemblies determined by X-ray crystallography, NMR spectroscopy,
+    and cryo-electron microscopy. Provides atomic coordinates, experimental data, structural quality metrics,
+    and functional annotations for hundreds of thousands of biomolecular structures enabling agents to
+    perform structure-based drug design, protein engineering, and molecular function prediction. Features
+    advanced search capabilities, structure alignment tools, and programmatic access through REST API
+    and file downloads in PDB, mmCIF, and other standard formats.
+- name: miRBase
+  subtitle: The MicroRNA Database
+  url: https://www.mirbase.org/
+  category: molecular structural databases
+  organization: University of Manchester
+  summary: miRBase is the primary online repository for published microRNA sequences, nomenclature, annotations,
+    and predicted gene targets across metazoan, plant, and viral genomes. Provides curated miRNA gene
+    sequences, genomic locations, hairpin precursor structures, mature miRNA sequences, expression data,
+    and standardized nomenclature for thousands of microRNA loci across hundreds of organisms. Enables
+    agents to identify miRNAs, analyze post-transcriptional gene regulation mechanisms, predict miRNA-target
+    interactions, explore regulatory networks in development and disease, and retrieve sequence data through
+    web interface, downloadable flat files, and MySQL database access for non-coding RNA research.
+- name: UniProt
+  subtitle: Universal Protein Resource
+  url: https://www.uniprot.org/
+  category: molecular structural databases
+  organization: UniProt Consortium
+  summary: UniProt is the most comprehensive and high-quality protein sequence and functional information
+    database, integrating data from scientific literature and computational analyses into unified protein
+    records. Provides expertly curated annotations in Swiss-Prot including protein function, subcellular
+    localization, post-translational modifications, protein-protein interactions, disease associations,
+    and structural features, alongside computationally annotated TrEMBL entries for complete proteome
+    coverage. Enables agents to retrieve standardized protein identifiers, cross-references to over 150
+    biological databases, sequence variants, and GO term annotations through web services, SPARQL endpoints,
+    and bulk data downloads.
+- name: AlphaFold DB
+  subtitle: AlphaFold Protein Structure Database
+  url: https://alphafold.ebi.ac.uk/
+  category: molecular structural databases
+  organization: DeepMind & EMBL-EBI
+  summary: AlphaFold DB provides AI-predicted protein structures for over 200 million proteins across
+    all domains of life, generated using DeepMind's AlphaFold system achieving near-experimental accuracy.
+    Offers high-confidence structural models with per-residue confidence scores (pLDDT) and predicted
+    aligned error (PAE) matrices for virtually complete proteomes including human, model organisms, and
+    UniProt reference proteomes. Enables agents to access predicted structures for proteins lacking experimental
+    data through downloadable coordinate files, interactive 3D visualization, and programmatic API, dramatically
+    expanding structural coverage for structure-based analysis and computational drug discovery.
+- name: InterPro
+  subtitle: Protein Sequence Analysis and Classification
+  url: https://www.ebi.ac.uk/interpro/
+  category: molecular structural databases
+  organization: EMBL-EBI
+  summary: InterPro integrates protein signatures from multiple member databases (Pfam, PROSITE, SMART,
+    PRINTS, ProDom) into a unified classification system for protein families, domains, and functional
+    sites. Provides comprehensive functional annotation through sequence-based predictions of conserved
+    regions, structural domains, active sites, and binding sites with hierarchical organization and GO
+    term associations. Enables agents to infer protein function, identify evolutionary relationships,
+    predict domain architecture, and annotate novel sequences through InterProScan service, web interface,
+    and downloadable signature libraries for high-throughput protein classification.
+- name: KEGG
+  subtitle: Kyoto Encyclopedia of Genes and Genomes
+  url: https://www.genome.jp/kegg/
+  category: molecular structural databases
+  organization: Kanehisa Laboratories
+  summary: KEGG is a comprehensive database integrating genomic, chemical, and systemic functional information
+    through manually curated metabolic pathways, regulatory networks, and disease associations across
+    thousands of organisms. Provides pathway maps, enzyme reactions, compound structures, drug-target
+    relationships, disease genes, and genome annotations enabling agents to analyze biological systems
+    at molecular and cellular levels. Features KEGG Orthology for functional annotation, BRITE hierarchies
+    for biological entities, and network-based approaches for understanding gene functions, metabolic
+    capabilities, and drug mechanisms through REST API and flat file downloads.
+- name: Reactome
+  subtitle: Pathway Knowledgebase
+  url: https://reactome.org/
+  category: molecular structural databases
+  organization: Reactome
+  summary: Reactome is a manually curated, peer-reviewed database of human biological pathways and processes,
+    providing detailed molecular mechanisms with experimental evidence and cross-species pathway projections.
+    Features hierarchically organized pathways covering metabolism, signal transduction, transcriptional
+    regulation, and disease processes with protein-protein interactions, post-translational modifications,
+    and subcellular localization information. Supports agents with pathway enrichment analysis tools,
+    pathway diagram exports, programmatic access through REST API and graph database queries, and integration
+    with omics data for functional interpretation and systems biology analysis.
+- name: JASPAR
+  subtitle: Open-Access Database of Transcription Factor Binding Profiles
+  url: https://jaspar.genereg.net/
+  category: molecular structural databases
+  organization: JASPAR Consortium
+  summary: JASPAR is the largest open-access database of curated, non-redundant transcription factor (TF)
+    binding profiles derived from published collections of experimentally defined binding sites for eukaryotes.
+    Provides position frequency matrices (PFMs), position weight matrices (PWMs), sequence logos, and
+    validated TF binding sites for hundreds of transcription factors across multiple species including
+    human, mouse, and other model organisms. Enables agents to predict transcription factor binding sites
+    in regulatory sequences, analyze promoter regions, identify cis-regulatory elements, and understand
+    gene regulatory mechanisms through web-based scanning tools, downloadable matrix collections, and
+    programmatic API access.
+- name: BindingDB
+  subtitle: Database of Measured Binding Affinities
+  url: https://www.bindingdb.org/
+  category: molecular structural databases
+  organization: UC San Diego
+  summary: BindingDB is a public database of measured binding affinities focusing on interactions between
+    proteins and small molecules relevant to drug discovery and chemical biology. Provides quantitative
+    binding data including dissociation constants (Kd), inhibition constants (Ki), IC50, and EC50 values
+    for hundreds of thousands of protein-ligand complexes extracted from peer-reviewed scientific literature
+    and patents. Enables agents to analyze structure-activity relationships, build predictive QSAR models,
+    support virtual screening campaigns, and inform medicinal chemistry decisions through searchable web
+    interface, downloadable datasets, and programmatic access for computational drug design workflows.
+- name: DrugBank
+  subtitle: Comprehensive Bioinformatics and Cheminformatics Resource
+  url: https://www.drugbank.com/
+  category: molecular structural databases
+  organization: University of Alberta
+  summary: DrugBank is a comprehensive database combining detailed drug information with comprehensive
+    molecular biology and pharmacology data for thousands of drug entries including FDA-approved drugs,
+    experimental compounds, and nutraceuticals. Provides chemical structures, mechanisms of action, pharmacokinetics
+    (ADME), pharmacodynamics, drug-drug interactions, drug-target relationships, metabolic pathways, adverse
+    effects, dosing information, and clinical trial data. Supports agents with structured drug knowledge
+    including protein targets, associated pathways, disease indications, patent information, and literature
+    references accessible through web interface, REST API, and downloadable datasets for drug repurposing,
+    polypharmacology analysis, and therapeutic target discovery.
+- name: CellxGene
+  subtitle: Single-Cell Data Explorer and Census
+  url: https://cellxgene.cziscience.com/
+  category: specialized biomedical databases
+  organization: Chan Zuckerberg Initiative
+  summary: CellxGene is a comprehensive platform for exploring, analyzing, and sharing single-cell RNA-seq
+    datasets from diverse tissues, organisms, and experimental conditions across millions of individual
+    cells. Provides the CZ CELLxGENE Discover collection with standardized, quality-controlled datasets
+    annotated with cell types, tissues, diseases, and experimental metadata following community standards.
+    Enables agents to query cell type-specific gene expression profiles, perform comparative analyses
+    across studies, access curated cell annotations, and retrieve processed single-cell expression matrices
+    through web interface, downloadable h5ad files, and programmatic API for large-scale single-cell genomics
+    analysis.
+- name: IUCN Red List
+  subtitle: The IUCN Red List of Threatened Species
+  url: https://www.iucnredlist.org/
+  category: specialized biomedical databases
+  organization: International Union for Conservation of Nature
+  summary: IUCN Red List is the world's most comprehensive inventory of global conservation status assessments
+    for biological species, providing extinction risk evaluations, population trends, and conservation
+    needs for over 150,000 species. Offers detailed information on species distributions, population sizes,
+    habitat requirements, ecological roles, threats, conservation actions, and Red List Categories (Extinct,
+    Critically Endangered, Endangered, Vulnerable, etc.) based on standardized criteria. Supports agents
+    analyzing biodiversity patterns, conservation priorities, extinction risk factors, and ecological
+    research across taxonomic groups through searchable database, species accounts, spatial data downloads,
+    and API access for conservation biology and macroecology applications.
+- name: Human Microbiome Project
+  subtitle: Data Analysis and Coordination Center
+  url: https://commonfund.nih.gov/hmp
+  category: specialized biomedical databases
+  organization: National Institutes of Health
+  summary: Human Microbiome Project provides comprehensive metagenomic, metatranscriptomic, metabolomic,
+    and clinical datasets characterizing microbial communities from multiple human body sites including
+    gut, oral, skin, and urogenital regions. Offers standardized sampling protocols, reference microbial
+    genomes, multi-omics data integration, and longitudinal microbiome profiles linking microbial community
+    composition to human health and disease states. Enables agents to analyze host-microbiome interactions,
+    study microbial diversity patterns, investigate metabolic functions of microbial communities, and
+    explore relationships between microbiome dysbiosis and diseases through downloadable datasets, cloud-based
+    analysis workbenches, and API access for microbiome research applications.
+- name: Addgene
+  subtitle: Nonprofit Plasmid Repository
+  url: https://www.addgene.org/
+  category: specialized biomedical databases
+  organization: Addgene
+  summary: Addgene is a nonprofit plasmid repository archiving and distributing research-ready molecular
+    biology tools for genome engineering, gene expression, and functional genomics. The collection contains
+    147,000+ plasmids including CRISPR/Cas systems, lentiviral vectors, fluorescent protein constructs,
+    optogenetic tools, shRNA knockdown plasmids, and expression backbones spanning all major model organisms
+    and experimental systems. Each plasmid entry includes annotated sequence maps, cloning information,
+    resistance markers, quality control data, and links to original publications ensuring proper attribution
+    to depositing laboratories. Agents access Addgene's database through BLAST sequence search for finding
+    similar constructs, browsing curated collections by application (genome editing, protein tagging,
+    biosensors), and retrieving standardized plasmid sequences with comprehensive metadata for computational
+    design of cloning strategies and experimental planning.
+- name: 10X Genomics Datasets
+  subtitle: null
+  url: https://www.10xgenomics.com/datasets
+  category: specialized biomedical databases
+  organization: 10x Genomics
+  summary: 10X Genomics provides publicly available reference datasets from Chromium single-cell and spatial
+    genomics platforms including single-cell RNA-seq (3' and 5' gene expression), immune profiling (V(D)J
+    sequencing), ATAC-seq, multiome (RNA+ATAC), and Visium spatial transcriptomics across diverse tissue
+    types and species. Datasets include PBMC samples, tissue dissociations, cancer specimens, and developmental
+    studies with accompanying FASTQ files, processed gene-barcode matrices, analysis outputs from Cell
+    Ranger pipeline, and Loupe Browser visualization files. Agents access these gold-standard benchmark
+    datasets for method validation, pipeline testing, tutorial development, and comparative analysis of
+    single-cell analysis algorithms. All datasets include comprehensive metadata on sample preparation,
+    sequencing parameters, and quality metrics enabling reproducible computational workflows.
+- name: PubMed
+  subtitle: Free Biomedical Literature Search Engine
+  url: https://pubmed.ncbi.nlm.nih.gov/
+  category: scientific literature
+  organization: NCBI
+  summary: PubMed is a free comprehensive database providing access to over 39 million citations and abstracts
+    for biomedical literature from MEDLINE, life science journals, and online books spanning medicine,
+    biology, biochemistry, and related disciplines. Features MeSH (Medical Subject Headings) controlled
+    vocabulary for precise searching, advanced query builders, clinical queries filters, and automated
+    linking to full-text articles via PubMed Central and publisher websites. Enables agents to perform
+    systematic literature searches, retrieve evidence-based information, access publication metadata,
+    and utilize E-utilities API for programmatic access supporting automated literature reviews, knowledge
+    extraction, and citation network analysis for biomedical research applications.
+- name: Google Scholar
+  subtitle: Stand on the Shoulders of Giants
+  url: https://scholar.google.com/
+  category: scientific literature
+  organization: Google
+  summary: Google Scholar is a comprehensive academic search engine indexing scholarly literature across
+    all disciplines including peer-reviewed papers, theses, dissertations, books, preprints, patents,
+    and conference proceedings from academic publishers, universities, and scholarly organizations. Provides
+    citation metrics, related articles discovery, author profiles, and cross-disciplinary coverage extending
+    beyond biomedical literature to physical sciences, social sciences, arts, and humanities. Enables
+    agents to discover interdisciplinary research connections, track citation networks, assess research
+    impact through h-index and citation counts, and access diverse scholarly resources through broad indexing
+    that complements domain-specific databases for comprehensive knowledge discovery.
+- name: bioRxiv
+  subtitle: The Preprint Server for Biology
+  url: https://www.biorxiv.org/
+  category: scientific literature
+  organization: Cold Spring Harbor Laboratory
+  summary: bioRxiv is a free online preprint repository enabling rapid dissemination of biological research
+    findings prior to peer review, covering over 25 subject areas including genomics, neuroscience, bioinformatics,
+    cell biology, developmental biology, and systems biology. Provides immediate public access to complete
+    unpublished manuscripts with digital object identifiers (DOIs) for citation, version tracking for
+    manuscript updates, and automated linking to subsequently published journal articles. Enables agents
+    to access cutting-edge research methods, emerging computational tools, preliminary findings, and novel
+    experimental approaches months before formal publication, essential for tracking rapidly evolving
+    research areas, identifying trending methodologies, and maintaining awareness of latest developments
+    in biological sciences through RSS feeds, API access, and bulk download capabilities.
+- name: Google Search
+  subtitle: Search the World's Information
+  url: https://www.google.com/
+  category: scientific literature
+  organization: Google
+  summary: Google Search is a comprehensive web search engine providing real-time access to billions of
+    web pages, news articles, images, videos, and diverse online content across the internet. Offers advanced
+    search operators, date filtering for recent content, site-specific searches, and natural language
+    query processing enabling agents to discover breaking research news, conference announcements, laboratory
+    updates, and emerging scientific discussions beyond traditional literature databases. Features programmable
+    search through Custom Search JSON API and web scraping capabilities for systematic information gathering,
+    real-time trend monitoring, and discovery of preliminary research findings shared on institutional
+    websites, scientific blogs, and research organization announcements before formal publication.
+- name: Zenodo
+  subtitle: Open Science Repository
+  url: https://zenodo.org/
+  category: scientific literature
+  organization: CERN & OpenAIRE
+  summary: Zenodo is a general-purpose open research repository operated by CERN storing all forms of
+    research outputs including datasets, publications, software, presentations, posters, images, videos,
+    and code across all scientific disciplines. Accepts uploads of any size (50GB default per dataset
+    with higher quotas available) and format without restrictions, providing long-term preservation in
+    CERN Data Centre with automatic DOI assignment for citation, versioning support, GitHub integration,
+    and flexible access control (open, embargoed, restricted, closed). Agents utilize Zenodo for accessing
+    supplementary datasets from publications, retrieving research software packages, downloading replication
+    data for computational studies, and programmatically querying metadata via OAI-PMH API. Particularly
+    valuable for accessing domain-specific communities (e.g., biomedical data collections, computational
+    biology workflows) and ensuring reproducibility through preservation of exact analysis code and intermediate
+    data files.

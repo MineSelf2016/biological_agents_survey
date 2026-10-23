@@ -1,0 +1,114 @@
+- name: PubMedQA
+  subtitle: A Dataset for Biomedical Research Question Answering
+  url: https://aclanthology.org/D19-1259/
+  category: biomedical reasoning and question answering
+  year: 2019
+  venue: EMNLP
+  summary: PubMedQA is a biomedical question answering benchmark built from PubMed abstracts, where models
+    answer research questions with yes, no, or maybe using the corresponding abstract as evidence. Each
+    instance pairs a question derived from a paper title with the abstract context and a summarized yes/no/maybe
+    label, and the benchmark is designed to evaluate reasoning over biomedical research texts, especially
+    their quantitative content rather than document retrieval.
+- name: MMLU-Pro
+  subtitle: A More Robust and Challenging Multi-Task Language Understanding Benchmark
+  url: https://dl.acm.org/doi/10.5555/3737916.3740934
+  category: biomedical reasoning and question answering
+  year: 2024
+  venue: NIPS
+  summary: MMLU-Pro is a language understanding benchmark designed to provide a more challenging and discriminative
+    evaluation of large language models by focusing on complex, reasoning-intensive multiple-choice questions.
+    It consists of questions with ten answer options and is constructed to reduce noise and triviality,
+    emphasizing reasoning over surface-level knowledge across diverse domains. The benchmark is designed
+    to exhibit greater robustness to prompt variation and to better reflect gains from explicit reasoning
+    strategies such as Chain-of-Thought, thereby enabling more reliable measurement of progress as model
+    performance on earlier benchmarks becomes saturated.
+- name: GPQA
+  subtitle: A Graduate-Level Google-Proof Q&A Benchmark
+  url: https://openreview.net/pdf?id=Ti67584b98
+  category: biomedical reasoning and question answering
+  year: 2024
+  venue: COLM
+  summary: GPQA is a challenging multiple-choice benchmark consisting of 448 high-quality questions written
+    by domain experts in biology, physics, and chemistry. The questions are deliberately designed to be
+    extremely difficult and “Google-proof,” such that even highly skilled non-experts with unrestricted
+    web access struggle to answer them reliably. The dataset is intended to evaluate advanced scientific
+    reasoning beyond surface-level knowledge and to serve as a testbed for studying scalable oversight,
+    where humans must assess AI outputs on problems that approach or exceed expert-level difficulty.
+- name: LAB-Bench
+  subtitle: Measuring Capabilities of Language Models for Biology Research
+  url: https://arxiv.org/abs/2407.10362
+  category: biomedical reasoning and question answering
+  year: 2024
+  venue: arXiv
+  summary: 'LAB-Bench is a comprehensive benchmark designed to evaluate language models on practical biology
+    research tasks, comprising two key subtasks: Database Question Answering (DbQA) and Sequence Question
+    Answering (SeqQA). DbQA requires models to perform structured querying over biological databases to
+    retrieve and synthesize information, while SeqQA tests reasoning over DNA and protein sequences. The
+    benchmark spans core competencies for biomedical AI agents including tool use, symbolic reasoning,
+    and structured biological information retrieval, with questions designed to reflect realistic research
+    workflows rather than simple fact recall.'
+- name: Humanity's Last Exam
+  subtitle: A Multi-Domain Expert-Level Reasoning Benchmark
+  url: https://arxiv.org/abs/2501.14249
+  category: biomedical reasoning and question answering
+  year: 2025
+  venue: arXiv
+  summary: Humanity's Last Exam is a challenging, open-ended question benchmark designed to test advanced
+    reasoning capabilities across diverse scientific and technical domains. In the biomedical subset,
+    it covers 14 specialized subfields including genetics, molecular biology, neuroscience, biochemistry,
+    microbiology, immunology, computational biology, biophysics, bioinformatics, genomics, and physiology.
+    The benchmark is specifically designed to evaluate true generalization without any development set
+    or task-specific adaptation, emphasizing the ability to apply broad biomedical knowledge and reasoning
+    to unfamiliar, complex problems that require deep domain expertise rather than surface-level pattern
+    matching.
+- name: BioLab
+  subtitle: End-to-End Autonomous Life Sciences Research with Multi-Agents System Integrating Biological
+    Foundation Models
+  url: https://www.biorxiv.org/content/10.1101/2025.09.03.674085v1
+  category: complex real world biomedical task
+  year: 2025
+  venue: biorxiv
+  summary: 'BioResearchQA is a custom benchmark of 20 open-ended research questions spanning molecular
+    biology, immunology, RNA therapeutics, protein design, and synthetic cell engineering. Each question
+    is formulated as a realistic research problem requiring multi-step planning and domain-specific tool
+    selection. Three domain experts scored outputs along three axes: multimodal planning, bio-tool calling,
+    and full-loop science reasoning using a 5-point Likert scale.'
+- name: Biomni Real-World Research Tasks
+  subtitle: Eight Diverse Biomedical Benchmarks for Evaluating General-Purpose AI Agents
+  url: https://doi.org/10.1101/2025.05.30.656746
+  category: complex real world biomedical task
+  year: 2025
+  venue: bioRxiv
+  summary: Biomni Real-World Research Tasks is a collection of eight newly curated benchmarks spanning
+    genetics, genomics, microbiology, pharmacology, and clinical medicine, designed to evaluate zero-shot
+    generalization in realistic research scenarios. The tasks include variant prioritization, GWAS causal
+    gene detection, CRISPR perturbation screen design, rare disease diagnosis, drug repurposing, single-cell
+    RNA-seq annotation, microbiome disease-taxa analysis, and patient gene prioritization. Each task is
+    framed as a well-defined but complex real-world biomedical research goal requiring dynamic tool composition,
+    multi-step reasoning, and domain-specific knowledge integration. Performance is evaluated without
+    any task-specific fine-tuning or prompt engineering, with metrics including accuracy and relative
+    performance gains against baseline models. Execution trajectories reveal that models typically execute
+    6-24 distinct steps per task, involving combinations of specialized tools, software packages, and
+    database queries.
+- name: AutoBA Multi-Omics Analysis Benchmark
+  subtitle: 40 Real-World Bioinformatics Cases for Automated Analysis Evaluation
+  url: https://doi.org/10.1002/advs.202407094
+  category: complex real world biomedical task
+  year: 2024
+  venue: Advanced Science
+  summary: 'AutoBA Multi-Omics Analysis Benchmark is a custom evaluation framework consisting of 40 real-world
+    bioinformatics analysis cases designed to assess automated AI agents on conventional multi-omics analysis
+    tasks. The benchmark spans four major omics categories: genomics (15 cases including WGS assembly,
+    somatic variant calling, ChIP-seq peak calling, ATAC-seq, bisulfite-seq, and long-read sequencing),
+    transcriptomics (23 cases including bulk RNA-seq differential expression, fusion gene detection, alternative
+    splicing, single-cell RNA-seq clustering, spatial transcriptomics, and various RNA modification analyses),
+    proteomics (1 case on mass spectrometry protein quantification), and metabolomics (1 case on metabolite
+    quantification). Each case is evaluated across three dimensions by bioinformatics experts: (1) quality
+    of proposed analysis plans including appropriate software selection and parameter settings, (2) correctness
+    of generated code for environment setup and tool installation, and (3) successful automated end-to-end
+    execution. The benchmark emphasizes real-world complexity by requiring systems to autonomously handle
+    software dependencies, debug execution errors, and adapt analysis strategies based on input data variations
+    (e.g., selecting different tools for tumor samples with or without matched normal controls). Unlike
+    existing benchmarks that focus on question-answering or code generation in isolation, this benchmark
+    evaluates the complete pipeline from raw data input to final biological results, testing true automation
+    capabilities essential for practical bioinformatics workflows.'
