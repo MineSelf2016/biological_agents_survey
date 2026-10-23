@@ -192,7 +192,7 @@ footer { border-top: 1px solid var(--rule); padding: 18px 0 40px; font-size: 13p
 
   <section>
     <h2>Taxonomy</h2>
-    <p class="note">The survey organises biological AI agents along five dimensions. Each box gives the number of papers in this collection and a few recent systems. Click boxes to filter the table below; boxes in the same dimension combine with OR, different dimensions with AND.</p>
+    <p class="note">The survey organises biological AI agents along five dimensions. Each box gives the number of papers in this collection and its most-cited systems. Click boxes to filter the table below; boxes in the same dimension combine with OR, different dimensions with AND.</p>
     <div class="fig" id="fig"></div>
     <p class="fig-caption" id="figCaption"></p>
   </section>
@@ -305,7 +305,8 @@ footer { border-top: 1px solid var(--rule); padding: 18px 0 40px; font-size: 13p
     var base = papers.filter(function (p) { return match(p, d); });
     var boxes = Object.keys(TAX[d].categories).map(function (t) {
       var inCat = base.filter(function (p) { return (p[d] || []).indexOf(t) >= 0; });
-      var eg = inCat.filter(function (p) { return p.sys; }).sort(function (a, b) { return b.year - a.year; }).slice(0, 3).map(function (p) { return p.sys; });
+      var eg = inCat.filter(function (p) { return p.sys; }).sort(function (a, b) { return score(b) - score(a); })
+        .map(function (p) { return p.sys; }).filter(function (n, i, all) { return all.indexOf(n) === i; }).slice(0, 3);
       var on = st.sel[d].has(t);
       return h("button", { type: "button", class: "box" + (inCat.length ? "" : " zero"), style: tint(d), "aria-pressed": String(on), title: TAX[d].categories[t].description,
         onclick: function () { on ? st.sel[d].delete(t) : st.sel[d].add(t); st.shown = PAGE; render(); } },
