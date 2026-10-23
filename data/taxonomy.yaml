@@ -1,0 +1,68 @@
+# Five-dimensional taxonomy from Qi et al., Briefings in Bioinformatics 27(1), bbag075 (2026).
+# Slugs are the values allowed in papers.yaml; scripts/build.py rejects anything else.
+
+task:
+  label: Biological task
+  categories:
+    clinical-decision-support:
+      label: Clinical decision support
+      description: Diagnosis, triage and treatment planning from medical text and patient records.
+    knowledge-discovery:
+      label: Knowledge discovery & hypothesis generation
+      description: Turning unstructured literature and omics data into sourced, machine-usable knowledge and hypotheses.
+    molecular-drug-design:
+      label: Molecular & drug design
+      description: Generative optimisation of compounds, therapeutic proteins and regulatory DNA.
+    multi-omics:
+      label: Multi-omics analysis
+      description: Managing transcriptomic, genomic and spatial omics data, combining reasoning with retrieval or simulation.
+    exploratory:
+      label: Exploratory applications
+      description: Education, policy and other cross-disciplinary uses.
+
+architecture:
+  label: System architecture
+  categories:
+    single-agent:
+      label: Single-agent
+      description: One reasoning core handles interpretation, tool calls and validation in a single control loop.
+    multi-agent:
+      label: Multi-agent
+      description: Reasoning, execution and verification split across specialised agents that coordinate through explicit protocols.
+    neuro-symbolic:
+      label: Neuro-symbolic
+      description: Explicit symbolic structures (ontologies, knowledge graphs, programs) guide and constrain neural generation.
+
+interaction:
+  label: Interaction mode
+  categories:
+    step-by-step:
+      label: Step-by-step
+      description: Repeated decompose → plan → execute → verify cycles whose reasoning is inspectable at each step.
+    zero-shot-planner:
+      label: Zero-shot planner
+      description: Generates the execution plan from structured prompts without iterative refinement.
+    hybrid:
+      label: Hybrid
+      description: Algorithmic reasoning combined with human judgement or correction.
+
+evaluation:
+  label: Evaluation strategy
+  categories:
+    automated:
+      label: Automated, model-centric
+      description: Benchmark- and metric-based evaluation emphasising reproducibility and comparability.
+    human-in-the-loop:
+      label: Human-in-the-loop
+      description: Experts review, co-design or stress-test the system; operational reliability studies.
+
+resources:
+  label: Resource integration
+  categories:
+    knowledge-augmented:
+      label: Knowledge-augmented
+      description: Grounded in ontologies, knowledge graphs, curated databases or retrieval.
+    tool-augmented:
+      label: Tool-augmented
+      description: Calls bioinformatics tools, code execution, APIs, robots or cloud labs.
+

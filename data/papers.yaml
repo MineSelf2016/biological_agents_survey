@@ -1,0 +1,2249 @@
+- id: leveraging-large-language-models-for-2023
+  title: Leveraging Large Language Models for Decision Support in Personalized Oncology
+  url: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2812097#google_vignette
+  doi: 10.1001/jamanetworkopen.2023.43689
+  date: '2023-11-17'
+  year: 2023
+  venue: JAMA Network Open
+  summary: This study evaluates four large language models as assistants in precision oncology by comparing
+    their treatment recommendations with those of human experts. While the models produced more candidate
+    treatment options, their agreement with expert decisions was low due to limited supporting evidence,
+    though some clinically useful and unique suggestions emerged. The findings suggest LLMs may support
+    idea generation and literature screening but cannot replace expert judgment.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 299
+  in_survey: true
+  added: '2025-12-27'
+- id: sensitivecancergpt-2025
+  title: 'SensitiveCancerGPT: Leveraging Generative Large Language Model on Structured Omics Data to Optimize
+    Drug Sensitivity Prediction'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11888479/
+  doi: 10.1101/2025.02.27.640661
+  date: '2025-02-28'
+  year: 2025
+  venue: bioRxiv
+  summary: This work explores the use of generative large language models for drug sensitivity prediction
+    from structured pharmacogenomics data. With domain specific prompt engineering and fine tuning, GPT
+    achieved strong performance and generalization across multiple datasets, outperforming established
+    baselines in several settings. The results indicate that generative LLMs can serve as effective computational
+    tools to support precision oncology research.
+  task:
+  - clinical-decision-support
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: cart-2025
+  title: 'CART-GPT: A T Cell-Informed AI Linguistic Framework for Interpreting Neurotoxicity and Therapeutic
+    Outcomes in CAR-T Therapy'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12363796//
+  doi: 10.1101/2025.08.08.669387
+  date: '2025-08-12'
+  year: 2025
+  venue: bioRxiv
+  summary: This paper introduces CART-GPT, a transformer-based model trained on over one million CAR-T
+    single-cell RNA-seq profiles to predict patient-specific treatment response and neurotoxicity risk
+    in CAR-T therapy. The model achieves strong predictive performance while providing interpretable insights
+    showing that outcomes are driven by coordinated subsets of T cell states rather than single cell types.
+    By linking single-cell predictions to patient-level outcomes and releasing a large annotated atlas,
+    the study demonstrates the value of foundation models for precision CAR-T treatment planning.
+  task:
+  - clinical-decision-support
+  - multi-omics
+  architecture: []
+  interaction: []
+  evaluation:
+  - automated
+  resources: []
+  citations: 5
+  in_survey: true
+  added: '2025-12-27'
+- id: exploring-the-potential-of-ai-2025
+  title: Exploring the Potential of AI-powered Applications for Clinical Decision-making in Gynecologic
+    Oncology
+  url: https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/ijgo.70251
+  doi: 10.1002/ijgo.70251
+  date: '2025-06-13'
+  year: 2025
+  venue: International Journal of Gynecology & Obstetrics
+  summary: This study evaluates GPT-4 for automated therapy recommendations by comparing its suggestions
+    with multidisciplinary tumor board decisions for gynecologic and breast cancer cases. GPT-4 generated
+    coherent and clinically reasonable recommendations, though limitations in accuracy and completeness
+    remained, particularly in surgical and systemic treatment choices. Iterative prompting substantially
+    improved concordance with expert decisions, indicating that GPT-4 may serve as a supportive tool in
+    clinical decision making rather than a replacement for physicians.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 10
+  in_survey: true
+  added: '2025-12-27'
+- id: chatbot-for-the-return-of-2025
+  title: 'Chatbot for the Return of Positive Genetic Screening Results for Hereditary Cancer Syndromes:
+    A Prompt Engineering Project'
+  url: https://cancer.jmir.org/2025/1/e65848
+  doi: 10.2196/65848
+  date: '2025-03-21'
+  year: 2025
+  venue: JMIR Cancer
+  summary: This study designs and evaluates a GPT-4 powered chatbot to support the return of positive
+    population wide genomic screening results in a large public health program. Expert evaluation shows
+    that the chatbot provides clear, user friendly, and contextually appropriate communication, performing
+    well in tone, usability, and boundary management, though program specific accuracy requires improvement.
+    The findings demonstrate the feasibility of LLM based chatbots to augment genetic counseling services
+    and improve the accessibility of genomic health care.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 14
+  in_survey: true
+  added: '2025-12-27'
+- id: evaluating-the-use-of-generative-2025
+  title: Evaluating the Use of Generative Artificial Intelligence to Support Genetic Counseling for Rare
+    Diseases
+  url: https://www.mdpi.com/2075-4418/15/6/672
+  doi: 10.3390/diagnostics15060672
+  date: '2025-03-10'
+  year: 2025
+  venue: Diagnostics
+  summary: This study evaluates four generative AI models for answering rare disease and genetic counseling
+    questions, focusing on accuracy and safety. While all models generally provided reliable and professional
+    information, performance varied, with ChatGPT scoring highest and Perplexity showing the most low
+    quality responses. The results highlight the potential value of generative AI in supporting patients
+    and families, while emphasizing the need for expert oversight to mitigate inaccuracies and ambiguity.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 11
+  in_survey: true
+  added: '2025-12-27'
+- id: innovations-in-medicine-2024
+  title: 'Innovations in Medicine: Exploring ChatGPT’s Impact on Rare Disorder Management'
+  url: https://www.mdpi.com/2073-4425/15/4/421
+  doi: 10.3390/genes15040421
+  date: '2024-03-28'
+  year: 2024
+  venue: Genes
+  summary: This review examines the role of AI, particularly ChatGPT, in advancing research, education,
+    and clinical practice for rare and genetic disorders. It highlights the potential of AI to improve
+    personalized patient care while critically discussing current limitations and risks. The study outlines
+    future directions for developing AI tools that can better support healthcare professionals and patients
+    in rare disease management.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 27
+  in_survey: true
+  added: '2025-12-27'
+- id: importance-of-prior-patient-interactions-2025
+  title: 'Importance of Prior Patient Interactions With the Healthcare System to Engaging With Pretest
+    Cancer Genetic Services via Digital Health Tools Among Unaffected Primary Care Patients: Findings
+    From the BRIDGE Trial'
+  url: https://onlinelibrary.wiley.com/doi/full/10.1111/1475-6773.14652
+  doi: 10.1111/1475-6773.14652
+  date: '2025-06-11'
+  year: 2025
+  venue: Health Services Research
+  summary: This randomized trial examined factors associated with opening patient portal messages about
+    cancer genetic services and initiating pretest genetic care. Engagement was strongly driven by prior
+    interaction with the healthcare system, such as frequent portal use and primary care visits, while
+    sociodemographic and clinical characteristics showed no significant effects. The findings suggest
+    that improving access to healthcare and digital tools may be key to increasing uptake of cancer genetic
+    services.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 5
+  in_survey: true
+  added: '2025-12-27'
+- id: improving-automated-deep-phenotyping-through-2025
+  title: Improving Automated Deep Phenotyping Through Large Language Models Using Retrieval Augmented
+    Generation
+  url: https://link.springer.com/article/10.1186/s13073-025-01521-w
+  doi: 10.1186/s13073-025-01521-w
+  date: '2025-08-18'
+  year: 2025
+  venue: Genome Medicine
+  summary: This paper introduces RAG-HPO, a retrieval-augmented generation tool that improves automatic
+    extraction and assignment of Human Phenotype Ontology (HPO) terms from clinical text. By combining
+    LLM-based phrase extraction with real-time retrieval from a large vector database of phenotype–HPO
+    mappings, RAG-HPO reduces hallucinations and avoids costly fine-tuning. Evaluated on 112 rare-disease
+    case reports, it significantly outperforms existing HPO extraction tools in precision, recall, and
+    F1 score, with most false positives being clinically relevant ancestor terms rather than hallucinations.
+    The results demonstrate that RAG-based grounding enables accurate, reliable phenotype extraction for
+    clinical genomics and rare disease diagnosis.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 31
+  in_survey: true
+  added: '2025-12-27'
+- id: genegpt-2024
+  title: 'GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical
+    Information'
+  url: https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338
+  doi: 10.1093/bioinformatics/btae075
+  date: '2024-02-01'
+  year: 2024
+  venue: Bioinformatics
+  summary: This work presents GeneGPT, a framework that enables large language models to answer genomics
+    questions by directly invoking NCBI Web APIs. By learning to generate and execute API calls through
+    in-context learning and augmented decoding, GeneGPT substantially reduces hallucinations and achieves
+    state-of-the-art performance on the GeneTuring benchmark. The results demonstrate that tool-augmented
+    LLMs can reliably perform complex and multi-hop reasoning in genomics tasks.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 175
+  in_survey: true
+  added: '2025-12-27'
+- id: assessing-the-utility-of-large-2024
+  title: Assessing the Utility of Large Language Models for Phenotype-Driven Gene Prioritization in Rare
+    Genetic Disorder Diagnosis
+  url: https://www.cell.com/ajhg/fulltext/S0002-9297(24)00296-9
+  doi: 10.48550/arxiv.2403.14801
+  date: '2024-03-21'
+  year: 2024
+  venue: The American Journal of Human Genetics
+  summary: This study evaluates multiple large language models for phenotype driven gene prioritization
+    in rare disease diagnosis across different prompts, input types, and task settings. Although GPT 4
+    performed best, its accuracy remained substantially lower than that of traditional gene prioritization
+    tools, with limited benefit from retrieval augmentation or few shot learning. The findings highlight
+    both the potential and current limitations of LLMs in clinical genomic workflows, including biases
+    toward well studied genes.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 1
+  in_survey: true
+  added: '2025-12-27'
+- id: a-comparative-evaluation-of-chatgpt-2024
+  title: A Comparative Evaluation of ChatGPT 3.5 and ChatGPT 4 in Responses to Selected Genetics Questions
+  url: https://pubmed.ncbi.nlm.nih.gov/38872284/
+  doi: 10.1093/jamia/ocae128
+  date: '2024-05-28'
+  year: 2024
+  venue: Journal of the American Medical Informatics Association
+  summary: This study evaluates GPT-4’s ability to deliver genetic information on BRCA1, HFE, and MLH1
+    compared with GPT-3.5 using expert review by genetic counselors and clinicians. GPT-4 showed significantly
+    improved accuracy and generally favorable relevance, but persistent errors and usability limitations
+    remained. The findings highlight GPT-4’s promise in genetic education while emphasizing the need for
+    continued refinement and ethical oversight in clinical use.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 38
+  in_survey: true
+  added: '2025-12-27'
+- id: biomni-2025
+  title: 'Biomni: A General-Purpose Biomedical AI Agent'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12157518/
+  doi: 10.1101/2025.05.30.656746
+  date: '2025-06-02'
+  year: 2025
+  venue: bioRxiv
+  summary: This paper introduces Biomni, a general purpose biomedical AI agent designed to autonomously
+    execute complex research tasks across diverse biomedical domains. By integrating large language model
+    reasoning with retrieval augmented planning and code based execution, Biomni demonstrates strong generalization
+    across tasks such as gene prioritization, drug repurposing, and rare disease diagnosis without task
+    specific tuning. The results suggest that agentic AI systems can substantially enhance biomedical
+    research productivity and support human scientists in complex discovery workflows.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  - molecular-drug-design
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 124
+  in_survey: true
+  added: '2025-12-27'
+- id: biolab-2025
+  title: 'BioLab: End-to-End Autonomous Life Sciences Research with Multi-Agents System Integrating Biological
+    Foundation Models'
+  url: https://www.biorxiv.org/content/10.1101/2025.09.03.674085v1.abstract
+  doi: 10.1101/2025.09.03.674085
+  date: '2025-09-09'
+  year: 2025
+  venue: bioRxiv
+  summary: This paper presents BioLab, a multi agent system that integrates domain specific foundation
+    models and computational tools to automate end to end biological research. BioLab outperforms leading
+    large language models on biomedical reasoning benchmarks and autonomously executes complex pipelines,
+    including de novo antibody design with experimental validation. The results demonstrate that AI native
+    multi agent frameworks can tightly couple computation and experimentation to drive scalable scientific
+    discovery.
+  task:
+  - clinical-decision-support
+  - molecular-drug-design
+  - knowledge-discovery
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: sleepbert-2025
+  title: 'SleepBert: An Intelligent Clinical Encyclopaedia for Sleep Disorders Using Large Language Models'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12083639/
+  doi: 10.21203/rs.3.rs-6605863/v1
+  date: '2025-05-08'
+  year: 2025
+  venue: Research Square
+  summary: This paper introduces SleepBert, a retrieval augmented model that integrates structured polysomnography
+    features with unstructured clinical narratives for comprehensive sleep disorder analysis. By fine
+    tuning ClinicalBERT and incorporating real time medical literature retrieval, SleepBert achieves substantially
+    higher diagnostic accuracy than existing baselines. The system supports scalable and evidence based
+    interpretation of complex sleep data to assist clinical decision making and research.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction: []
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 0
+  in_survey: true
+  added: '2025-12-27'
+- id: approximating-facial-expression-effects-on-2024
+  title: Approximating facial expression effects on diagnostic accuracy via generative AI in medical genetics
+  url: https://academic.oup.com/bioinformatics/article/40/Supplement_1/i110/7700869
+  doi: 10.1093/bioinformatics/btae239
+  date: '2024-06-28'
+  year: 2024
+  venue: Bioinformatics
+  summary: This study examines how facial expressions influence AI and human diagnosis of genetic syndromes
+    using facial images. Both deep learning models and clinicians were more likely to correctly identify
+    Williams and Angelman syndromes when individuals were smiling, revealing a bias linked to stereotypical
+    expressions, while no such effect was observed for other syndromes. The findings highlight facial
+    expression as an important confounder that should be considered and mitigated in AI driven genomic
+    and clinical diagnostics.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources: []
+  citations: 12
+  in_survey: true
+  added: '2025-12-27'
+- id: can-large-language-models-democratize-2023
+  title: Can Large Language Models Democratize Access to Dual-use Biotechnology?
+  url: https://arxiv.org/abs/2306.03809
+  doi: 10.48550/arxiv.2306.03809
+  date: '2023-06-06'
+  year: 2023
+  venue: Arxiv
+  summary: Large language models are accelerating and democratizing research by providing accessible expertise
+    across disciplines, but they also risk lowering barriers to dual use technologies with serious biosecurity
+    implications. An educational experiment showed that, with minimal prompting, chatbots could guide
+    non experts through key steps related to pandemic scale agents, indicating that such capabilities
+    may become broadly accessible. These findings highlight the urgent need for safeguards such as third
+    party model evaluation, careful curation of training data, and comprehensive DNA synthesis screening
+    to mitigate misuse risks.
+  task:
+  - clinical-decision-support
+  - molecular-drug-design
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 26
+  in_survey: true
+  added: '2025-12-27'
+- id: artificial-intelligence-in-clinical-genetics-2025
+  title: Artificial Intelligence in Clinical Genetics
+  url: https://www.nature.com/articles/s41431-024-01782-w
+  doi: 10.1038/s41431-024-01782-w
+  date: '2025-01-13'
+  year: 2025
+  venue: European Journal of Human Genetics
+  summary: This review surveys past, current, and emerging applications of artificial intelligence in
+    clinical genetics, spanning diagnostics, patient management, therapeutics, and clinical support. It
+    outlines key AI categories, including machine learning, deep learning, and generative AI, and discusses
+    their evolving roles in genetic practice. The authors argue that AI is likely to substantially transform
+    clinical genetics and emphasize the need for proactive preparation to balance benefits and risks.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 52
+  in_survey: true
+  added: '2025-12-27'
+- id: advancing-healthcare-2024
+  title: 'Advancing Healthcare: The Role and Impact of AI and Foundation Models'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11236664/
+  doi: 10.62347/wqwv9220
+  date: '2024-01-01'
+  year: 2024
+  venue: American Journal of Translational Research
+  summary: This review examines the evolution of foundation AI models in healthcare, highlighting their
+    growing impact on diagnostics, medical interventions, and precision medicine across domains such as
+    imaging, genomics, and decision support. It discusses both the transformative potential of generative
+    and traditional AI models and the challenges of slow adoption, ethics, bias, and governance in healthcare
+    systems. The authors advocate for transparent, fair, and accountable AI frameworks, including the
+    concept of General Medical AI, to enable scalable and responsible healthcare innovation.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 26
+  in_survey: true
+  added: '2025-12-27'
+- id: intuitive-human-2025
+  title: Intuitive Human–Artificial Intelligence Theranostic Complementarity
+  url: https://www.liebertpub.com/doi/full/10.1089/cbr.2025.0021
+  doi: 10.1089/cbr.2025.0021
+  date: '2025-02-20'
+  year: 2025
+  venue: Cancer Biotherapy & Radiopharmaceuticals
+  summary: Deep learning has the potential to transform radiology and nuclear medicine by delivering faster
+    and more reliable image analysis than humans, but the role of generative AI in clinical decision making
+    remains controversial. AI lacks understanding, judgment, and empathy, so its outputs must be interpreted
+    and applied by nuclear physicians who retain responsibility for patient care. Used in a complementary
+    manner, AI can support precision theranostics by integrating radiomics, genomics, and clinical data
+    while enabling physicians to focus on informed, patient-centered treatment decisions.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture: []
+  interaction:
+  - hybrid
+  evaluation: []
+  resources: []
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: assessing-the-performance-of-generative-2025
+  title: Assessing the Performance of Generative Artificial Intelligence in Retrieving Information against
+    Manually Curated Genetic and Genomic Data
+  url: https://academic.oup.com/database/article/doi/10.1093/database/baaf011/8019548
+  doi: 10.1093/database/baaf011
+  date: '2025-01-01'
+  year: 2025
+  venue: Database
+  summary: This study benchmarks GPT-3.5 and GPT-4 against professional human curation for genetic trait
+    and QTL extraction. The results show that GPT-4 achieves high accuracy in document classification
+    and trait retrieval, supporting a hybrid human–AI curation paradigm for biological databases.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  - hybrid
+  evaluation:
+  - automated
+  resources: []
+  citations: 16
+  in_survey: true
+  added: '2025-12-27'
+- id: characterization-and-automated-classification-of-2025
+  title: 'Characterization and Automated Classification of Sentences in the Biomedical Literature: A Case
+    Study for Biocuration of Gene Expression and Protein Kinase Activity'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11741306
+  doi: 10.1093/database/baaf063
+  date: '2025-01-01'
+  year: 2025
+  venue: bioRxiv
+  summary: The paper presents Foam - Agent, a multi - agent framework automating CFD workflows from natural
+    language. It features unique retrieval, file - generation and error - correction systems, lowering
+    expertise barriers.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction: []
+  evaluation:
+  - automated
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: generative-artificial-intelligence-gpt-2023
+  title: Generative Artificial Intelligence GPT-4 Accelerates Knowledge Mining and Machine Learning for
+    Synthetic Biology
+  url: https://pubs.acs.org/doi/full/10.1021/acssynbio.3c00310
+  doi: 10.1021/acssynbio.3c00310
+  date: '2023-09-08'
+  year: 2023
+  venue: ACS synthetic biology
+  summary: This work demonstrates how GPT-4–based prompt engineering can streamline knowledge extraction
+    from synthetic biology literature. By mining 176 publications on oleaginous yeasts, the authors converted
+    unstructured text into structured datasets that enabled machine-learning models to accurately predict
+    fermentation performance. The results show that generative AI can significantly reduce manual curation
+    effort, support predictive modeling in biomanufacturing, and enable transfer learning to less-studied
+    microbial systems.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 66
+  in_survey: true
+  added: '2025-12-27'
+- id: network-for-knowledge-organization-neko-2025
+  title: 'Network for Knowledge Organization (NEKO): An AI Knowledge Mining Workflow for Synthetic Biology
+    Research'
+  url: https://www.sciencedirect.com/science/article/pii/S1096717624001484
+  doi: 10.1016/j.ymben.2024.11.006
+  year: 2025
+  venue: Metabolic Engineering
+  summary: The paper presents Foam - Agent, a multi - agent framework automating CFD workflows from natural
+    language. It features unique retrieval, file - generation and error - correction systems, lowering
+    expertise barriers. -->
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 22
+  in_survey: true
+  added: '2025-12-27'
+- id: leveraging-generative-ai-to-assist-2025
+  title: Leveraging Generative AI to Assist Biocuration of Medical Actions for Rare Disease
+  url: https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf141/8160944
+  doi: 10.1093/bioadv/vbaf141
+  year: 2025
+  venue: Bioinformatics Advances
+  summary: This paper presents AutoMAxO, a semi-automated LLM-based workflow designed to scale the biocuration
+    of the Medical Action Ontology (MAxO) for rare diseases, addressing the limitations of manual curation.
+    The system uses LLMs to extract candidate treatment and medical action annotations from literature
+    abstracts, then aligns them with MAxO, HPO, and MONDO ontology terms through post-processing and human-in-the-loop
+    validation. Applied to abstracts covering 37 rare genetic diseases, AutoMAxO identified 958 novel
+    treatment annotations incorporated into the MAxO dataset. The results demonstrate that LLM-assisted
+    curation can substantially improve coverage and efficiency in clinical ontology development.
+  task:
+  - knowledge-discovery
+  architecture:
+  - neuro-symbolic
+  - single-agent
+  interaction:
+  - hybrid
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 5
+  in_survey: true
+  added: '2025-12-27'
+- id: favor-2024
+  title: 'FAVOR-GPT: A Generative Natural Language Interface to Whole Genome Variant Functional Annotations'
+  url: https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae143/7789482
+  doi: 10.1093/bioadv/vbae143
+  date: '2024-01-01'
+  year: 2024
+  venue: Bioinformatics Advances
+  summary: This work introduces FAVOR-GPT, a retrieval augmented generative interface that integrates
+    large language models with the FAVOR database to support interpretation of whole genome variant annotations.
+    By translating complex functional annotations into user friendly summaries, FAVOR-GPT improves accessibility
+    and usability for researchers without specialized expertise. The results demonstrate that RAG based
+    LLM interfaces can effectively enhance genomic data interpretation while maintaining high annotation
+    accuracy.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 10
+  in_survey: true
+  added: '2025-12-27'
+- id: gp-2024
+  title: 'GP-GPT: Large Language Model for Gene-phenotype Mapping'
+  url: https://arxiv.org/abs/2409.09825
+  doi: 10.48550/arxiv.2409.09825
+  date: '2024-09-15'
+  year: 2024
+  venue: arXiv
+  summary: This work introduces GP-GPT, a specialized large language model fine-tuned on large scale genomics,
+    proteomics, and medical genetics data for genetic–phenotype knowledge representation and relation
+    analysis. GP-GPT outperforms general purpose LLMs on genomics information retrieval and relationship
+    determination tasks, demonstrating strong domain specific understanding. The results suggest that
+    tailored LLMs can more effectively support gene–phenotype research and biomedical knowledge discovery.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: spatialagent-2025
+  title: 'SpatialAgent: An Autonomous AI Agent for Spatial Biology'
+  url: https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.abstract
+  doi: 10.1101/2025.04.03.646459
+  date: '2025-04-06'
+  year: 2025
+  venue: bioRxiv
+  summary: This paper introduces SpatialAgent, a fully autonomous AI agent designed to support end to
+    end spatial biology research by integrating large language models with adaptive reasoning and dynamic
+    tool use. Evaluated on large scale human and mouse spatial datasets, SpatialAgent outperforms existing
+    computational methods and matches or exceeds human performance on key tasks. The study demonstrates
+    a new paradigm for scalable and collaborative AI driven discovery in spatial biology.
+  task:
+  - knowledge-discovery
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  - hybrid
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 49
+  in_survey: true
+  added: '2025-12-27'
+- id: pcmr-2025
+  title: 'PCMR: A Comprehensive Precancerous Molecular Resource'
+  url: https://www.nature.com/articles/s41597-025-04899-9
+  doi: 10.1038/s41597-025-04899-9
+  date: '2025-04-01'
+  year: 2025
+  venue: Scientific Data
+  summary: This study introduces the PreCancerous Molecular Resource (PCMR), a large integrated database
+    compiling multi-omics molecular profiles of precancerous lesions across diverse cancer types and tissues.
+    By combining differential analysis with ChatGPT-based text mining, PCMR systematically identifies
+    precancer–gene associations and validates their biological and clinical relevance. The resource provides
+    a comprehensive foundation for studying early carcinogenesis and advancing precancer research and
+    intervention.
+  task:
+  - knowledge-discovery
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: uncertainty-2025
+  title: Uncertainty-Aware Adaptation of Large Language Models for Protein-Protein Interaction Analysis
+  url: https://arxiv.org/abs/2502.06173
+  doi: 10.1109/embc58623.2025.11253873
+  date: '2025-07-14'
+  year: 2025
+  venue: arXiv
+  summary: This study introduces an uncertainty-aware framework for protein–protein interaction prediction
+    using fine-tuned large language models. By integrating LoRA ensembles and Bayesian LoRA for uncertainty
+    quantification, the approach improves the reliability and reproducibility of LLM-based PPI analysis
+    across multiple disease contexts. The results highlight the importance of confidence-aware modeling
+    for trustworthy applications of LLMs in precision medicine and computational biology.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction: []
+  evaluation:
+  - automated
+  resources: []
+  citations: 1
+  in_survey: true
+  added: '2025-12-27'
+- id: crispr-2025
+  title: CRISPR-GPT for agentic automation of gene-editing experiments
+  url: https://www.nature.com/articles/s41551-025-01463-z
+  doi: 10.1038/s41551-025-01463-z
+  date: '2025-07-30'
+  year: 2025
+  venue: Nature Biomedical Engineering
+  summary: This work presents CRISPR-GPT, an LLM-based agent system designed to support end-to-end CRISPR
+    gene-editing experiment design and data analysis. By integrating domain knowledge, retrieval, external
+    tools, and a fine-tuned model, CRISPR-GPT assists with experimental planning, guide RNA design, protocol
+    drafting, and result interpretation. Experimental validations demonstrate its effectiveness as an
+    AI co-pilot for genome engineering across different CRISPR modalities.
+  task:
+  - knowledge-discovery
+  - molecular-drug-design
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  - hybrid
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 145
+  in_survey: true
+  added: '2025-12-27'
+- id: mragent-2025
+  title: 'MRAgent: An LLM-based Automated Agent for Causal Knowledge Discovery in Disease via Mendelian
+    Randomization'
+  url: https://academic.oup.com/bib/article/26/2/bbaf140/8107848
+  doi: 10.1093/bib/bbaf140
+  date: '2025-03-01'
+  year: 2025
+  venue: Briefings in Bioinformatics
+  summary: This paper introduces MRAgent, an automated LLM-driven agent designed to facilitate large-scale
+    causal discovery using Mendelian Randomization. MRAgent autonomously mines scientific literature to
+    identify candidate exposure–outcome pairs and then performs MR analyses using genome-wide association
+    study data, reducing reliance on manually curated hypotheses. Evaluations across different LLMs and
+    a proof-of-concept case study demonstrate its ability to execute end-to-end causal inference workflows.
+    The results highlight MRAgent as a powerful tool for scalable, systematic causal analysis in complex
+    disease research.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 20
+  in_survey: true
+  added: '2025-12-27'
+- id: evaluating-gpt-and-bert-models-2024
+  title: Evaluating GPT and BERT Models for Protein-Protein Interaction Identification in Biomedical Text
+  url: https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae133/7755482
+  doi: 10.1093/bioadv/vbae133
+  date: '2024-01-01'
+  year: 2024
+  venue: Bioinformatics Advances
+  summary: This study evaluates transformer-based language models for extracting protein–protein interactions
+    from biomedical text. Bidirectional encoder models, especially BioBERT, achieved the strongest overall
+    performance, while GPT-4 demonstrated comparable precision and recall despite not being specifically
+    trained on biomedical corpora. The results indicate that large language models can effectively support
+    automated PPI mining from the biomedical literature.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 34
+  in_survey: true
+  added: '2025-12-27'
+- id: ai-2025
+  title: AI-driven Toolset for IPF and Aging Research Associates Lung Fibrosis with Accelerated Aging
+  url: https://www.biorxiv.org/content/10.1101/2025.01.09.632065v1.abstract
+  doi: 10.18632/aging.206295
+  date: '2025-08-08'
+  year: 2025
+  venue: bioRxiv
+  summary: This study applies AI to uncover aging-related mechanisms underlying idiopathic pulmonary fibrosis
+    by combining a pathway-aware proteomic aging clock with a domain-specific language model, ipf-P3GPT.
+    The aging clock shows strong predictive performance and links accelerated aging to severe COVID-19,
+    while molecular analyses reveal that IPF reflects dysregulated aging pathways rather than simple aging
+    acceleration. These results highlight new connections between aging biology and IPF and demonstrate
+    the value of AI-guided strategies for studying age-related diseases.
+  task:
+  - knowledge-discovery
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: cancergpt-for-few-shot-drug-2024
+  title: CancerGPT for few shot drug pair synergy prediction using large pretrained language models
+  url: https://www.nature.com/articles/s41746-024-01024-9
+  doi: 10.1038/s41746-024-01024-9
+  date: '2024-02-19'
+  year: 2024
+  venue: npj Digital Medicine
+  summary: Large language models show strong few-shot learning ability, but their capacity to generalize
+    to complex biological problems remains underexplored. This study proposes a few-shot LLM-based approach
+    for predicting drug pair synergy in rare cancer tissues by leveraging prior knowledge from text rather
+    than structured data. Experiments across seven rare tissues demonstrate that the compact CancerGPT
+    model achieves high accuracy with minimal or no samples, performing comparably to much larger fine-tuned
+    GPT-3 models.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 116
+  in_survey: true
+  added: '2025-12-27'
+- id: autopm3-2025
+  title: 'AutoPM3: Enhancing Variant Interpretation via LLM-driven PM3 Evidence Extraction from Scientific
+    Literature'
+  url: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaf382/8178584
+  doi: 10.1093/bioinformatics/btaf382
+  date: '2025-06-28'
+  year: 2025
+  venue: Bioinformatics
+  summary: This paper introduces AutoPM3, an automated framework that extracts ACMG/AMP PM3 variant evidence
+    from biomedical literature to support rare disease diagnosis. Using open-source LLMs combined with
+    a Text2SQL-based variant extractor and a retrieval-augmented generation module, AutoPM3 efficiently
+    processes both text and tables. Evaluated on the newly curated PM3-Bench dataset, the method achieves
+    high accuracy and recall, outperforming approaches that rely on larger models. The results show that
+    open-source LLMs can provide fast, cost-effective, and scalable solutions for literature-based variant
+    interpretation.
+  task:
+  - molecular-drug-design
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 8
+  in_survey: true
+  added: '2025-12-27'
+- id: generative-design-of-functional-metal-2024
+  title: Generative Design of Functional Metal Complexes Utilizing the Internal Knowledge of Large Language
+    Models
+  url: https://arxiv.org/abs/2410.18136
+  doi: 10.26434/chemrxiv-2024-z29m3
+  date: '2024-10-24'
+  year: 2024
+  venue: arXiv
+  summary: Designing transition metal complexes involves searching an enormous chemical space, which limits
+    the effectiveness of traditional genetic algorithms. This work introduces an LLM driven evolutionary
+    optimization framework that leverages pretrained chemical knowledge to guide single and multi objective
+    optimization without supervised fine tuning. The proposed approach efficiently identifies top performing
+    complexes, enables flexible natural language driven optimization, and demonstrates strong potential
+    for chemistry and materials design.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 6
+  in_survey: true
+  added: '2025-12-27'
+- id: automatic-biomarker-discovery-and-enrichment-2025
+  title: Automatic Biomarker Discovery and Enrichment with BRAD
+  url: https://academic.oup.com/bioinformatics/article-abstract/41/5/btaf159/8125018
+  doi: 10.1093/bioinformatics/btaf159
+  date: '2025-05-01'
+  year: 2025
+  venue: Bioinformatics
+  summary: Integrating large language models with biomedical research tools raises challenges in transparency,
+    reproducibility, and data provenance. This work introduces BRAD, an agent-based system that combines
+    LLMs with external tools and databases to automate research workflows while maintaining transparent
+    and reliable protocols. Applied to biomarker discovery and other tasks, BRAD enables contextualized
+    interpretation and automation that exceed conventional bioinformatics tools.
+  task:
+  - molecular-drug-design
+  - knowledge-discovery
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 14
+  in_survey: true
+  added: '2025-12-27'
+- id: conversational-ai-agent-for-precision-2025
+  title: 'Conversational AI agent for precision oncology: AI-HOPE-WNT integrates clinical and genomic
+    data to investigate WNT pathway dysregulation in colorectal cancer'
+  url: https://www.medrxiv.org/content/10.1101/2025.05.07.25327180.abstract
+  doi: 10.3389/frai.2025.1624797
+  date: '2025-08-11'
+  year: 2025
+  venue: Frontiers in Artificial Intelligence
+  summary: AI-HOPE-WNT is a conversational AI agent designed to enable natural-language, WNT-focused analysis
+    of integrated clinical and genomic colorectal cancer data. The system accurately reproduces published
+    findings on WNT pathway alterations while uncovering new associations related to survival, treatment
+    response, mutation co-occurrence, and population-specific risk. By automating complex bioinformatics
+    workflows, AI-HOPE-WNT lowers technical barriers and establishes a pathway-specific paradigm for precision
+    oncology research.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 12
+  in_survey: true
+  added: '2025-12-27'
+- id: biodiscoveryagent-2024
+  title: 'BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments'
+  url: https://arxiv.org/abs/2405.17631
+  doi: 10.48550/arxiv.2405.17631
+  date: '2024-05-27'
+  year: 2024
+  venue: arXiv
+  summary: BioDiscoveryAgent is an LLM-based autonomous agent that designs and evaluates genetic perturbation
+    experiments by reasoning over biological knowledge without requiring explicit optimization objectives
+    or model training. Across multiple datasets, it substantially outperforms Bayesian optimization baselines
+    in identifying relevant genes and gene combinations, including challenging non-essential perturbation
+    tasks and unseen data. By integrating literature search, data analysis, and self-critique, BioDiscoveryAgent
+    offers an interpretable and efficient paradigm for closed-loop biological experiment design.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 16
+  in_survey: true
+  added: '2025-12-27'
+- id: exploring-new-drug-treatment-targets-2025
+  title: Exploring new drug treatment targets for immune related bone diseases using a multi omics joint
+    analysis strategy
+  url: https://www.nature.com/articles/s41598-025-94053-7
+  doi: 10.1038/s41598-025-94053-7
+  date: '2025-03-27'
+  year: 2025
+  venue: Scientific Reports
+  summary: This study applies an integrated multi-omic Mendelian randomization framework to identify causal
+    plasma protein targets for immune-related bone diseases. By combining MR, SMR, Bayesian colocalization,
+    LDSC, and downstream network and drug analyses, the authors systematically uncover disease-specific
+    therapeutic targets across rheumatoid arthritis, multiple sclerosis, psoriatic arthritis, and Crohn’s
+    disease–related arthritis. The results provide robust genetic evidence for key proteins underlying
+    disease pathogenesis and offer a strong foundation for precision drug discovery in immune-associated
+    bone disorders.
+  task:
+  - multi-omics
+  - molecular-drug-design
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 5
+  in_survey: true
+  added: '2025-12-27'
+- id: multimodal-cell-maps-as-a-2025
+  title: Multimodal cell maps as a foundation for structural and functional genomics
+  url: https://www.nature.com/articles/s41586-025-08878-3
+  doi: 10.1038/s41586-025-08878-3
+  date: '2025-04-09'
+  year: 2025
+  venue: Nature
+  summary: This work presents a comprehensive map of human subcellular architecture by integrating biophysical
+    interaction data and immunofluorescence imaging for over 5,100 proteins. Using self-supervised multimodal
+    learning and large language model–assisted annotation, the study identifies hundreds of molecular
+    assemblies, reveals new protein functions, decodes cancer-associated alterations, and provides a public
+    platform for structural and functional cell biology research.
+  task:
+  - multi-omics
+  - knowledge-discovery
+  architecture: []
+  interaction: []
+  evaluation:
+  - automated
+  resources: []
+  citations: 45
+  in_survey: true
+  added: '2025-12-27'
+- id: using-chatgpt-to-predict-the-2023
+  title: Using ChatGPT to predict the future of personalized medicine
+  url: https://www.nature.com/articles/s41397-023-00316-9
+  doi: 10.1038/s41397-023-00316-9
+  date: '2023-09-19'
+  year: 2023
+  venue: The Pharmacogenomics Journal
+  summary: This study explores the role of ChatGPT in discussing the future of personalized medicine and
+    pharmacogenomics, which aim to tailor treatments based on individual genetic and molecular profiles.
+    By querying ChatGPT about these fields, the authors found that the model portrays them as promising
+    approaches with strong potential to improve patient outcomes through algorithm-driven, individualized
+    therapies. However, the responses also highlight current limitations and challenges that must be addressed
+    before such AI-guided personalization can be fully realized in clinical practice.
+  task:
+  - multi-omics
+  - exploratory
+  architecture:
+  - neuro-symbolic
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 40
+  in_survey: true
+  added: '2025-12-27'
+- id: generative-methods-for-pediatric-genetics-2023
+  title: Generative Methods for Pediatric Genetics Education
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10543060/
+  doi: 10.1101/2023.08.01.23293506
+  date: '2023-08-02'
+  year: 2023
+  venue: medRxiv
+  summary: This study evaluates whether generative AI–created images can support medical education by
+    helping pediatric residents recognize genetic syndromes. While AI-generated images performed comparably
+    to real images, they were perceived as slightly less helpful, with real images remaining the preferred
+    learning tool. The findings suggest that generative AI images can serve as a useful adjunct, particularly
+    for teaching less familiar genetic conditions.
+  task:
+  - multi-omics
+  - exploratory
+  architecture: []
+  interaction: []
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 10
+  in_survey: true
+  added: '2025-12-27'
+- id: automated-bioinformatics-analysis-via-autoba-2023
+  title: Automated Bioinformatics Analysis via AutoBA
+  url: https://arxiv.org/abs/2309.03242
+  doi: 10.48550/arxiv.2309.03242
+  date: '2023-09-06'
+  year: 2023
+  venue: arXiv
+  summary: This work introduces AutoBA, an autonomous large language model–based agent that streamlines
+    conventional omics data analysis with minimal user input. Validated by expert bioinformaticians, AutoBA
+    demonstrates robust performance and adaptability across diverse modalities, including WGS, RNA-seq,
+    single-cell, ChIP-seq, and spatial transcriptomics, while preserving data privacy through local execution.
+    The system’s ability to dynamically design analysis workflows highlights its potential as a flexible
+    alternative to predefined bioinformatics pipelines.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  citations: 6
+  in_survey: true
+  added: '2025-12-27'
+- id: phenormgpt-2024
+  title: 'PheNormGPT: a framework for extraction and normalization of key medical findings'
+  url: https://academic.oup.com/database/article-abstract/doi/10.1093/database/baae103/7833209
+  doi: 10.1093/database/baae103
+  date: '2024-01-01'
+  year: 2024
+  venue: Database
+  summary: This work introduces PheNormGPT, a large language model–based framework for extracting and
+    normalizing phenotypic findings from unstructured clinical text to Human Phenotype Ontology concepts.
+    Using fine-tuned GPT models and a novel adaptive few-shot selection strategy, PheNormGPT achieved
+    state-of-the-art performance in the BioCreative VIII phenotype extraction challenge. The results demonstrate
+    the effectiveness of LLM-driven approaches for accurate clinical phenotype normalization.
+  task:
+  - multi-omics
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: spatial-transcriptomics-ai-agent-charts-2025
+  title: Spatial transcriptomics AI agent charts hPSC-pancreas maturation in vivo
+  url: https://www.biorxiv.org/content/10.1101/2025.04.01.646731.abstract
+  doi: 10.1101/2025.04.01.646731
+  date: '2025-04-04'
+  year: 2025
+  venue: bioRxiv
+  summary: This work introduces STAgent, an autonomous multimodal AI agent that integrates large language
+    models with specialized computational tools to automate complex spatial transcriptomics analyses.
+    Applied to human stem cell–derived pancreatic tissues, STAgent rapidly uncovers spatial maturation
+    patterns, cell–cell interactions, and underlying biological mechanisms while contextualizing findings
+    with relevant literature. The results demonstrate a new agentic paradigm that dramatically reduces
+    analysis time and expertise barriers in spatial biology research.
+  task:
+  - exploratory
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 14
+  in_survey: true
+  added: '2025-12-27'
+- id: seqmate-2024
+  title: 'SeqMate: A Novel Large Language Model Pipeline for Automating RNA Sequencing'
+  url: https://arxiv.org/abs/2407.03381
+  doi: 10.20944/preprints202407.0160.v1
+  date: '2024-07-02'
+  year: 2024
+  venue: arXiv
+  summary: This work introduces SeqMate, a large language model–powered tool that enables one-click RNA-seq
+    and single-cell RNA-seq analysis for non-expert users. By automating data preparation, downstream
+    analyses, and result interpretation with literature-linked reporting, SeqMate removes technical barriers
+    inherent to command-line pipelines and lowers the entry threshold for biological data analysis.
+  task:
+  - exploratory
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: stella-2024
+  title: 'SteLLA: A Structured Grading System Using LLMs with RAG'
+  url: https://ieeexplore.ieee.org/abstract/document/10825385/
+  doi: 10.1109/bigdata62323.2024.10825385
+  date: '2024-12-15'
+  year: 2024
+  venue: IEEE Big Data
+  summary: This work introduces SteLLA, a structured grading framework that combines retrieval-augmented
+    generation with large language models to improve the reliability of automated short answer grading.
+    By grounding evaluation in instructor-provided reference answers and rubrics, SteLLA achieves strong
+    agreement with human graders while producing detailed, point-by-point grades and feedback. The analysis
+    shows that LLMs accurately capture factual content but may over-infer implications, offering insights
+    into safe and effective deployment for educational assessment.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 9
+  in_survey: true
+  added: '2025-12-27'
+- id: explaining-genetic-programming-trees-using-2024
+  title: Explaining Genetic Programming Trees using Large Language Models
+  url: https://arxiv.org/abs/2403.03397
+  doi: 10.48550/arxiv.2403.03397
+  date: '2024-03-06'
+  year: 2024
+  venue: arXiv
+  summary: This study introduces GP4NLDR, an explainable AI framework that integrates genetic programming–based
+    nonlinear dimensionality reduction with a large language model–powered chatbot. By combining an XAI
+    dashboard with LLM-generated explanations, the system provides intuitive, user-centered interpretations
+    of high-dimensional data transformations. The results demonstrate the potential of LLMs to enhance
+    the explainability and usability of genetic programming methods.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - hybrid
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 9
+  in_survey: true
+  added: '2025-12-27'
+- id: enhancing-phenotype-recognition-in-clinical-2023
+  title: 'Enhancing phenotype recognition in clinical notes using large language models: PhenoBCBERT and
+    PhenoGPT'
+  url: https://www.cell.com/patterns/fulltext/S2666-3899(23)00288-X
+  doi: 10.1016/j.patter.2023.100887
+  date: '2023-12-05'
+  year: 2023
+  venue: Patterns
+  summary: This study develops PhenoBCBERT and PhenoGPT, two large language model–based approaches for
+    automated phenotype recognition in clinical notes by expanding Human Phenotype Ontology vocabularies.
+    The models outperform traditional rule-based tools by identifying a broader and more nuanced range
+    of phenotype concepts, including previously uncharacterized terms, and demonstrate strong performance
+    across clinical text and biomedical literature. These results highlight the effectiveness of adapting
+    general-purpose LLMs for domain-specific clinical and genetic research.
+  task:
+  - exploratory
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 68
+  in_survey: true
+  added: '2025-12-27'
+- id: a-comprehensive-survey-of-foundation-2025
+  title: A Comprehensive Survey of Foundation Models in Medicine
+  url: https://ieeexplore.ieee.org/abstract/document/10847310
+  doi: 10.1109/rbme.2025.3531360
+  date: '2025-01-20'
+  year: 2025
+  venue: IEEE Reviews in Biomedical Engineering
+  summary: This survey provides a comprehensive review of foundation models (FMs) in medicine, covering
+    their evolution, learning strategies, flagship models, applications, and challenges across healthcare.
+    It systematically examines how models such as BERT and GPT are transforming clinical NLP, medical
+    imaging, and omics research, and proposes a detailed taxonomy of FM-enabled medical applications.
+    The survey also discusses key limitations, open research questions, and lessons learned to support
+    responsible and effective deployment of FMs in healthcare.
+  task:
+  - exploratory
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 88
+  in_survey: true
+  added: '2025-12-27'
+- id: regulatory-barriers-to-uschina-collaboration-2024
+  title: Regulatory barriers to USChina collaboration for generative AI development in genomic research
+  url: https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00130-7
+  year: 2024
+  venue: Cell Genomics
+  summary: This article analyzes how U.S. and Chinese regulatory frameworks create barriers to collaboration
+    in generative-AI–assisted genomic research, particularly around data sharing, security, and compliance.
+    It highlights tensions between innovation and regulation in both countries and argues that misaligned
+    legal requirements hinder responsible international collaboration. The authors recommend renewing
+    and updating bilateral science and technology agreements to promote transparent, ethical, and secure
+    sharing of human genomic data.
+  task:
+  - exploratory
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  in_survey: true
+  added: '2025-12-27'
+- id: varchat-2024
+  title: 'VarChat: the generative AI assistant for the interpretation of human genomic variations'
+  url: https://academic.oup.com/bioinformatics/article-abstract/40/4/btae183/7641533
+  doi: 10.1093/bioinformatics/btae183
+  date: '2024-03-29'
+  year: 2024
+  venue: Bioinformatics
+  summary: This work introduces VarChat, a generative-AI–based tool designed to address the growing challenge
+    of genomic variant interpretation amid rapidly expanding scientific literature. VarChat automatically
+    identifies, synthesizes, and summarizes variant-related research into concise, clinically relevant
+    descriptions, linking genetic variants to protein function and health outcomes while providing traceable
+    references. By streamlining literature review and interpretation, VarChat helps translate fragmented
+    genomic knowledge into actionable insights for researchers and clinicians.
+  task:
+  - knowledge-discovery
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 35
+  in_survey: true
+  added: '2025-12-27'
+- id: mega-2025
+  title: 'MEGA-GPT: Artificial Intelligence Guidance and Building Analytical Protocols Using MEGA Software'
+  url: https://academic.oup.com/mbe/article-abstract/42/6/msaf101/8157534
+  doi: 10.1093/molbev/msaf101
+  date: '2025-06-01'
+  year: 2025
+  venue: Molecular Biology and Evolution
+  summary: This study introduces MEGA-GPT, a retrieval-augmented, AI-driven assistant designed to help
+    users navigate the increasingly complex functionalities of the MEGA evolutionary genetics software
+    through natural language queries. By integrating MEGA documentation and version-specific resources,
+    MEGA-GPT provides step-by-step guidance, clarifies analytical settings, and recommends optimal workflows
+    while significantly reducing hallucinations compared with standard ChatGPT. The tool improves usability
+    for both novice and experienced users and demonstrates how customized RAG-based assistants can enhance
+    complex scientific software.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 8
+  in_survey: true
+  added: '2025-12-27'
+- id: medbiolm-2025
+  title: 'MedBioLM: Optimizing Medical and Biological QA with Fine-Tuned Large Language Models and Retrieval-Augmented
+    Generation'
+  url: https://arxiv.org/abs/2502.03004
+  doi: 10.48550/arxiv.2502.03004
+  date: '2025-02-05'
+  year: 2025
+  venue: arXiv
+  summary: This work presents **MedBioLM**, a domain-adapted biomedical question-answering model that
+    combines fine-tuning with retrieval-augmented generation to improve factual accuracy, reasoning, and
+    contextual depth in medical and biological queries. Evaluated across diverse biomedical QA benchmarks,
+    MedBioLM shows substantial accuracy gains from fine-tuning and improved factual consistency through
+    RAG. The results demonstrate the promise of domain-optimized LLMs for biomedical research, education,
+    and clinical decision support.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: evolution-of-publicly-available-large-2024
+  title: Evolution of publicly available large language models for complex decision-making in breast cancer
+    care
+  url: https://link.springer.com/article/10.1007/s00404-024-07565-4
+  doi: 10.1007/s00404-024-07565-4
+  date: '2024-05-29'
+  year: 2024
+  venue: Archives of Gynecology and Obstetrics
+  summary: This study compares the treatment recommendations of five publicly available large language
+    models (GPT-4, GPT-3.5 variants, Llama2, and Bard) with those of a multidisciplinary tumor board for
+    complex breast cancer cases. GPT-4 showed the highest concordance, particularly for invasive breast
+    cancer and radiotherapy decisions, while all models performed poorly in genetic testing recommendations.
+    Overall, the findings indicate that current LLMs are not yet sufficiently reliable for safe clinical
+    use in breast cancer care, highlighting the need for improved prompting strategies, data control,
+    and further clinical validation.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 37
+  in_survey: true
+  added: '2025-12-27'
+- id: survey-and-improvement-strategies-for-2025
+  title: Survey and Improvement Strategies for Gene Prioritization with Large Language Models
+  url: https://academic.oup.com/bioinformaticsadvances/advance-article-abstract/doi/10.1093/bioadv/vbaf148/8172498
+  doi: 10.1093/bioadv/vbaf148
+  year: 2025
+  venue: Bioinformatics Advances
+  summary: This study benchmarks large language models for gene prioritization in rare disease diagnosis,
+    addressing challenges from limited data and large candidate gene sets. Using multi-agent strategies,
+    Human Phenotype Ontology–based case stratification, and a divide-and-conquer ranking framework, GPT-4
+    consistently outperformed other models in identifying causal genes while mitigating positional and
+    literature biases. Although biases toward well-studied genes and input order sensitivity remain, the
+    proposed framework significantly improves diagnostic efficiency for rare genetic disorders. This work
+    proposes an autonomous mechanical design framework that combines a pretrained large language model
+    with finite element method (FEM) analysis to iteratively generate, evaluate, and refine structural
+    designs without domain-specific fine-tuning. Using 2D truss structures as a testbed, the LLM effectively
+    navigates discrete, multi-objective design spaces and achieves faster convergence with fewer FEM evaluations
+    than NSGA-II. The results demonstrate that reasoning-based, language-driven LLMs can serve as efficient
+    optimizers for autonomous structural design and iterative refinement. -->
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: benchmarking-large-language-models-for-2025
+  title: Benchmarking Large Language Models for Predictive Modeling in Biomedical Research With a Focus
+    on Reproductive Health
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12312170/
+  doi: 10.1016/j.xcrm.2026.102594
+  year: 2025
+  venue: bioRxiv
+  summary: This study evaluates large language models (LLMs) for automated R and Python code generation
+    in predictive modeling tasks using standardized omics datasets from multiple DREAM challenges in reproductive
+    health. Several LLMs successfully generated executable analysis pipelines, with OpenAI’s o3-mini-high
+    performing best and achieving test performance comparable to or exceeding top DREAM challenge teams.
+    The results demonstrate that LLMs can effectively automate key steps of omics-based predictive modeling,
+    lowering technical barriers and accelerating exploratory biomedical research.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: comprehensive-molecular-analyses-of-an-2025
+  title: Comprehensive molecular analyses of an autoimmune-related gene predictive model and immune infiltrations
+    using machine learning methods in intracranial aneurysma
+  url: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1531930/full
+  doi: 10.3389/fimmu.2025.1531930
+  date: '2025-04-17'
+  year: 2025
+  venue: Frontiers in Immunology
+  summary: This study investigates the genetic links between autoimmune processes and intracranial aneurysm
+    (IA) by integrating transcriptomic data, functional enrichment analyses, and multiple machine-learning
+    approaches. Two key autoimmune-related diagnostic genes, ADIPOQ and IL21R, were identified and used
+    to build a neural-network model with strong predictive performance (AUC = 0.944). The results highlight
+    immune infiltration and gene–miRNA–drug regulatory networks as important contributors to IA pathogenesis,
+    suggesting potential therapeutic targets.
+  task:
+  - multi-omics
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: cellagent-2024
+  title: 'CellAgent: An LLM-driven MultiAgent Framework for Automated Single-cell Data Analysis'
+  url: https://arxiv.org/abs/2407.09811
+  year: 2024
+  venue: arXiv
+  summary: This paper introduces CellAgent, an LLM-driven multi-agent framework that fully automates single-cell
+    RNA-seq data analysis by coordinating planner, executor, and evaluator agents with hierarchical decision
+    making and self-iterative optimization. CellAgent autonomously selects appropriate tools and hyperparameters,
+    executes end-to-end analyses, and evaluates results without human intervention. Benchmarks across
+    diverse tissues and cell types show that CellAgent achieves robust, high-quality performance while
+    substantially reducing analyst workload, advancing an “Agent for Science” paradigm.
+  task:
+  - multi-omics
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: autonomous-chemical-research-with-large-2023
+  title: Autonomous chemical research with large language models
+  url: https://www.nature.com/articles/s41586-023-06792-0
+  doi: 10.1038/s41586-023-06792-0
+  date: '2023-12-20'
+  year: 2023
+  venue: Nature
+  summary: This paper presents Coscientist, a GPT-4–driven AI system that autonomously designs, plans,
+    and executes complex scientific experiments by integrating large language models with tools for literature
+    search, code execution, and experimental automation. Across six representative tasks—including palladium-catalyzed
+    reaction optimization—Coscientist demonstrates strong capabilities in semi-autonomous experimental
+    design, execution, and reasoning. These results highlight the versatility, effectiveness, and interpretability
+    of LLM-powered AI systems in accelerating scientific discovery.
+  task:
+  - molecular-drug-design
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 1027
+  in_survey: true
+  added: '2025-12-27'
+- id: steering-veridical-large-language-model-2024
+  title: 'Steering veridical large language model analyses by correcting and enriching generated database
+    queries: first steps toward ChatGPT bioinformatics'
+  url: https://academic.oup.com/bib/article-abstract/26/1/bbaf045/8002976
+  doi: 10.1093/bib/bbaf045
+  date: '2024-11-22'
+  year: 2024
+  venue: Briefings in Bioinformatics
+  summary: This paper examines the limitations of using plain ChatGPT as a bioinformatics assistant, highlighting
+    errors caused by incomplete knowledge, poor data retrieval, and hallucinations in scientific domains.
+    To address these issues, the authors introduce NagGPT, a middleware that sits between LLMs and genomics
+    databases to validate, correct, and mediate LLM-generated queries while guiding responses with authoritative,
+    up-to-date data. Paired with a custom GPT that generates and executes Python code, the system enables
+    dynamic retrieval and analysis across major genomics databases. The results demonstrate practical
+    ways to improve factual accuracy, reduce hallucinations, and enhance the reliability of unmodified
+    LLMs for bioinformatics tasks.
+  task:
+  - knowledge-discovery
+  - multi-omics
+  architecture:
+  - multi-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  - knowledge-augmented
+  citations: 9
+  in_survey: true
+  added: '2025-12-27'
+- id: tokensome-2024
+  title: 'Tokensome: Towards a Genetic Vision-Language GPT for Explainable and Cognitive Karyotyping'
+  url: https://arxiv.org/abs/2403.11073
+  doi: 10.48550/arxiv.2403.11073
+  date: '2024-03-17'
+  year: 2024
+  venue: arXiv
+  summary: This paper argues that existing automatic karyotype analysis methods are limited by treating
+    the task purely as visual object recognition, neglecting holistic information and interpretability
+    needed for clinical use. The authors introduce Tokensome, a vision–language model that represents
+    chromosomes through tokenization to enable explainable, cognitively driven karyotyping. By elevating
+    analysis from visual perception to cognitive decision-making, Tokensome integrates domain knowledge
+    and reasoning via knowledge graphs and LLMs. This approach improves interpretability and enhances
+    the detection of chromosomal abnormalities.
+  task:
+  - clinical-decision-support
+  architecture:
+  - neuro-symbolic
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: assessing-large-language-model-performance-2025
+  title: Assessing large language model performance related to aging in genetic conditions
+  url: https://www.nature.com/articles/s41514-025-00226-z
+  doi: 10.1038/s41514-025-00226-z
+  date: '2025-05-03'
+  year: 2025
+  venue: npj Aging
+  summary: This study evaluates whether large language models (Llama-2-70B-chat and GPT-3.5) can generate
+    plausible clinical vignettes, clinician–patient dialogues, and management plans for pediatric and
+    adult presentations across 282 genetic conditions. Clinician grading showed that both models generally
+    produced age-appropriate descriptions with good correctness and completeness for disease presentation,
+    including for neonatal-onset metabolic disorders. However, both models performed substantially worse
+    when generating management plans, with only moderate correctness and completeness. These findings
+    suggest that while LLMs can capture age-dependent clinical features, their reliability for clinical
+    decision-making and management remains limited.
+  task:
+  - clinical-decision-support
+  architecture:
+  - neuro-symbolic
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 4
+  in_survey: true
+  added: '2025-12-27'
+- id: genetic-analysis-of-milk-citrate-2023
+  title: Genetic Analysis of Milk Citrate Predicted by Milk Mid-infrared Spectra of Holstein Cows in Early
+    Lactation
+  url: https://www.sciencedirect.com/science/article/pii/S0022030223008263
+  doi: 10.3168/jds.2023-23903
+  date: '2023-12-04'
+  year: 2023
+  venue: Journal of Dairy Science
+  summary: The study investigates the genetic architecture of milk citrate, an early biomarker of negative
+    energy balance in dairy cows, using large-scale mid-infrared spectral predictions and single-step
+    GWAS. Results show high heritability and identify key genomic regions and candidate genes relevant
+    for genomic selection.
+  task:
+  - multi-omics
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 11
+  in_survey: true
+  added: '2025-12-27'
+- id: golf-2025
+  title: 'GOLF: A Generative AI Framework for Pathogenicity Prediction of Myocilin OLF Variants'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12262641/
+  doi: 10.1101/2025.06.17.660210
+  date: '2025-06-24'
+  year: 2025
+  venue: bioRxiv
+  summary: This work introduces GOLF, a generative AI framework for predicting and interpreting the pathogenicity
+    of MYOC OLF domain variants associated with glaucoma. By combining generative models with sparse autoencoders,
+    the framework achieves accurate classification while revealing underlying biochemical features driving
+    predictions.
+  task:
+  - molecular-drug-design
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation:
+  - automated
+  resources: []
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: genome-2023
+  title: Genome-Wide Association Study of Lactation Traits in Chinese Holstein Cows in Southern China
+  url: https://www.mdpi.com/2076-2615/13/15/2545
+  doi: 10.3390/ani13152545
+  date: '2023-08-07'
+  year: 2023
+  venue: Animals
+  summary: This genome-wide association study identifies SNPs and candidate genes linked to lactation
+    traits in Chinese Holstein cows raised under high-temperature and high-humidity conditions. The findings
+    provide genetic insights to support breeding programs adapted to challenging environmental stressors.
+  task:
+  - multi-omics
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 14
+  in_survey: true
+  added: '2025-12-27'
+- id: hematological-and-biochemical-characterization-of-2024
+  title: Hematological and Biochemical Characterization of Aging Farm Male Rat Strains in the National
+    Center for Geriatrics and Gerontology
+  url: https://www.jstage.jst.go.jp/article/expanim/74/1/74_24-0028/_article/-char/ja/
+  doi: 10.1538/expanim.24-0028
+  date: '2024-08-07'
+  year: 2024
+  venue: Experimental Animals
+  summary: The paper characterizes age-related hematological and biochemical changes across three commonly
+    used male rat strains. It highlights strain-specific physiological differences relevant to aging and
+    geriatric research, emphasizing the importance of strain selection in experimental design.
+  task:
+  - exploratory
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: ten-quick-tips-for-harnessing-2023
+  title: Ten Quick Tips for Harnessing the Power of ChatGPT/GPT-4 in Computational Biology
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011319
+  doi: 10.48550/arxiv.2303.16429
+  date: '2023-03-29'
+  year: 2023
+  venue: PLoS Computational Biology
+  summary: This article provides ten practical guidelines for using ChatGPT and GPT-4 in computational
+    biology workflows, covering code generation, data analysis, scientific writing, and prompt engineering.
+    It discusses both productivity gains and ethical considerations for bioinformatics applications.
+  task:
+  - exploratory
+  - multi-omics
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 12
+  in_survey: true
+  added: '2025-12-27'
+- id: large-language-models-as-efficient-2024
+  title: Large Language Models as Efficient Reward Function Searchers for Custom-Environment Multi-Objective
+    Reinforcement Learning
+  url: https://arxiv.org/abs/2409.02428
+  doi: 10.48550/arxiv.2409.02428
+  date: '2024-09-04'
+  year: 2024
+  venue: Arxiv
+  summary: The paper proposes ERFSL, a framework that leverages large language models to search and refine
+    reward functions for complex multi-objective reinforcement learning tasks. By combining LLM-driven
+    semantic reasoning with evolutionary strategies, the method achieves efficient zero-shot reward design.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources: []
+  citations: 1
+  in_survey: true
+  added: '2025-12-27'
+- id: influence-of-the-concentrate-inclusion-2023
+  title: Influence of the Concentrate Inclusion Level in a Grass Silage–based Diet on Hepatic Transcriptomic
+    Profiles in Holstein-Friesian Dairy Cows in Early Lactation
+  url: https://www.sciencedirect.com/science/article/pii/S0022030223003764
+  doi: 10.3168/jds.2022-22860
+  date: '2023-07-18'
+  year: 2023
+  venue: Journal of Dairy Science
+  summary: This study analyzes how different concentrate levels in early-lactation diets affect hepatic
+    transcriptomic responses in dairy cows. Results reveal parity-specific metabolic and inflammatory
+    responses, offering insights into nutritional strategies for mitigating negative energy balance.
+  task:
+  - multi-omics
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  citations: 11
+  in_survey: true
+  added: '2025-12-27'
+- id: bridging-the-early-science-gap-2025
+  title: 'Bridging the Early Science Gap with Artificial Intelligence: Evaluating Large Language Models
+    as Tools for Early Childhood Science Education'
+  url: https://dl.acm.org/doi/full/10.1145/3706599.3721261
+  doi: 10.48550/arxiv.2501.01192
+  date: '2025-01-02'
+  year: 2025
+  venue: CHI EA
+  summary: This paper evaluates the ability of leading large language models to generate preschool-appropriate
+    science explanations. Through expert teacher assessments, it highlights both the promise and limitations
+    of LLMs in supporting early childhood science education.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 0
+  in_survey: true
+  added: '2025-12-27'
+- id: leveraging-generative-ai-to-accelerate-2024
+  title: Leveraging Generative AI to Accelerate Biocuration of Medical Actions for Rare Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11370550/
+  doi: 10.1101/2024.08.22.24310814
+  date: '2024-08-22'
+  year: 2024
+  venue: medRxiv
+  summary: The paper presents AutoMAxO, a semi-automated LLM-based workflow for scaling biocuration of
+    medical actions in rare diseases. By combining AI-driven extraction with ontology alignment and human
+    validation, the approach significantly accelerates structured knowledge curation.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - hybrid
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 3
+  in_survey: true
+  added: '2025-12-27'
+- id: importance-of-prior-patient-interactions-2025-2
+  title: Importance of Prior Patient Interactions With the Healthcare System to Engaging With Pretest
+    Cancer Genetic Services via Digital Health Tools
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.14652
+  year: 2025
+  venue: Health Services Research
+  summary: This randomized trial examines how prior healthcare system engagement influences patient uptake
+    of digital tools for cancer genetic services. Findings suggest that existing patient-system interactions
+    are key predictors of engagement with genetic testing workflows.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources: []
+  in_survey: true
+  added: '2025-12-27'
+- id: comparison-of-the-performance-of-2025
+  title: Comparison of the Performance of Five Generative Artificial Intelligence Models on a Medical
+    Molecular Biology Examination
+  url: https://www.cureus.com/articles/358057-comparison-of-the-performance-of-five-generative-artificial-intelligence-models-on-a-medical-molecular-biology-examination.pdf
+  doi: 10.7759/cureus.88480
+  date: '2025-07-21'
+  year: 2025
+  venue: Cureus
+  summary: This study compares the performance of five Chinese generative AI models on a medical molecular
+    biology exam. Results show that several models outperform undergraduate students, while underscoring
+    the need for critical evaluation and domain-specific AI systems in education.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: chip-2024
+  title: 'ChIP-GPT: a managed large language model for robust data extraction from biomedical database
+    records'
+  url: https://academic.oup.com/bib/article/25/2/bbad535/7600389
+  doi: 10.1093/bib/bbad535
+  date: '2024-01-22'
+  year: 2024
+  venue: Briefings in Bioinformatics
+  summary: ChIP-GPT presents a fine-tuned LLM system for scalable and robust metadata extraction from
+    biomedical databases. By iteratively prompting a customized GPT model, the framework accurately extracts
+    ChIP-seq targets and cell lines from noisy or incomplete records, enabling expert-level reasoning
+    over large-scale database entries.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources: []
+  citations: 17
+  in_survey: true
+  added: '2025-12-27'
+- id: openai-o1-2024
+  title: 'OpenAI o1-Preview vs. ChatGPT in Healthcare: A New Frontier in Medical AI Reasoning'
+  url: https://www.cureus.com/articles/301598-openai-o1-preview-vs-chatgpt-in-healthcare-a-new-frontier-in-medical-ai-reasoning.pdf
+  doi: 10.7759/cureus.70640
+  date: '2024-10-01'
+  year: 2024
+  venue: Cureus
+  summary: This editorial compares OpenAI o1-Preview with ChatGPT-4 in healthcare applications, highlighting
+    advances in reasoning capabilities and their implications for clinical decision support. The work
+    discusses opportunities and limitations of next-generation generative AI models in medical reasoning
+    contexts.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation: []
+  resources: []
+  citations: 52
+  in_survey: true
+  added: '2025-12-27'
+- id: leveraging-large-language-models-for-2023-2
+  title: Leveraging large language models for data analysis automation
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317084
+  doi: 10.1371/journal.pone.0317084
+  year: 2023
+  venue: PLOS ONE
+  summary: This paper introduces *mergen*, an R-based system that uses LLMs to automate data analysis
+    workflows from natural language descriptions. The framework combines prompt engineering, execution
+    feedback, and workflow automation to enable non-experts to perform complex biological data analyses
+    while exposing current limitations of LLM-generated code.
+  task:
+  - multi-omics
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 39
+  in_survey: true
+  added: '2025-12-27'
+- id: evaluating-the-symbol-binding-ability-2023
+  title: Evaluating the Symbol Binding Ability of Large Language Models for Multiple-Choice Questions
+    in Vietnamese General Education
+  url: https://doi.org/10.1145/3628797.3628837
+  doi: 10.1145/3628797.3628837
+  date: '2023-12-06'
+  year: 2023
+  venue: ACM
+  summary: This work evaluates the symbol binding capabilities of LLMs on Vietnamese multiple-choice questions
+    using a newly constructed LaTeX-based dataset. The study assesses zero-shot to few-shot performance
+    across several models, providing insights into reasoning efficiency and multilingual evaluation under
+    strict output constraints.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 7
+  in_survey: true
+  added: '2025-12-27'
+- id: improving-drug-repositioning-with-negative-2025
+  title: Improving drug repositioning with negative data labeling using large language models
+  url: https://link.springer.com/article/10.1186/s13321-025-00962-0
+  doi: 10.1186/s13321-025-00962-0
+  date: '2025-02-04'
+  year: 2025
+  venue: Journal of Cheminformatics
+  summary: This work proposes an LLM-driven strategy to identify true negative drug candidates from clinical
+    trial data, addressing a key bottleneck in supervised drug repositioning. By using GPT-4 to label
+    failed drugs, the approach significantly improves prediction accuracy and enables large-scale, data-driven
+    drug repurposing.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 12
+  in_survey: true
+  added: '2025-12-27'
+- id: giving-ai-personalities-leads-to-2025
+  title: Giving AI Personalities Leads to More Human-Like Reasoning
+  url: https://arxiv.org/abs/2502.14155
+  doi: 10.48550/arxiv.2502.14155
+  date: '2025-02-19'
+  year: 2025
+  venue: arXiv
+  summary: This paper explores personality-based prompting as a mechanism to capture the diversity of
+    human reasoning in LLMs. By combining psychological personality models with genetic algorithms, the
+    approach enables LLMs to approximate human response distributions across intuitive and deliberative
+    reasoning tasks.
+  task:
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources: []
+  citations: 2
+  in_survey: true
+  added: '2025-12-27'
+- id: chatgpt-for-phenotypes-extraction-2023
+  title: 'ChatGPT for phenotypes extraction: one model to rule them all?'
+  url: https://ieeexplore.ieee.org/abstract/document/10340611/
+  doi: 10.1109/embc40787.2023.10340611
+  date: '2023-07-24'
+  year: 2023
+  venue: IEEE EMBC
+  summary: This study examines whether large language models (LLMs) can capture the full spectrum of human
+    reasoning, including both fast, intuitive System 1 and slow, deliberative System 2 processes. Using
+    a generalized Natural Language Inference task and crowdsourced human response distributions, the authors
+    evaluate LLMs’ ability to reproduce not just majority answers but the full diversity of human judgments.
+    They introduce personality-based prompting inspired by the Big Five model, optimized with genetic
+    algorithms, to elicit diverse reasoning styles from LLMs. Results show that this approach significantly
+    improves alignment with human response distributions, with open-source models outperforming proprietary
+    ones, suggesting that modeling personality and suboptimal reasoning is key to more human-like AI cognition.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 16
+  in_survey: true
+  added: '2025-12-27'
+- id: boosting-gpt-models-for-genomics-2025
+  title: 'Boosting GPT Models for Genomics Analysis: Generating Trusted Genetic Variant Annotations and
+    Interpretations through RAG and fine-tuning'
+  url: https://academic.oup.com/bioinformaticsadvances/article-abstract/5/1/vbaf019/8002096
+  doi: 10.1093/bioadv/vbaf019
+  year: 2025
+  venue: Bioinformatics Advances
+  summary: This study aims to enhance large language model performance in genomics by incorporating large-scale
+    variant annotation data using retrieval-augmented generation (RAG) and fine-tuning. By integrating
+    190 million curated variant annotations from five major datasets into GPT-4o, the system enables accurate,
+    reasoning-supported variant queries and interpretations. Results show that while fine-tuning improves
+    performance in some annotation fields, RAG is more effective overall in terms of scalability, accuracy,
+    and cost-efficiency for injecting factual genomic knowledge. The work demonstrates the potential of
+    LLMs as accessible and efficient tools for variant interpretation and specialized genomics applications.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 14
+  in_survey: true
+  added: '2025-12-27'
+- id: bioinformatics-and-biomedical-informatics-with-2024
+  title: 'Bioinformatics and biomedical informatics with ChatGPT: Year one review'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/qub2.67
+  year: 2024
+  venue: Quantitative Biology
+  summary: This survey reviews the rapid expansion of ChatGPT applications in bioinformatics and biomedical
+    informatics during 2023. It covers a broad range of areas, including omics and genetics, biomedical
+    text mining, drug discovery, image understanding, bioinformatics programming, and education. The authors
+    analyze both the strengths and limitations of ChatGPT in these domains and discuss key challenges.
+    The survey also outlines promising directions for future development of large language models in bioinformatics.
+  task:
+  - exploratory
+  - knowledge-discovery
+  - multi-omics
+  - molecular-drug-design
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources:
+  - knowledge-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: benchmarking-large-language-models-for-2025-2
+  title: Benchmarking Large Language Models for Replication of Guideline-Based PGx Recommendations
+  url: https://www.nature.com/articles/s41397-025-00383-0
+  year: 2025
+  venue: The Pharmacogenomics Journal
+  summary: This study assesses how well large language models can generate clinically accurate pharmacogenomic
+    (PGx) recommendations aligned with CPIC guidelines. Using 599 curated gene–drug–phenotype scenarios
+    and a novel expert-validated semantic metric (LLM Score), the authors show that general-purpose LLMs
+    often produce incomplete or unsafe recommendations. In contrast, a domain-adapted, fine-tuned model
+    achieves substantially better accuracy (LLM Score = 0.92) and faster inference. The results emphasize
+    that fine-tuning and structured prompting are more critical than model scale alone for safe, effective
+    AI-driven personalized medicine.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: change-of-heart-2025
+  title: 'Change of Heart: Can Artificial Intelligence Transform Infective Endocarditis Management?'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12030482/
+  year: 2025
+  venue: Pathogens
+  summary: This review summarizes how artificial intelligence is increasingly applied to the diagnosis
+    and management of infective endocarditis, a clinically complex and high-morbidity disease. Machine
+    learning models and AI-enhanced imaging and microbiological techniques show improved accuracy in diagnosis,
+    risk stratification, pathogen identification, and outcome prediction compared with traditional approaches.
+    Despite these promising results, challenges remain in data availability, interpretability, ethics,
+    and clinical validation. The authors conclude that carefully integrated and validated AI, including
+    generative AI as decision-support tools, could substantially improve patient outcomes and safety in
+    infective endocarditis care.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation: []
+  resources:
+  - knowledge-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: attitudes-toward-use-of-an-2024
+  title: 'Attitudes Toward Use of an APOL1 Genetic Testing Chatbot in Living Kidney Donor Evaluation:
+    A Focus Group Study'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/ctr.70026
+  year: 2024
+  venue: Clinical Transplantation
+  summary: This study explores attitudes toward using the Gia® genetic information chatbot to support
+    APOL1 testing among living kidney donor candidates of African ancestry. Through focus groups and surveys
+    involving donors, recipients, and community members, participants generally supported using the chatbot
+    prior to clinical visits and expressed interest in APOL1 testing, though concerns about cost, personal
+    preferences, and individual barriers emerged. Overall, participants were receptive to integrating
+    the APOL1 chatbot into the donor evaluation workflow. The findings suggest that culturally adapted
+    chatbots can facilitate genetic testing discussions and integration in clinical care.
+  task:
+  - clinical-decision-support
+  architecture: []
+  interaction: []
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: consistent-performance-of-gpt-2025
+  title: Consistent Performance of GPT-4o in Rare Disease Diagnosis Across Nine Languages and 4967 Cases
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11888497/
+  year: 2025
+  venue: medRxiv
+  summary: This study evaluates the ability of GPT-4o to perform differential diagnosis for rare genetic
+    diseases across nine languages using nearly 5,000 structured clinical vignettes derived from HPO-annotated
+    phenotypes. Using zero-shot prompting and ontology-based automated evaluation, the model achieved
+    comparable performance across English and eight non-English languages, ranking the correct diagnosis
+    first in about 17–21% of cases and within the top three in about 25–28%. The consistency of results
+    across languages suggests that language barriers may not substantially degrade LLM-based diagnostic
+    reasoning. Overall, the findings indicate that LLMs like GPT-4o have potential utility for differential
+    diagnosis support in non-English clinical settings.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  in_survey: true
+  added: '2025-12-27'
+- id: rna-2024
+  title: 'RNA-GPT: Multimodal Generative System for RNA Sequence Understanding'
+  url: https://arxiv.org/abs/2411.08900
+  year: 2024
+  venue: arXiv
+  summary: This paper introduces **RNA-GPT**, a multimodal RNA-focused language model designed to support
+    RNA research by integrating RNA sequence encoders with large language models. RNA-GPT aligns RNA sequence
+    representations with textual knowledge, enabling it to process user-provided RNA sequences and answer
+    complex RNA-related queries accurately. The system is trained using RNA-QA, an automated pipeline
+    that extracts and organizes RNA annotations from RNACentral to generate large-scale instruction-tuning
+    data. Experiments show that RNA-GPT effectively facilitates RNA discovery, supported by a curated
+    dataset of over 400,000 RNA samples for modality alignment and instruction tuning.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  in_survey: true
+  added: '2025-12-27'

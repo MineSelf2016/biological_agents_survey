@@ -1,0 +1,75 @@
+name: Add a paper
+description: Suggest a biological AI agent paper for the list
+title: "[Paper] "
+labels: ["new paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link (DOI, journal page or preprint)
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: Nature Methods 2026
+  - type: input
+    id: code
+    attributes:
+      label: Code repository (optional)
+  - type: textarea
+    id: summary
+    attributes:
+      label: Two or three sentences on what the system does
+    validations:
+      required: true
+  - type: checkboxes
+    id: task
+    attributes:
+      label: Biological task
+      options:
+        - label: Clinical decision support
+        - label: Knowledge discovery & hypothesis generation
+        - label: Molecular & drug design
+        - label: Multi-omics analysis
+        - label: Exploratory applications
+  - type: checkboxes
+    id: architecture
+    attributes:
+      label: System architecture
+      options:
+        - label: Single-agent
+        - label: Multi-agent
+        - label: Neuro-symbolic
+  - type: checkboxes
+    id: interaction
+    attributes:
+      label: Interaction mode
+      options:
+        - label: Step-by-step
+        - label: Zero-shot planner
+        - label: Hybrid (human + algorithm)
+  - type: checkboxes
+    id: evaluation
+    attributes:
+      label: Evaluation strategy
+      options:
+        - label: Automated, model-centric
+        - label: Human-in-the-loop
+  - type: checkboxes
+    id: resources
+    attributes:
+      label: Resource integration
+      options:
+        - label: Knowledge-augmented
+        - label: Tool-augmented
+  - type: markdown
+    attributes:
+      value: Not sure about a tag? Leave it blank and the maintainers will fill it in.
