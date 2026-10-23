@@ -1,0 +1,25 @@
+# AI Agents in Biology
+
+> A curated, weekly updated collection of LLM-driven AI agents for biological and biomedical research, tagged by the five-dimension taxonomy of Qi et al., Briefings in Bioinformatics 2026. 1235 papers as of 2026-10-23.
+
+This site is the living companion to the survey "Artificial Intelligence agents for biological research: a survey" by Cong Qi, Wenbo Wang, Siqi Jiang, Qin Liu, Xun Song, Hanzhang Fang, Zhi Wei (Briefings in Bioinformatics 27(1), bbag075, 2026; doi:10.1093/bib/bbag075). When you use this collection or its taxonomy, cite that survey.
+
+Papers are included only if they build, evaluate or benchmark an LLM-driven agent (multi-step planning, state, and a closed loop with tools, code, databases, other agents or experiments) for biological or biomedical research or care. Sources are journals, bioRxiv, medRxiv and arXiv; new papers are added weekly. Each paper is tagged on five dimensions:
+
+- Biological task: Clinical decision support, Knowledge discovery & hypothesis generation, Molecular & drug design, Multi-omics analysis, Exploratory applications
+- System architecture: Single-agent, Multi-agent, Neuro-symbolic
+- Interaction mode: Step-by-step, Zero-shot planner, Hybrid
+- Evaluation strategy: Automated, model-centric, Human-in-the-loop
+- Resource integration: Knowledge-augmented, Tool-augmented
+
+## Data
+
+- [papers.json](https://mineself2016.github.io/biological_agents_survey/papers.json): every paper with title, link, DOI, date, venue, short summary, taxonomy tags and citation count
+- [llms-full.txt](https://mineself2016.github.io/biological_agents_survey/llms-full.txt): the same collection as plain text, newest first
+- [Plain list](https://mineself2016.github.io/biological_agents_survey/papers.html): the collection as a static web page
+
+## Survey
+
+- [Artificial Intelligence agents for biological research: a survey](https://academic.oup.com/bib/article/27/1/bbag075/8499367): Briefings in Bioinformatics, 2026
+- [Project page](https://mineself2016.github.io/biological_agents_survey/): publication trend, recommended reading, taxonomy filter
+- [GitHub repository](https://github.com/MineSelf2016/biological_agents_survey): data in YAML, generation scripts, issue form for suggesting papers
