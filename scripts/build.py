@@ -12,10 +12,13 @@ from pathlib import Path
 
 import yaml
 
+import sitefiles
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 SITE_URL = "https://mineself2016.github.io/biological_agents_survey/"
 PAPER_URL = "https://academic.oup.com/bib/article/27/1/bbag075/8499367"
+REPO_URL = "https://github.com/MineSelf2016/biological_agents_survey"
 DIMENSIONS = ["task", "architecture", "interaction", "evaluation", "resources"]
 LATEST_N = 20
 READING_N = 15
@@ -285,7 +288,8 @@ def main(check_only=False):
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "docs" / "data.js").write_text(
         "window.SURVEY = " + json.dumps(payload, ensure_ascii=False, default=str) + ";\n")
-    print(f"wrote README.md, {len(pages)} year pages, resources.md and docs/data.js: {len(papers)} papers")
+    sitefiles.write(ROOT, taxonomy, papers, today.isoformat(), SITE_URL, PAPER_URL, REPO_URL)
+    print(f"wrote README.md, {len(pages)} year pages, resources.md and docs/: {len(papers)} papers")
 
 
 if __name__ == "__main__":
