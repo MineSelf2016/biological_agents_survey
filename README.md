@@ -1,5 +1,13 @@
 # AI Agents in Biology
 
+<p align="center">
+  <a href="https://mineself2016.github.io/biological_agents_survey/"><img src="images/project_page.png" width="860" alt="Project page: monthly publication trend and recommended reading"></a>
+</p>
+<p align="center">
+  <b><a href="https://mineself2016.github.io/biological_agents_survey/">Open the project page →</a></b><br>
+  <sub>Filter all 1235 papers by the five taxonomy dimensions, follow the monthly trend, and find recommended reading.</sub>
+</p>
+
 [![papers](https://img.shields.io/badge/papers-1235-2a78d6)](#all-papers)
 [![updated](https://img.shields.io/badge/updated-2026--10--23-1baf7a)](#latest-papers)
 [![website](https://img.shields.io/badge/project-page-6250d6)](https://mineself2016.github.io/biological_agents_survey/)

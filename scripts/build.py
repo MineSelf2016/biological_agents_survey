@@ -160,6 +160,14 @@ def build_readme(taxonomy, papers, resources, today):
         f"[{f[7:-3].title()}]({f}) ({len(pages[f])})" for f in sorted(pages, key=lambda f: f if f[7:-3].isdigit() else "", reverse=True))
     parts = [f"""# AI Agents in Biology
 
+<p align="center">
+  <a href="{SITE_URL}"><img src="images/project_page.png" width="860" alt="Project page: monthly publication trend and recommended reading"></a>
+</p>
+<p align="center">
+  <b><a href="{SITE_URL}">Open the project page →</a></b><br>
+  <sub>Filter all {len(papers)} papers by the five taxonomy dimensions, follow the monthly trend, and find recommended reading.</sub>
+</p>
+
 [![papers](https://img.shields.io/badge/papers-{len(papers)}-2a78d6)](#all-papers)
 [![updated](https://img.shields.io/badge/updated-{badge_date}-1baf7a)](#latest-papers)
 [![website](https://img.shields.io/badge/project-page-6250d6)]({SITE_URL})
