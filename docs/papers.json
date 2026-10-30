@@ -2,7 +2,7 @@
  "name": "AI Agents in Biology",
  "description": "A curated, weekly updated collection of LLM-driven AI agents for biological and biomedical research, tagged by the five-dimension taxonomy of Qi et al., Briefings in Bioinformatics 2026.",
  "homepage": "https://mineself2016.github.io/biological_agents_survey/",
- "updated": "2026-10-23",
+ "updated": "2026-10-30",
  "cite": {
   "title": "Artificial Intelligence agents for biological research: a survey",
   "authors": [
@@ -62,8 +62,972 @@
    }
   }
  },
- "count": 1235,
+ "count": 1280,
  "papers": [
+  {
+   "id": "evaluating-large-language-models-versus-2026",
+   "title": "Evaluating large language models versus human therapists in generating interventions for patients with depression in psychodynamic psychotherapy. ",
+   "url": "https://doi.org/10.1037/ccp0001034",
+   "doi": "10.1037/ccp0001034",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "Journal of consulting and clinical psychology",
+   "summary": "The study evaluates a multi-agent LLM framework designed to generate context-sensitive psychotherapy interventions for depression, comparing it against human therapists. The results indicate that while the LLMs can produce various types of therapeutic responses, they struggle with high-quality meaning-making interventions compared to humans.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "using-iterative-agentic-retrieval-2026",
+   "title": "Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study",
+   "url": "https://doi.org/10.64898/2026.10.28.26366693",
+   "doi": "10.64898/2026.10.28.26366693",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "medRxiv",
+   "summary": "The paper presents a conversational framework using iterative retrieval and generation to predict COVID-19 infection risk from social interaction data. The system, integrated with an LSTM model, effectively refines individual infection risk estimates through iterative questioning, demonstrating its potential in optimizing contact tracing.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "smart-2026",
+   "name": "SMART",
+   "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
+   "url": "https://doi.org/10.64898/2026.10.28.762506",
+   "doi": "10.64898/2026.10.28.762506",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "SMART is a multi-agent system that facilitates the transfer of cancer research findings across different types and patient populations by analyzing single-cell RNA sequencing data. It demonstrated its utility in identifying prognostic signatures that are relevant across multiple cancers, suggesting potential for extending biological insights beyond their original context.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "an-agentic-ai-system-enhances-2026-2",
+   "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study. ",
+   "url": "https://doi.org/10.1038/s43018-026-01264-6",
+   "doi": "10.1038/s43018-026-01264-6",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "Nature cancer",
+   "summary": "The paper presents an agentic AI system designed to detect immune-related adverse events (irAEs) from clinical notes, demonstrating high accuracy and efficiency in both retrospective and prospective evaluations. The system significantly reduced annotation time for clinicians while improving the consistency and reliability of irAE detection.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "pharmaagent-2026",
+   "name": "PharmaAgent",
+   "title": "PharmaAgent: a real-world evaluation of high- and low-autonomy agentic systems for inpatient vancomycin dosing",
+   "url": "https://doi.org/10.64898/2026.10.23.26365968",
+   "doi": "10.64898/2026.10.23.26365968",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "medRxiv",
+   "summary": "PharmaAgent is an LLM-based system designed to assist in the dosing of vancomycin for patients, evaluating both high- and low-autonomy configurations. The study demonstrated that a higher autonomy configuration resulted in more accurate dosing recommendations compared to lower autonomy settings, though pharmacist oversight remains essential.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step",
+    "hybrid"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "ai-agent-framework-2026",
+   "name": "AI agent framework",
+   "title": "Lineage-mixed neurodevelopmental programs in pediatric sarcomas nominate tumor-selective surface antigen pairs",
+   "url": "https://doi.org/10.64898/2026.10.28.762504",
+   "doi": "10.64898/2026.10.28.762504",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "The AI agent framework uses large language models to interpret single-cell RNA-seq data from pediatric solid tumors, identifying unique gene expression patterns and potential therapeutic targets. It successfully nominated STEAP1/NPTXR as a candidate target pair for Ewing sarcoma, demonstrating the utility of this approach in discovering new treatment strategies.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "clingex-2026",
+   "name": "ClinGeX",
+   "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+   "url": "https://arxiv.org/abs/2610.40556",
+   "doi": "10.48550/arxiv.2610.40556",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "ClinGeX is a large-language-model agent designed to assist in clinical genomic analysis by integrating expert guidelines, databases, and computational evidence through curated executable skills. The system demonstrated significant improvements in task-level concordance with experts and reduced interpretation time compared to existing methods, as validated through human-AI collaboration studies.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "cedar-2026",
+   "name": "CEDAR",
+   "title": "Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records",
+   "url": "https://arxiv.org/abs/2610.40379",
+   "doi": "10.48550/arxiv.2610.40379",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "CEDAR is a large language model pipeline designed for clinical risk prediction in pediatric diabetes, using multimodal medical records. It outperformed traditional machine learning methods and showed high agreement with expert predictions when its reasoning was reviewed.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ]
+  },
+  {
+   "id": "epidemia-2026",
+   "name": "EpidemIA",
+   "title": "Can AI Agents Interface Clinicians and Complex Models?",
+   "url": "https://arxiv.org/abs/2610.39681",
+   "doi": "10.48550/arxiv.2610.39681",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "EpidemIA is an AI multi-agent system that enables clinicians and hospital administrators to perform statistical analyses and epidemiological predictions using natural language queries. The system demonstrates the potential of large language model-based technologies in facilitating the use of complex dynamical models by non-expert users.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "molrsi-2026",
+   "name": "MoLRSI",
+   "title": "MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
+   "url": "https://arxiv.org/abs/2610.39714",
+   "doi": "10.48550/arxiv.2610.39714",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "MoLRSI is an AI agent designed to optimize molecular discovery workflows by recursively improving its search policies based on performance and feedback. It demonstrated superior experimental hit rates in antibiotic discovery and successfully developed peptide-MHC binders with high specificity, outperforming a human expert-led approach.",
+   "task": [
+    "molecular-drug-design",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "claude-opus-55-2026",
+   "name": "Claude Opus 5.5",
+   "title": "The Generalist Strikes Back:\\\\A General LLM Agent Outperforms Specialist Bioinformatics Agents on Free-Form, End-to-End Benchmark Analysis",
+   "url": "https://doi.org/10.21203/rs.3.rs-11485353/v1",
+   "doi": "10.21203/rs.3.rs-11485353/v1",
+   "date": "2026-10-28",
+   "year": 2026,
+   "venue": "Research Square",
+   "summary": "Claude Opus 5.5, a general-purpose large language model, outperformed specialized bioinformatics agents on the PromptBio-Bench tasks without needing additional bioinformatics skills or multi-agent scaffolding. The study highlights that benchmark reliability is now a more significant factor in evaluating AI performance than agent capability.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "reliability-gateway-2026",
+   "name": "Reliability Gateway",
+   "title": "A Step-Level Reliability Gateway for Agentic Clinical Decision Support: Architecture and Edge Deployment",
+   "url": "https://doi.org/10.20944/preprints202610.2846.v1",
+   "doi": "10.20944/preprints202610.2846.v1",
+   "date": "2026-10-28",
+   "year": 2026,
+   "venue": "Preprints.org",
+   "summary": "The paper introduces a reliability gateway that evaluates each action proposed by a clinical decision support agent before execution, ensuring safety and accuracy. The system was tested on emergency department and intensive care datasets, demonstrating its effectiveness in stopping faulty trajectories while minimizing false interventions.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "asking-the-data-2026",
+   "title": "Asking the Data: Conversational Interrogation of LC–MS/MS Proteomics Data Sets with an LLM Agent",
+   "url": "https://doi.org/10.64898/2026.10.22.760949",
+   "doi": "10.64898/2026.10.22.760949",
+   "date": "2026-10-27",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "The paper presents a conversational framework using an LLM agent to interrogate LC-MS/MS proteomics data sets, enabling researchers to investigate emerging questions through executable tests and controls. The system revealed issues in multiple studies that altered their interpretations, demonstrating its utility in uncovering analytical problems not anticipated by initial workflows.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "evaluating-and-improving-ai-agents-2026",
+   "title": "Evaluating and improving AI agents for sequencing protocol understanding",
+   "url": "https://arxiv.org/abs/2610.37851",
+   "doi": "10.48550/arxiv.2610.37851",
+   "date": "2026-10-27",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "LibStructBench evaluates AI agents' ability to accurately reconstruct sequencing-library structures and molecular workflows from protocols, revealing that while agents can produce approximate reconstructions, they struggle with exact details. The study also indicates that the choice of language model significantly impacts performance more than the agent harness itself.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ]
+  },
+  {
+   "id": "m4bench-2026",
+   "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+   "url": "https://arxiv.org/abs/2610.37459",
+   "doi": "10.48550/arxiv.2610.37459",
+   "date": "2026-10-27",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "M4Bench evaluates AI agents' ability to derive clinical variables from electronic health records using procedural specifications. The study shows that while skills improve agent performance, the primary driver of this improvement is specification completeness rather than the skill format or schema familiarity.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "opengray-2026",
+   "name": "OpenGray",
+   "title": "OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents",
+   "url": "https://arxiv.org/abs/2610.37081",
+   "doi": "10.48550/arxiv.2610.37081",
+   "date": "2026-10-27",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "OpenGray is a benchmark designed to evaluate the decision-making capabilities of radiotherapy planning agents, focusing on their ability to recognize and handle contradictions in treatment plans. The study highlights that while these agents can achieve high overall accuracy, they often fail to identify specific issues requiring human intervention.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop",
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "deepmast-2026",
+   "name": "DeepMAST",
+   "title": "An evidence-governed agent harness for spatial transcriptomics prioritizes ICAM-1 as a target in lung fibrosis",
+   "url": "https://doi.org/10.64898/2026.10.22.760550",
+   "doi": "10.64898/2026.10.22.760550",
+   "date": "2026-10-26",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "DeepMAST is an AI system that integrates spatial transcriptomics analysis tools with large language models to prioritize therapeutic targets, ensuring evidence-based and traceable outputs. In a study on idiopathic pulmonary fibrosis, DeepMAST identified ICAM-1 as a promising target through spatial analysis and external validation, demonstrating the system's capability in scalable biological interpretation.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "autonomous-structural-discovery-of-bioprocess-2026",
+   "title": "Autonomous Structural Discovery Of Bioprocess Dynamics And Kinetics Via LLM-Driven Agents",
+   "url": "https://arxiv.org/abs/2610.35391",
+   "doi": "10.48550/arxiv.2610.35391",
+   "date": "2026-10-26",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper presents a novel autonomous system that uses large language models to discover kinetic parameters in bioprocesses, employing a hybrid closed-loop architecture. The system successfully expanded the state space and recovered ground-truth parameters with high accuracy for complex biological rate laws without prior knowledge.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "ontology-2026",
+   "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+   "url": "https://arxiv.org/abs/2610.36325",
+   "doi": "10.48550/arxiv.2610.36325",
+   "date": "2026-10-26",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The system uses an ontology-guided, multi-agent framework to assist in differential diagnosis by grounding diagnostic inference in a structured medical knowledge base. It improves the reliability and explainability of AI-assisted clinical decision-making through iterative reasoning steps that reduce uncertainty.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "cohortflow-2026",
+   "name": "CohortFlow",
+   "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+   "url": "https://arxiv.org/abs/2610.36100",
+   "doi": "10.48550/arxiv.2610.36100",
+   "date": "2026-10-26",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "CohortFlow is a steerable clinical cohort curation agent that uses localized semantic correction to update eligibility criteria efficiently. It demonstrates reduced computational latency and fewer model calls while maintaining high accuracy in requirement-level tasks.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "clinverse-2026",
+   "name": "ClinVerse",
+   "title": "ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents",
+   "url": "https://arxiv.org/abs/2610.34878",
+   "doi": "10.48550/arxiv.2610.34878",
+   "date": "2026-10-26",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "ClinVerse is a multi-agent environment designed for training and evaluating medical diagnostic agents using real-world patient data. It demonstrates that various self-evolution methods can improve the diagnostic capabilities of these agents within the ClinVerse framework.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "calimem-2026",
+   "name": "CaliMem",
+   "title": "CaliMem: Search-Efficient Data Agent via Calibrated Memory",
+   "url": "https://arxiv.org/abs/2610.34500",
+   "doi": "10.48550/arxiv.2610.34500",
+   "date": "2026-10-25",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "CaliMem is an agentic system designed to optimize data curation policies for machine learning models in biological domains, improving model performance through test-time curation. It introduces a calibrated-memory mechanism that enhances the agent's ability to generalize and refine its strategies over time, leading to superior performance compared to fixed baselines.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "an-agentic-ai-workflow-for-2026",
+   "title": "An Agentic AI Workflow for Liver Lesion Segmentation and Structured Radiology Reporting",
+   "url": "https://arxiv.org/abs/2610.34599",
+   "doi": "10.48550/arxiv.2610.34599",
+   "date": "2026-10-25",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The system uses an agentic AI workflow to segment liver lesions and generate structured radiology reports, bridging the gap between image-derived predictions and clinical interpretability. It demonstrated high accuracy in liver segmentation and lesion detection on a dataset of 51 cases, showcasing its potential for enhancing clinical decision support.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "agentk-2026",
+   "name": "Agent_K",
+   "title": "Agent_K: An Agent-Orchestrated Pipeline for Mapping Genes to Biosynthetic Pathway towards Metabolite Discovery",
+   "url": "https://doi.org/10.64898/2026.10.19.760272",
+   "doi": "10.64898/2026.10.19.760272",
+   "date": "2026-10-24",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "Agent_K is an agent-orchestrated framework that automates the process of mapping genes to biosynthetic pathways for metabolite discovery, integrating genomic sequences with functional annotations and pathway reconstructions. The system showed promise in facilitating high-throughput analysis and interactive exploration of bacterial secondary metabolism pathways.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "protagent-2026",
+   "name": "ProtAgent",
+   "title": "ProtAgent: Post-Training Compact Protein Tool Agents with Interaction-Level Credit Assignment",
+   "url": "https://arxiv.org/abs/2610.33746",
+   "doi": "10.48550/arxiv.2610.33746",
+   "date": "2026-10-24",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "ProtAgent is a compact protein annotation system that uses post-training with real bioinformatics tools to learn interaction behaviors, demonstrating higher success rates than larger models in a fixed closed-loop protocol. It shows the potential of smaller models to achieve comparable performance through effective training and reward assignment strategies.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "auditing-evaluation-artifacts-and-data-2026",
+   "title": "Auditing evaluation artifacts and data leakage in large language model systems for rare disease diagnosis",
+   "url": "https://arxiv.org/abs/2610.33592",
+   "doi": "10.48550/arxiv.2610.33592",
+   "date": "2026-10-24",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The study audits the evaluation artifacts and data leakage in large language model systems used for rare disease diagnosis, revealing inflated performance metrics due to contamination of candidate space. It proposes a rigorous evaluation framework to ensure future diagnostic AI models are clinically robust.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "evaluation": [
+    "human-in-the-loop",
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "retfoundoctreport-2026",
+   "name": "RETFound-OCT-Report",
+   "title": "An Agentic AI Workflow for Automated Macular Hole Diagnosis and Structured Report Generation",
+   "url": "https://doi.org/10.1007/s40123-026-01523-w",
+   "doi": "10.1007/s40123-026-01523-w",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "Ophthalmology and therapy",
+   "summary": "RETFound-OCT-Report is an AI workflow that uses a self-supervised retinal foundation model for diagnosing macular holes from OCT images and generates structured patient-friendly reports using GPT-4. The system demonstrated high accuracy and robust performance in both internal testing and external validation, showing the potential of agentic workflows in clinical decision support.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent",
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "metric-alignment-for-hit-2026",
+   "title": "Metric Alignment for Hit-to-Lead Molecular Optimization with an Iterative Large Language Model Agent",
+   "url": "https://doi.org/10.20944/preprints202610.2343.v1",
+   "doi": "10.20944/preprints202610.2343.v1",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "Preprints.org",
+   "summary": "The paper introduces an iterative large language model agent designed for hit-to-lead molecular optimization in drug discovery, which integrates various computational tools and literature data to balance multiple properties of potential drugs. The study demonstrates the agent's effectiveness by achieving superior performance compared to other methods across different targets, highlighting its utility in guiding subsequent biochemical and cellular characterization.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "what-transfers-across-protein-pockets-2026",
+   "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+   "url": "https://arxiv.org/abs/2610.32620",
+   "doi": "10.48550/arxiv.2610.32620",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper explores the use of an experience base in molecular optimization for drug design, where a language model agent iteratively edits ligands within protein pockets. It finds that while certain descriptors can help separate effective from ineffective edits, the transferability of this knowledge is limited and more useful for prioritizing the agent's own proposals rather than directly prescribing specific actions.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "benchbenchcloning-2026",
+   "name": "BenchBench-Cloning",
+   "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
+   "url": "https://arxiv.org/abs/2610.33355",
+   "doi": "10.48550/arxiv.2610.33355",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "BenchBench-Cloning is a benchmark designed to evaluate large language models' ability to plan and execute molecular cloning experiments, which involves designing constructs and developing protocols. The system assesses the integration of individual cloning steps into coherent experimental plans, highlighting challenges even for advanced AI models.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "dmaicbench-2026",
+   "name": "DMAIC-Bench",
+   "title": "DMAIC-Bench: From Self-Reflection to Self-Restraint for Agents in Multi-Stage Analytical Tasks",
+   "url": "https://arxiv.org/abs/2610.32305",
+   "doi": "10.48550/arxiv.2610.32305",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "DMAIC-Bench is a benchmark designed to evaluate the self-restraint capability of large language model agents in multi-stage analytical tasks, focusing on their ability to use intermediate evidence to decide whether to continue, redirect or stop. The system assesses execution traces and final claims through expert review, showing that many models struggle with making correct decisions based on invalid evidence.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "marca-2026",
+   "name": "MARCA",
+   "title": "Multi-Agent Retrieval-Augmented Causality Assessment (MARCA) of Individual Case Safety Reports in Pharmacovigilance",
+   "url": "https://arxiv.org/abs/2610.33279",
+   "doi": "10.48550/arxiv.2610.33279",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "MARCA is a multi-agent framework that uses retrieval-augmented agents to assist in the Naranjo-based causality assessment of individual case safety reports in pharmacovigilance. The system showed substantial agreement with human experts, particularly for certain questions and when using retrieval-augmented generation (RAG) labels.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "corpsdial-2026",
+   "name": "CoRPS-Dial",
+   "title": "Decoupling Patient Personas and Clinical Workflows: A Dual-Agent Approach to Realistic Medical Dialogue Generation",
+   "url": "https://arxiv.org/abs/2610.32443",
+   "doi": "10.48550/arxiv.2610.32443",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "CoRPS-Dial is a dual-agent framework that generates realistic pre-consultation medical dialogues by integrating patient personas with clinical workflow rules. The system demonstrates improved alignment between synthetic and real dialogues in terms of information coverage, clinical compliance, and dialogue naturalness.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "medcaseagent-2026",
+   "name": "MedCaseAgent",
+   "title": "MedCaseAgent: From Multimodal Clinical Evidence to Rare Disease Case Reports",
+   "url": "https://arxiv.org/abs/2610.32258",
+   "doi": "10.48550/arxiv.2610.32258",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "MedCaseAgent is an AI system designed to generate high-quality, evidence-based case reports for rare diseases from unstructured clinical data. It demonstrates superior performance in maintaining clinical fidelity and assessing case novelty compared to existing models through both automated evaluations and expert reviews.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "llens-2026",
+   "name": "LLENS",
+   "title": "The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study",
+   "url": "https://arxiv.org/abs/2610.32151",
+   "doi": "10.48550/arxiv.2610.32151",
+   "date": "2026-10-23",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The LLENS platform is designed to support clinical decision-making within a closed hospital network, using the Kimi K2.6 large language model and various document retrieval tools. The system demonstrated significant improvements in accuracy when interactive access to documents was allowed compared to fixed retrieval methods.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
   {
    "id": "real-pmids-wrong-papers-2026",
    "title": "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents",
@@ -112,6 +1076,117 @@
    ],
    "evaluation": [
     "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "agentic-automation-of-bt-2026-2",
+   "title": "Agentic Automation of BT-RADS Scoring Using an End-to-End System for Standardized Glioma Follow-up Assessment",
+   "url": "https://doi.org/10.1148/ryai.260234",
+   "doi": "10.1148/ryai.260234",
+   "date": "2026-10-21",
+   "year": 2026,
+   "venue": "Radiology. Artificial intelligence",
+   "summary": "The system automates BT-RADS scoring for glioma follow-up assessments using a multiagent architecture that includes an extractor agent and a scorer agent. It demonstrated higher accuracy compared to initial assessments, with high sensitivity in context-dependent categories and moderate sensitivity in threshold-dependent ones.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "locally-deployed-ai-agents-for-2026",
+   "title": "Locally deployed AI agents for CRISPR guide discovery from outbreak reports",
+   "url": "https://doi.org/10.64898/2026.10.20.760479",
+   "doi": "10.64898/2026.10.20.760479",
+   "date": "2026-10-21",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "The CRISPR guide discovery agent translates outbreak reports into computational workflows for diagnostic development, coordinating literature review and specialized analysis. The study demonstrates the feasibility of using locally deployed AI agents with structured bioinformatics pipelines to efficiently discover CRISPR guides.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "ai-mindmeld-2026",
+   "title": "AI Mindmeld: A Latent Interconnect Protocol",
+   "url": "https://arxiv.org/abs/2610.30215",
+   "doi": "10.48550/arxiv.2610.30215",
+   "date": "2026-10-21",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The Latent Interconnect Protocol (LIP) enables large language models to directly exchange information with scientific specialists, enhancing their ability to perform complex tasks without joint training. The system demonstrates improved performance and compositional reasoning across various domains, highlighting the potential for expanding AI agents' capabilities in biomedicine.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "multi-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "sim-2026",
+   "title": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+   "url": "https://arxiv.org/abs/2610.30412",
+   "doi": "10.48550/arxiv.2610.30412",
+   "date": "2026-10-21",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "SIM-UT is a framework for evaluating medical triage chatbots using multi-turn simulations that mimic real user behavior, including confusion and emotional vulnerability. The study revealed a critical failure mode where the agents de-escalate medical emergencies when users downplay symptoms.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
    ],
    "resources": [
     "knowledge-augmented",
@@ -743,6 +1818,31 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "claude-2026",
+   "name": "Claude",
+   "title": "AI-Assisted Molecular Review Refines SMO Inhibitor Candidacy in SHH Medulloblastoma",
+   "url": "https://doi.org/10.1056/aics2600997",
+   "doi": "10.1056/aics2600997",
+   "date": "2026-10-16",
+   "year": 2026,
+   "venue": "NEJM AI",
+   "summary": "The paper describes the use of Claude, a large language model configured with neuro-oncology instructions, to integrate various molecular and clinical data for a patient with SHH-activated medulloblastoma. The system helped resolve conflicting diagnostic results and informed the decision against using SMO inhibitors, leading to successful close surveillance without recurrence.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
    ],
    "citations": 0
   },
@@ -1496,6 +2596,34 @@
    "citations": 0
   },
   {
+   "id": "physiocircuit-2026",
+   "name": "PhysioCircuit",
+   "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
+   "url": "https://arxiv.org/abs/2610.33022",
+   "doi": "10.48550/arxiv.2610.33022",
+   "date": "2026-10-09",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "PhysioCircuit is a multi-agent system that models each organ as an agent and physiological relations as editable mechanism cards, enabling controlled interventions for longitudinal patient forecasting. The system demonstrates superior performance in predicting the effects of interventions compared to random or reversed graph topologies, supported by independent clinician adjudication.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
    "id": "kgrmas-2026",
    "name": "KGR-MAS",
    "title": "KGR-MAS: Knowledge Graph-Enhanced Multi-Agent LLM Framework for Evidence-Based Medical Diagnosis and Clinical Decision Support",
@@ -1716,6 +2844,35 @@
    "citations": 0
   },
   {
+   "id": "radagent-2026-2",
+   "name": "RADAgent",
+   "title": "RADAgent: Automating RADseq Pipelines with Private Open-Source LLMs",
+   "url": "https://arxiv.org/abs/2610.33009",
+   "doi": "10.48550/arxiv.2610.33009",
+   "date": "2026-10-07",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "RADAgent automates RADseq pipelines, a method for reduced-representation sequencing in genomics, by breaking down the workflow into 16 agent modules that execute and verify steps independently. The system was evaluated on real population-genomics data, demonstrating reliable automation of the complete RADseq process.",
+   "task": [
+    "multi-omics"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
    "id": "omics-data-discovery-agents-2026",
    "title": "Omics data discovery agents: Agent-supported retrieval, reanalysis, and synthesis of published omics data",
    "url": "https://doi.org/10.1371/journal.pcbi.1014822",
@@ -1828,6 +2985,34 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "targetagent-2026",
+   "name": "TargetAgent",
+   "title": "TargetAgent: Mathematical AI Co-Scientist for Drug Target Identification",
+   "url": "https://arxiv.org/abs/2610.33003",
+   "doi": "10.48550/arxiv.2610.33003",
+   "date": "2026-10-06",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "TargetAgent is an AI framework that uses mathematical models and large language model (LLM) agents to analyze spatial transcriptomics data for drug target identification. It demonstrated its capability by identifying novel therapeutic targets in Alzheimer's disease, including previously unreported genes, through the analysis of a public Stereo-seq study.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
    ],
    "citations": 0
   },
@@ -2101,6 +3286,34 @@
    "architecture": [
     "multi-agent",
     "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "causalodyssey-2026",
+   "name": "CausalOdyssey",
+   "title": "CausalOdyssey: Multi-Agent Local LLM Reasoning with Per-Patient Causal Structure for Rare Disease Retrieval",
+   "url": "https://arxiv.org/abs/2610.32995",
+   "doi": "10.48550/arxiv.2610.32995",
+   "date": "2026-10-04",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "CausalOdyssey is a multi-agent system designed to assist in the diagnosis of rare diseases by reranking candidate diagnoses based on causal structure and patient-specific data. The system demonstrates improved diagnostic accuracy, particularly for metabolic cases, but its effectiveness varies depending on the type of clinical corpus used.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent"
    ],
    "interaction": [
     "step-by-step"
@@ -2745,6 +3958,35 @@
    "citations": 0
   },
   {
+   "id": "tiagent-2026",
+   "name": "TIAgent",
+   "title": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology",
+   "url": "https://arxiv.org/abs/2610.32993",
+   "doi": "10.48550/arxiv.2610.32993",
+   "date": "2026-09-30",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "TIAgent is a computational pathology framework that translates natural language prompts into verifiable computational workflows, enabling complex analyses without extensive programming knowledge. The system was evaluated across various large language models for its ability to generate accurate and complete unit workflows, demonstrating significant variability in performance among different LLMs.",
+   "task": [
+    "knowledge-discovery",
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
    "id": "design-and-implementation-of-an-2026",
    "title": "Design and implementation of an intelligent ICD coding system using large language model",
    "url": "https://doi.org/10.21203/rs.3.rs-10911760/v1",
@@ -3353,7 +4595,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "basecamp-2026",
@@ -3529,7 +4771,8 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "llemy-2026",
@@ -4479,7 +5722,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "from-clinical-free-text-to-2026",
@@ -6242,7 +7485,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 36
+   "citations": 39
   },
   {
    "id": "agvf-2026",
@@ -7163,7 +8406,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "mtsbench-2026",
@@ -7628,7 +8871,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "cmind-2026",
@@ -8530,7 +9773,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "autonomous-radiotherapy-planning-via-agentic-2026",
@@ -8913,7 +10156,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "sageagent-2026",
@@ -8996,7 +10239,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "ensemble-qsp-2026",
@@ -9477,7 +10720,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "nova-2026",
@@ -10535,7 +11778,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 30
+   "citations": 31
   },
   {
    "id": "amie-2026",
@@ -10562,7 +11805,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 13
+   "citations": 14
   },
   {
    "id": "medagent-2026",
@@ -10922,7 +12165,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "intelligent-tool-orchestration-for-rapid-2026",
@@ -14728,7 +15971,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 7
   },
   {
    "id": "aero-2026",
@@ -14974,7 +16217,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 14
+   "citations": 17
   },
   {
    "id": "nsmas-2026",
@@ -15582,7 +16825,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "protocycle-2026",
@@ -16845,7 +18088,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "emergent-misinformation-genesis-in-multi-2026",
@@ -17007,7 +18250,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 24
+   "citations": 25
   },
   {
    "id": "biomedagent-2026",
@@ -17894,7 +19137,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 31
+   "citations": 32
   },
   {
    "id": "convict-2026",
@@ -18842,7 +20085,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 6
   },
   {
    "id": "chatclids-2026",
@@ -19150,7 +20393,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "care-plan-generation-for-underserved-2026",
@@ -19446,7 +20689,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 60
+   "citations": 62
   },
   {
    "id": "openmanus-and-manus-2026",
@@ -19475,7 +20718,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 20
+   "citations": 22
   },
   {
    "id": "das-2026",
@@ -19562,7 +20805,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "closing-the-loop-2026",
@@ -20996,7 +22239,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "sage-2026-2",
@@ -21482,7 +22725,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 15
+   "citations": 17
   },
   {
    "id": "clinagent-2026-2",
@@ -21846,7 +23089,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 9
   },
   {
    "id": "can-ai-conduct-autonomous-scientific-2026",
@@ -22090,7 +23333,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "llm-agent-based-protein-function-2026",
@@ -22145,7 +23388,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 10
   },
   {
    "id": "medhopper-2026",
@@ -22202,7 +23445,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "mamamemeia-2025",
@@ -22450,7 +23693,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 43
+   "citations": 44
   },
   {
    "id": "moremi-bio-agent-2025-2",
@@ -22531,7 +23774,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 19
+   "citations": 20
   },
   {
    "id": "clinikiosk-2025",
@@ -22584,7 +23827,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 10
+   "citations": 11
   },
   {
    "id": "ai-2025-2",
@@ -22885,7 +24128,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 12
+   "citations": 13
   },
   {
    "id": "sigspace-2025",
@@ -23611,7 +24854,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "openbiollm-2025",
@@ -23832,7 +25075,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 6
   },
   {
    "id": "enhancing-large-language-models-with-2025",
@@ -23995,7 +25238,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "can-lightweight-llm-agents-improve-2025",
@@ -24506,7 +25749,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 22
+   "citations": 23
   },
   {
    "id": "ebmchat-2025",
@@ -24811,7 +26054,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 8
+   "citations": 9
   },
   {
    "id": "openpfx-2025",
@@ -24864,7 +26107,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 11
   },
   {
    "id": "zero-2025",
@@ -25116,7 +26359,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 13
+   "citations": 14
   },
   {
    "id": "deepevolve-2025",
@@ -26356,7 +27599,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 40
+   "citations": 42
   },
   {
    "id": "cancerguide-2025",
@@ -26414,7 +27657,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 10
+   "citations": 11
   },
   {
    "id": "paper2agent-2025",
@@ -26558,7 +27801,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 10
   },
   {
    "id": "towards-agents-that-know-when-2025",
@@ -27013,7 +28256,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 41
+   "citations": 44
   },
   {
    "id": "medresearcherr1-2025",
@@ -27071,7 +28314,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 5
   },
   {
    "id": "llm-2025-3",
@@ -27827,7 +29070,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 162
+   "citations": 167
   },
   {
    "id": "geneagent-2025",
@@ -28021,7 +29264,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "agentmri-2025",
@@ -28575,7 +29818,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 49
+   "citations": 52
   },
   {
    "id": "stella-2025",
@@ -29087,7 +30330,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "exploring-the-potential-of-ai-2025",
@@ -29351,7 +30594,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 169
+   "citations": 173
   },
   {
    "id": "chatmyopia-2025-2",
@@ -29818,7 +31061,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 24
+   "citations": 25
   },
   {
    "id": "genebreaker-2025",
@@ -30410,7 +31653,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 14
+   "citations": 15
   },
   {
    "id": "assessing-large-language-model-performance-2025",
@@ -30795,7 +32038,8 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "spatialagent-2025",
@@ -30825,7 +32069,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 49,
+   "citations": 50,
    "in_survey": true
   },
   {
@@ -31416,7 +32660,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "talk2biomodels-2025",
@@ -31681,7 +32925,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 153
+   "citations": 158
   },
   {
    "id": "meddxagent-2025",
@@ -31782,7 +33026,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 22
+   "citations": 23
   },
   {
    "id": "cladd-2025",
@@ -32291,7 +33535,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 24
+   "citations": 25
   },
   {
    "id": "grappi-2025",
@@ -32333,7 +33577,7 @@
     "exploratory",
     "clinical-decision-support"
    ],
-   "citations": 89,
+   "citations": 94,
    "in_survey": true
   },
   {
@@ -32483,7 +33727,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 195
+   "citations": 201
   },
   {
    "id": "assessing-the-performance-of-generative-2025",
@@ -33232,7 +34476,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 175,
+   "citations": 176,
    "in_survey": true
   },
   {
@@ -33271,7 +34515,7 @@
    "task": [
     "clinical-decision-support"
    ],
-   "citations": 26,
+   "citations": 28,
    "in_survey": true
   },
   {
@@ -33411,7 +34655,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 1034,
+   "citations": 1050,
    "in_survey": true
   },
   {
@@ -33460,7 +34704,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 69,
+   "citations": 70,
    "in_survey": true
   },
   {
@@ -33499,7 +34743,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 302,
+   "citations": 306,
    "in_survey": true
   },
   {
