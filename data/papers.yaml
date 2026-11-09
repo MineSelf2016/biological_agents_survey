@@ -19,7 +19,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 306
+  citations: 326
   in_survey: true
   added: '2025-12-27'
 - id: sensitivecancergpt-2025
@@ -97,7 +97,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 10
+  citations: 11
   in_survey: true
   added: '2025-12-27'
 - id: chatbot-for-the-return-of-2025
@@ -123,7 +123,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 14
+  citations: 17
   in_survey: true
   added: '2025-12-27'
 - id: evaluating-the-use-of-generative-2025
@@ -148,7 +148,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 12
+  citations: 16
   in_survey: true
   added: '2025-12-27'
 - id: innovations-in-medicine-2024
@@ -169,7 +169,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 27
+  citations: 31
   in_survey: true
   added: '2025-12-27'
 - id: importance-of-prior-patient-interactions-2025
@@ -193,7 +193,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 5
+  citations: 7
   in_survey: true
   added: '2025-12-27'
 - id: improving-automated-deep-phenotyping-through-2025
@@ -223,7 +223,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 32
+  citations: 46
   in_survey: true
   added: '2025-12-27'
 - id: genegpt-2024
@@ -250,7 +250,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 176
+  citations: 214
   in_survey: true
   added: '2025-12-27'
 - id: assessing-the-utility-of-large-2024
@@ -301,7 +301,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 38
+  citations: 40
   in_survey: true
   added: '2025-12-27'
 - id: biomni-2025
@@ -360,7 +360,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 3
+  citations: 5
   in_survey: true
   added: '2025-12-27'
 - id: sleepbert-2025
@@ -384,7 +384,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   in_survey: true
   added: '2025-12-27'
 - id: approximating-facial-expression-effects-on-2024
@@ -408,7 +408,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 12
+  citations: 13
   in_survey: true
   added: '2025-12-27'
 - id: can-large-language-models-democratize-2023
@@ -436,7 +436,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 26
+  citations: 100
   in_survey: true
   added: '2025-12-27'
 - id: artificial-intelligence-in-clinical-genetics-2025
@@ -457,7 +457,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 52
+  citations: 60
   in_survey: true
   added: '2025-12-27'
 - id: advancing-healthcare-2024
@@ -479,7 +479,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 28
+  citations: 31
   in_survey: true
   added: '2025-12-27'
 - id: intuitive-human-2025
@@ -503,7 +503,7 @@
   - hybrid
   evaluation: []
   resources: []
-  citations: 3
+  citations: 4
   in_survey: true
   added: '2025-12-27'
 - id: assessing-the-performance-of-generative-2025
@@ -527,7 +527,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 16
+  citations: 15
   in_survey: true
   added: '2025-12-27'
 - id: characterization-and-automated-classification-of-2025
@@ -599,7 +599,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 22
+  citations: 23
   in_survey: true
   added: '2025-12-27'
 - id: leveraging-generative-ai-to-assist-2025
@@ -630,7 +630,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 5
+  citations: 10
   in_survey: true
   added: '2025-12-27'
 - id: favor-2024
@@ -680,7 +680,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 4
+  citations: 20
   in_survey: true
   added: '2025-12-27'
 - id: spatialagent-2025
@@ -709,7 +709,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 50
+  citations: 60
   in_survey: true
   added: '2025-12-27'
 - id: pcmr-2025
@@ -758,7 +758,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 1
+  citations: 2
   in_survey: true
   added: '2025-12-27'
 - id: crispr-2025
@@ -787,7 +787,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 146
+  citations: 247
   in_survey: true
   added: '2025-12-27'
 - id: mragent-2025
@@ -816,7 +816,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 20
+  citations: 24
   in_survey: true
   added: '2025-12-27'
 - id: evaluating-gpt-and-bert-models-2024
@@ -840,7 +840,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 34
+  citations: 72
   in_survey: true
   added: '2025-12-27'
 - id: ai-2025
@@ -891,7 +891,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 116
+  citations: 135
   in_survey: true
   added: '2025-12-27'
 - id: autopm3-2025
@@ -922,7 +922,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 8
+  citations: 10
   in_survey: true
   added: '2025-12-27'
 - id: generative-design-of-functional-metal-2024
@@ -977,7 +977,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 14
+  citations: 17
   in_survey: true
   added: '2025-12-27'
 - id: conversational-ai-agent-for-precision-2025
@@ -1004,7 +1004,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 12
+  citations: 14
   in_survey: true
   added: '2025-12-27'
 - id: biodiscoveryagent-2024
@@ -1031,7 +1031,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 16
+  citations: 71
   in_survey: true
   added: '2025-12-27'
 - id: exploring-new-drug-treatment-targets-2025
@@ -1106,7 +1106,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 40
+  citations: 43
   in_survey: true
   added: '2025-12-27'
 - id: generative-methods-for-pediatric-genetics-2023
@@ -1155,7 +1155,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 6
+  citations: 10
   in_survey: true
   added: '2025-12-27'
 - id: phenormgpt-2024
@@ -1208,7 +1208,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 14
+  citations: 18
   in_survey: true
   added: '2025-12-27'
 - id: seqmate-2024
@@ -1234,7 +1234,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 4
+  citations: 6
   in_survey: true
   added: '2025-12-27'
 - id: stella-2024
@@ -1260,7 +1260,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 9
+  citations: 17
   in_survey: true
   added: '2025-12-27'
 - id: explaining-genetic-programming-trees-using-2024
@@ -1284,7 +1284,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 9
+  citations: 19
   in_survey: true
   added: '2025-12-27'
 - id: enhancing-phenotype-recognition-in-clinical-2023
@@ -1311,7 +1311,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 70
+  citations: 84
   in_survey: true
   added: '2025-12-27'
 - id: a-comprehensive-survey-of-foundation-2025
@@ -1334,7 +1334,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 94
+  citations: 128
   in_survey: true
   added: '2025-12-27'
 - id: regulatory-barriers-to-uschina-collaboration-2024
@@ -1380,7 +1380,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 35
+  citations: 39
   in_survey: true
   added: '2025-12-27'
 - id: mega-2025
@@ -1407,7 +1407,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 8
+  citations: 9
   in_survey: true
   added: '2025-12-27'
 - id: medbiolm-2025
@@ -1435,7 +1435,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 16
   in_survey: true
   added: '2025-12-27'
 - id: evolution-of-publicly-available-large-2024
@@ -1462,7 +1462,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 38
+  citations: 42
   in_survey: true
   added: '2025-12-27'
 - id: survey-and-improvement-strategies-for-2025
@@ -1493,7 +1493,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 4
+  citations: 9
   in_survey: true
   added: '2025-12-27'
 - id: benchmarking-large-language-models-for-2025
@@ -1593,7 +1593,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 1050
+  citations: 1676
   in_survey: true
   added: '2025-12-27'
 - id: steering-veridical-large-language-model-2024
@@ -1625,7 +1625,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 9
+  citations: 10
   in_survey: true
   added: '2025-12-27'
 - id: tokensome-2024
@@ -1680,7 +1680,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 4
+  citations: 5
   in_survey: true
   added: '2025-12-27'
 - id: genetic-analysis-of-milk-citrate-2023
@@ -1701,7 +1701,7 @@
   interaction: []
   evaluation: []
   resources: []
-  citations: 11
+  citations: 12
   in_survey: true
   added: '2025-12-27'
 - id: golf-2025
@@ -1805,7 +1805,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 1
+  citations: 3
   in_survey: true
   added: '2025-12-27'
 - id: influence-of-the-concentrate-inclusion-2023
@@ -1848,7 +1848,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 2
   in_survey: true
   added: '2025-12-27'
 - id: importance-of-prior-patient-interactions-2025-2
@@ -1912,7 +1912,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 17
+  citations: 20
   in_survey: true
   added: '2025-12-27'
 - id: openai-o1-2024
@@ -1934,7 +1934,7 @@
   - zero-shot-planner
   evaluation: []
   resources: []
-  citations: 52
+  citations: 61
   in_survey: true
   added: '2025-12-27'
 - id: leveraging-large-language-models-for-2023-2
@@ -1957,7 +1957,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 39
+  citations: 49
   in_survey: true
   added: '2025-12-27'
 - id: evaluating-the-symbol-binding-ability-2023
@@ -1981,7 +1981,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 7
+  citations: 10
   in_survey: true
   added: '2025-12-27'
 - id: improving-drug-repositioning-with-negative-2025
@@ -2027,7 +2027,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 2
+  citations: 13
   in_survey: true
   added: '2025-12-27'
 - id: chatgpt-for-phenotypes-extraction-2023
@@ -2055,7 +2055,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 16
+  citations: 18
   in_survey: true
   added: '2025-12-27'
 - id: boosting-gpt-models-for-genomics-2025
@@ -2082,7 +2082,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 14
+  citations: 20
   in_survey: true
   added: '2025-12-27'
 - id: bioinformatics-and-biomedical-informatics-with-2024
@@ -2107,7 +2107,7 @@
   evaluation: []
   resources:
   - knowledge-augmented
-  citations: 31
+  citations: 35
   in_survey: true
   added: '2025-12-27'
 - id: benchmarking-large-language-models-for-2025-2
@@ -2134,7 +2134,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 7
+  citations: 8
   in_survey: true
   added: '2025-12-27'
 - id: change-of-heart-2025
@@ -2159,7 +2159,7 @@
   evaluation: []
   resources:
   - knowledge-augmented
-  citations: 9
+  citations: 11
   in_survey: true
   added: '2025-12-27'
 - id: attitudes-toward-use-of-an-2024
@@ -2185,7 +2185,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 5
   in_survey: true
   added: '2025-12-27'
 - id: consistent-performance-of-gpt-2025
@@ -2240,7 +2240,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 14
   in_survey: true
   added: '2025-12-27'
 - id: let-large-language-models-judge-2026
@@ -2265,7 +2265,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: agentic-artificial-intelligence-for-code-2026
   title: 'Agentic artificial intelligence for code status extraction from clinical notes: a cross-model
@@ -2444,7 +2444,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: grebi-2026
   name: GrEBI
@@ -2570,7 +2570,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: from-idea-to-data-2026
   title: 'From Idea to Data: An Agentic Architecture for the Clinical Trial Life Cycle'
@@ -2619,7 +2619,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: a-large-language-model-2026-2
   title: 'A Large Language Model-Powered Multiagent Framework Emulating Standardized Patients in Clinical
@@ -2643,7 +2643,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: agentic-gpt-2026
   title: 'Agentic GPT-5.0 system outperforms standard large language models and human experts in critical
@@ -2714,7 +2714,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: caread-2025
   name: CARE-AD
@@ -2737,7 +2737,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 41
+  citations: 55
   added: '2026-10-23'
 - id: mdcrow-2026
   name: MDCrow
@@ -2763,7 +2763,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 25
+  citations: 63
   added: '2026-10-23'
 - id: pulse-2026
   name: PULSE
@@ -2812,7 +2812,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 3
+  citations: 7
   added: '2026-10-23'
 - id: civic-mcp-2026
   name: CIViC MCP
@@ -2838,7 +2838,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: agentic-memory-2026
   title: Agentic memory-augmented retrieval and evidence grounding for medical question-answering tasks
@@ -2863,7 +2863,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 6
   added: '2026-10-23'
 - id: a-multi-2026
   title: A Multi-Agent Clinical Decision Support System with Patient Similarity Retrieval on MIMIC-IV
@@ -2964,6 +2964,7 @@
   - automated
   resources:
   - knowledge-augmented
+  citations: 0
   added: '2026-10-23'
 - id: simulating-population-compliance-with-pandemic-2026
   title: Simulating population compliance with pandemic interventions using large language models
@@ -2987,7 +2988,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: evaluating-safety-2026
   title: Evaluating Safety-Critical Communication Behavior of Large Language Models Using Workflow-Embedded
@@ -3037,7 +3038,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 17
+  citations: 23
   added: '2026-10-23'
 - id: medihive-2026
   name: MediHive
@@ -3062,7 +3063,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: comparative-performance-of-agentic-ai-2026
   title: Comparative Performance of agentic AI and Physicians in Taking Clinical History across Leading
@@ -3214,7 +3215,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: maesscr-2026
   name: MAESSCR
@@ -3286,7 +3287,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: neurosymbolic-multi-2026
   title: Neurosymbolic Multi-Agent Artificial Intelligence versus General-Purpose Large Language Models
@@ -3362,7 +3363,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 13
+  citations: 29
   added: '2026-10-23'
 - id: a-large-language-model-2026-3
   title: A large language model-based self-learning and critical agent framework for multimodal Alzheimer's
@@ -3410,12 +3411,13 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: dynamicare-2026
   name: DynamiCare
   title: 'DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making'
   url: https://europepmc.org/article/MED/42317840
+  doi: 10.48550/arxiv.2507.02616
   date: '2026-06-01'
   year: 2026
   venue: AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational
@@ -3435,7 +3437,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: medcp-2026
   name: MedCP
@@ -3492,7 +3494,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: can-lightweight-llm-agents-improve-2025
   title: Can Lightweight LLM Agents Improve Spatial Transcriptomics Annotation?
@@ -3544,7 +3546,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: ddxfinder-2026
   name: DDx-Finder
@@ -3597,7 +3599,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 11
   added: '2026-10-23'
 - id: towards-accessible-radiological-image-analysis-2026
   title: 'Towards Accessible Radiological Image Analysis via Local Agentic Framework: Validation in Mammography'
@@ -3650,7 +3652,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 9
+  citations: 12
   added: '2026-10-23'
 - id: map-2026
   name: MAP
@@ -3671,7 +3673,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 1
+  citations: 17
   added: '2026-10-23'
 - id: primegen-2025
   name: PrimeGen
@@ -3696,7 +3698,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 4
+  citations: 8
   added: '2026-10-23'
 - id: sprout-2026
   name: SPROUT
@@ -3748,7 +3750,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: bridging-the-computational-2026
   title: 'Bridging the computational-experimental gap: leveraging large language model to prioritize Alzheimer''s
@@ -3879,7 +3881,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentomics-2026
   name: Agentomics
@@ -3907,7 +3909,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 4
+  citations: 9
   added: '2026-10-23'
 - id: evosyn-2026
   name: EvoSyn
@@ -3985,7 +3987,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 4
+  citations: 6
   added: '2026-10-23'
 - id: multi-2026
   title: Multi-Agent Dynamic Refinement Outperforms Static RAG in Clinical Reasoning for Complex Nephrology
@@ -4034,7 +4036,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 11
+  citations: 17
   added: '2026-10-23'
 - id: artificial-intelligence-2026
   title: Artificial intelligence-driven virtual tumor board enhances precision care in myelodysplastic
@@ -4160,7 +4162,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: deliriumagents-2026
   name: DeLiriuMAgents
@@ -4187,7 +4189,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: m3a-2026
   name: M3A
@@ -4214,7 +4216,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medice-2026
   name: Med-ICE
@@ -4288,7 +4290,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 1
+  citations: 3
   added: '2026-10-23'
 - id: gptplan-2025
   name: GPT-Plan
@@ -4312,7 +4314,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 28
+  citations: 36
   added: '2026-10-23'
 - id: omics-data-discovery-agents-2026
   title: 'Omics data discovery agents: Agent-supported retrieval, reanalysis, and synthesis of published
@@ -4338,7 +4340,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentic-ai-integrated-with-scientific-2026
   title: 'Agentic AI integrated with scientific knowledge: laboratory validation in systems biology'
@@ -4363,7 +4365,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 6
   added: '2026-10-23'
 - id: biomaster-2026
   name: BioMaster
@@ -4388,7 +4390,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 29
   added: '2026-10-23'
 - id: cardioagent-2026
   name: CardioAgent
@@ -4514,7 +4516,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 7
+  citations: 8
   added: '2026-10-23'
 - id: mllmcelltype-2026
   name: mLLMCelltype
@@ -4564,7 +4566,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 8
+  citations: 12
   added: '2026-10-23'
 - id: inclinico-agent-2026
   name: inClinico Agent
@@ -4591,6 +4593,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
+  citations: 0
   added: '2026-10-23'
 - id: martp-2026
   name: MARTP
@@ -4616,7 +4619,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: planner-2026
   title: Planner-Executor Style Multimodal Agentic System to Answer Patient Questions in Lung Cancer Screening
@@ -4748,7 +4751,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 12
   added: '2026-10-23'
 - id: ontocodex-2026
   name: OntoCodex
@@ -4798,7 +4801,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 119
+  citations: 147
   added: '2026-10-23'
 - id: planningcopilot-2026
   name: PlanningCopilot
@@ -4825,7 +4828,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: abcd-2026
   name: ABCD
@@ -4952,7 +4955,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 48
+  citations: 66
   added: '2026-10-23'
 - id: hsmind-2026
   name: HS-MIND
@@ -5003,7 +5006,6 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
   added: '2026-10-23'
 - id: rosie-2026
   name: ROSIE
@@ -5107,7 +5109,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: safeai-2026
   name: SAFE-AI
@@ -5159,7 +5161,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 62
+  citations: 119
   added: '2026-10-23'
 - id: msagent-2026
   name: MSAgent
@@ -5187,7 +5189,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: a-multiagent-large-language-model-2026
   title: 'A Multiagent Large Language Model Framework for Emergency Treatment Recommendation in Acute
@@ -5239,7 +5241,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 9
+  citations: 10
   added: '2026-10-23'
 - id: agentic-lab-2025
   name: Agentic Lab
@@ -5268,7 +5270,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 6
+  citations: 10
   added: '2026-10-23'
 - id: pmxagent-2026
   name: PMxAgent
@@ -5317,7 +5319,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: evaluating-open-llms-for-agentic-2026
   title: Evaluating open LLMs for agentic analysis orchestration in a typical biomedical lab
@@ -5366,7 +5368,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 17
+  citations: 344
   added: '2026-10-23'
 - id: gastrotcm-2026
   name: GastroTCM
@@ -5391,7 +5393,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 3
+  citations: 6
   added: '2026-10-23'
 - id: orchestrated-multi-agents-sustain-accuracy-2025
   title: Orchestrated multi agents sustain accuracy under clinical-scale workloads compared to a single
@@ -5462,7 +5464,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: evaluating-autonomous-llm-agents-across-2026
   title: Evaluating Autonomous LLM Agents Across Molecular Prediction and Optimization Benchmarks
@@ -5537,7 +5539,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 16
   added: '2026-10-23'
 - id: tcgaagent-2026
   name: TCGA-Agent
@@ -5647,7 +5649,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 13
+  citations: 17
   added: '2026-10-23'
 - id: nmragent-2026
   name: NMRAgent
@@ -5725,7 +5727,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 13
+  citations: 25
   added: '2026-10-23'
 - id: alex-2026
   name: ALEX
@@ -5801,7 +5803,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 5
+  citations: 8
   added: '2026-10-23'
 - id: aipatient-2025
   name: AIPatient
@@ -5829,7 +5831,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 44
+  citations: 92
   added: '2026-10-23'
 - id: graphrag-2026
   name: GraphRAG
@@ -5882,7 +5884,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: sage-2026
   name: SAGE
@@ -5907,7 +5909,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: marla-2026
   name: MARLA
@@ -6088,7 +6090,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 51
+  citations: 74
   added: '2026-10-23'
 - id: reclaim-2026
   name: ReclAIm
@@ -6114,7 +6116,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 5
+  citations: 7
   added: '2026-10-23'
 - id: gemma-curation-agent-2026
   name: Gemma curation agent
@@ -6240,7 +6242,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: cmind-2026
   name: C-Mind
@@ -6423,7 +6425,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medrac-2025
   name: MedRaC
@@ -6450,7 +6452,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 7
   added: '2026-10-23'
 - id: emergent-misinformation-genesis-in-multi-2026
   title: Emergent Misinformation Genesis in Multi-Agent LLM Clinical Pipelines
@@ -6527,7 +6529,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 8
   added: '2026-10-23'
 - id: fiberpro-10-2026
   name: FiberPro 1.0
@@ -6606,7 +6608,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: openpfx-2025
   name: OpenPFx
@@ -6707,7 +6709,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 6
+  citations: 9
   added: '2026-10-23'
 - id: optimizing-order-sets-with-a-2025
   title: Optimizing Order Sets With a Large Language Model-Powered Multiagent System
@@ -6731,7 +6733,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 10
+  citations: 17
   added: '2026-10-23'
 - id: nsmas-2026
   name: NS-MAS
@@ -6809,7 +6811,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 4
   added: '2026-10-23'
 - id: trialcode-agent-2026
   name: TrialCode Agent
@@ -6837,7 +6839,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: hopeai-2025
   name: HopeAI
@@ -6863,7 +6865,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 9
   added: '2026-10-23'
 - id: prompttopill-2025
   name: Prompt-to-Pill
@@ -6889,7 +6891,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 6
+  citations: 10
   added: '2026-10-23'
 - id: woundscribeai-2026
   name: WoundScribeAI
@@ -6966,7 +6968,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 65
+  citations: 98
   added: '2026-10-23'
 - id: medagentbench-2025
   name: MedAgentBench
@@ -7014,7 +7016,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 26
   added: '2026-10-23'
 - id: ophagent-2026
   name: OphAgent
@@ -7067,7 +7069,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 52
+  citations: 198
   added: '2026-10-23'
 - id: trustworthy-agentic-genomics-through-versioned-2026
   title: Trustworthy agentic genomics through versioned skill libraries
@@ -7094,7 +7096,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: elisa-2026
   name: ELISA
@@ -7197,7 +7199,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: longcaf-2026
   name: LongCAF
@@ -7247,7 +7249,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 31
+  citations: 57
   added: '2026-10-23'
 - id: openmanus-and-manus-2026
   name: OpenManus and Manus
@@ -7272,7 +7274,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 22
+  citations: 38
   added: '2026-10-23'
 - id: an-llm-2025
   title: 'An LLM-Powered Agent for Physiological Data Analysis: A Case Study on PPG-based Heart Rate Estimation'
@@ -7296,7 +7298,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 8
+  citations: 20
   added: '2026-10-23'
 - id: maesd-2026
   name: MAESD
@@ -7399,7 +7401,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: bioagentrag-2026
   name: BioAgent-RAG
@@ -7510,6 +7512,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
+  citations: 0
   added: '2026-10-23'
 - id: koda-2025
   name: KODA
@@ -7585,7 +7588,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: accelerating-exploratory-clinical-research-2026
   title: 'Accelerating Exploratory Clinical Research: An LLM-Powered Framework for Cross-Study Data Harmonization
@@ -7689,7 +7692,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 9
+  citations: 10
   added: '2026-10-23'
 - id: enzyseek-2026
   name: EnzySeek
@@ -7742,7 +7745,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 4
   added: '2026-10-23'
 - id: agenteye-2026
   name: AgentEYE
@@ -7823,7 +7826,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 39
+  citations: 258
   added: '2026-10-23'
 - id: tracedd-2026
   name: TRACEDD
@@ -7871,7 +7874,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 14
+  citations: 49
   added: '2026-10-23'
 - id: cellswarm-2026
   name: CellSwarm
@@ -7923,7 +7926,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 25
+  citations: 32
   added: '2026-10-23'
 - id: medicalagentsbench-2026
   name: MedicalAgentsBench
@@ -8031,7 +8034,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 8
   added: '2026-10-23'
 - id: clinical-agents-dont-care-2025
   title: Clinical Agents Don’t Care
@@ -8219,7 +8222,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 8
+  citations: 9
   added: '2026-10-23'
 - id: flowbench-2026
   name: FlowBench
@@ -8245,7 +8248,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: mtsbench-2026
   name: MTS-Bench
@@ -8321,7 +8324,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 10
+  citations: 15
   added: '2026-10-23'
 - id: gffutilsai-2025
   name: gffutilsAI
@@ -8373,7 +8376,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: a-multi-2026-3
   title: 'A Multi-AI Agent Framework for Interactive Neurosurgical Education and Evaluation: From Vignettes
@@ -8398,7 +8401,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: spagents-2026
   name: SpAgents
@@ -8423,7 +8426,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: the-accessible-human-surfaceome-2026
   title: The accessible human surfaceome
@@ -8471,7 +8474,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 9
+  citations: 15
   added: '2026-10-23'
 - id: moma-2025
   name: MoMA
@@ -8494,7 +8497,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 2
+  citations: 10
   added: '2026-10-23'
 - id: doctronic-2025
   name: Doctronic
@@ -8519,7 +8522,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 12
+  citations: 16
   added: '2026-10-23'
 - id: echomed-agent-2026
   name: EchoMed Agent
@@ -8596,7 +8599,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 21
+  citations: 22
   added: '2026-10-23'
 - id: moremi-bio-agent-2025
   name: Moremi Bio Agent
@@ -8650,7 +8653,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 3
   added: '2026-10-23'
 - id: entagents-2025
   name: ENTAgents
@@ -8676,7 +8679,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 9
+  citations: 10
   added: '2026-10-23'
 - id: dynamate-2026
   name: DynaMate
@@ -8725,7 +8728,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 15
+  citations: 16
   added: '2026-10-23'
 - id: pdt-2026
   name: PDT
@@ -8772,7 +8775,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 5
+  citations: 8
   added: '2026-10-23'
 - id: repuragent-2026
   name: RepurAgent
@@ -9141,7 +9144,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 20
+  citations: 33
   added: '2026-10-23'
 - id: edtriageagent-eta-2026
   name: ED-Triage-Agent (ETA)
@@ -9166,7 +9169,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: mechainistic-2026
   name: MechAInistic
@@ -9218,7 +9221,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 4
+  citations: 6
   added: '2026-10-23'
 - id: transplantagents-2025
   name: Transplant-Agents
@@ -9324,7 +9327,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 167
+  citations: 352
   added: '2026-10-23'
 - id: safety-2026
   title: 'Safety-aware AI for NSCLC trial pre-screening: a comparative proof-of-concept study of rule-based,
@@ -9398,7 +9401,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: structagent-2026
   name: StructAgent
@@ -9425,7 +9428,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: a-multiagent-large-language-model-2026-2
   title: 'A multiagent large language model-based system to simulate the liver transplant selection committee:
@@ -9553,7 +9556,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 11
+  citations: 14
   added: '2026-10-23'
 - id: stanalyzer-2026
   name: STAnalyzer
@@ -9579,7 +9582,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: architectural-safety-mechanisms-for-multi-2026
   title: Architectural Safety Mechanisms for Multi-Agent Clinical LLM Systems Under Knowledge Base Distribution
@@ -9630,7 +9633,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 201
+  citations: 241
   added: '2026-10-23'
 - id: pathologycot-2026
   name: Pathology-CoT
@@ -9657,7 +9660,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 22
   added: '2026-10-23'
 - id: pipette-2026
   name: Pipette
@@ -9780,7 +9783,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 23
+  citations: 22
   added: '2026-10-23'
 - id: tumor-board-2026
   title: Tumor Board-Inspired Multiagent Artificial Intelligence System for Interpreting Oncology Guidelines
@@ -9933,7 +9936,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: maids-2025
   name: MAIDS
@@ -10039,7 +10042,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: pauseagents-2026
   name: PAUSE-Agents
@@ -10065,7 +10068,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medagentbrief-2026-2
   name: MedAgentBrief
@@ -10090,7 +10093,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 16
   added: '2026-10-23'
 - id: towards-intelligent-agents-for-radiotherapy-2025
   title: 'Towards Intelligent Agents for Radiotherapy: Integrating Exploration-Exploitation with Foundation
@@ -10144,7 +10147,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 44
+  citations: 73
   added: '2026-10-23'
 - id: ai-coscientist-2025
   name: AI co-scientist
@@ -10168,7 +10171,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 42
+  citations: 49
   added: '2026-10-23'
 - id: cascade-framework-2025
   name: Cascade Framework
@@ -10191,7 +10194,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 14
+  citations: 17
   added: '2026-10-23'
 - id: a-neural-2026
   title: A neural-symbolic AI agent system for biomedical concept mapping
@@ -10215,7 +10218,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: echoagent-2026
   name: EchoAgent
@@ -10241,7 +10244,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: enhancing-psychiatry-training-using-an-2026
   title: 'Enhancing Psychiatry Training Using an Agentic AI Simulated Consultation Tool: Prospective Cohort
@@ -10296,7 +10299,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: enhancing-large-language-models-with-2025
   title: 'Enhancing Large Language Models With AI Agents for Chronic Gastritis Management: Comprehensive
@@ -10322,7 +10325,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 4
   added: '2026-10-23'
 - id: medai-ask-2026
   name: Med.ai ASK
@@ -10347,7 +10350,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: chatmyopia-2025
   name: ChatMyopia
@@ -10373,7 +10376,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 11
+  citations: 13
   added: '2026-10-23'
 - id: representation-before-retrieval-2026
   title: 'Representation Before Retrieval: Structured Patient Artifacts Reduce Hallucination in Clinical
@@ -10399,7 +10402,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: what-microbes-want-2026
   title: 'What microbes want: exploring microbial substrate preferences with the Web of Microbes Agent'
@@ -10475,7 +10478,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 25
+  citations: 30
   added: '2026-10-23'
 - id: oncopainbot-2026
   name: OncoPainBot
@@ -10499,7 +10502,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 5
   added: '2026-10-23'
 - id: q4dx-2026
   name: Q4Dx
@@ -10522,7 +10525,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: ebmchat-2025
   name: EBMChat
@@ -10549,7 +10552,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 5
   added: '2026-10-23'
 - id: oasis-2026
   name: OASIS
@@ -10629,7 +10632,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 5
+  citations: 9
   added: '2026-10-23'
 - id: workflow-topology-2026
   title: 'Workflow Topology-Guided Skill Loading for Agentic AI in Clinical Trial Data Pipelines: Sequential
@@ -10677,7 +10680,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 5
+  citations: 6
   added: '2026-10-23'
 - id: biopathfinder-2026
   name: BioPathfinder
@@ -10706,7 +10709,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: kgrd-2026
   name: KGRD
@@ -10758,7 +10761,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 4
   added: '2026-10-23'
 - id: llm-agent-based-protein-function-2026
   title: LLM Agent Based Protein Function Prediction
@@ -10782,7 +10785,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: biotrouble-2026
   name: BioTrouble
@@ -10832,7 +10835,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 3
+  citations: 4
   added: '2026-10-23'
 - id: llm-2025-2
   title: LLM-based multi-agent system for neuro-ophthalmic diagnosis and personalized treatment planning
@@ -10959,7 +10962,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: kai-2025
   name: kai
@@ -11006,7 +11009,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 1
+  citations: 5
   added: '2026-10-23'
 - id: neura-2026
   name: NEURA
@@ -11162,7 +11165,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: clinikiosk-2025
   name: CliniKiosk
@@ -11187,6 +11190,7 @@
   - automated
   resources:
   - knowledge-augmented
+  citations: 0
   added: '2026-10-23'
 - id: evomdt-2026
   name: EvoMDT
@@ -11213,7 +11217,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 12
+  citations: 18
   added: '2026-10-23'
 - id: from-prompt-to-pipeline-2026
   title: 'From Prompt to Pipeline: A Comparative Evaluation of Large Language Model Coding Agents for
@@ -11265,7 +11269,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 6
+  citations: 19
   added: '2026-10-23'
 - id: merlin-2026
   name: MErlin
@@ -11370,7 +11374,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 7
   added: '2026-10-23'
 - id: omicxagent-2026
   name: OMICX-Agent
@@ -11449,7 +11453,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 3
+  citations: 5
   added: '2026-10-23'
 - id: bioguider-2026
   name: BioGuider
@@ -11526,7 +11530,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 32
+  citations: 49
   added: '2026-10-23'
 - id: clara-2026
   name: CLARA
@@ -11629,7 +11633,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 8
+  citations: 11
   added: '2026-10-23'
 - id: medmcp-2026
   name: MedMCP
@@ -11890,7 +11894,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 6
+  citations: 7
   added: '2026-10-23'
 - id: federated-multi-2026
   title: Federated Multi-Agent Architecture for Harmonizing Public Health Datasets into OMOP and FHIR
@@ -11968,7 +11972,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 28
+  citations: 35
   added: '2026-10-23'
 - id: sparrow-2026
   name: SPARROW
@@ -12021,7 +12025,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 8
+  citations: 9
   added: '2026-10-23'
 - id: a-multi-2025-2
   title: A Multi-Agent Approach to Generating Context-Rich Gene Sets
@@ -12255,7 +12259,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 4
+  citations: 12
   added: '2026-10-23'
 - id: chatexosome-2025
   name: ChatExosome
@@ -12283,7 +12287,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 46
+  citations: 49
   added: '2026-10-23'
 - id: hevadx-2026
   name: HevaDx
@@ -12358,7 +12362,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 13
+  citations: 18
   added: '2026-10-23'
 - id: baisbench-2026
   name: BAISBench
@@ -12382,7 +12386,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 25
   added: '2026-10-23'
 - id: inspire-2025
   name: INSPIRE
@@ -12406,7 +12410,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 21
+  citations: 22
   added: '2026-10-23'
 - id: agentic-autodiscovery-of-diastolic-dysfunction-2026
   title: Agentic Autodiscovery of Diastolic Dysfunction Phenotypes from Surface Electrocardiogram
@@ -12480,7 +12484,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 3
   added: '2026-10-23'
 - id: skill-2026-3
   title: 'Skill-File-Guided Virtual Screening: A Single-Target Formyl Peptide Receptor 2 Case Study of
@@ -12531,7 +12535,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 5
+  citations: 6
   added: '2026-10-23'
 - id: methylcurate-2026
   name: MethylCurate
@@ -12583,7 +12587,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: experttwins-2026
   name: ExpertTwins
@@ -12686,7 +12690,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 12
+  citations: 16
   added: '2026-10-23'
 - id: gpas-2026
   name: GPAS
@@ -12715,7 +12719,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: davp-2026
   name: DAVP
@@ -12743,7 +12747,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: promptbio-2025
   name: PromptBio
@@ -12771,7 +12775,7 @@
   resources:
   - tool-augmented
   - knowledge-augmented
-  citations: 11
+  citations: 14
   added: '2026-10-23'
 - id: deep-learning-for-microscopy-without-2026
   title: Deep learning for microscopy without machine learning expertise
@@ -12852,7 +12856,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 9
+  citations: 10
   added: '2026-10-23'
 - id: convict-2026
   name: CoNVict
@@ -12902,7 +12906,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: kom-2025
   name: KOM
@@ -12930,7 +12934,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: from-concept-to-clinic-2026
   title: 'From Concept to Clinic: Real World Evidence for Autonomous AI Deployment in Primary Care Telemedicine'
@@ -12989,6 +12993,7 @@
   title: 'ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day
     Readmission from Clinical Notes'
   url: https://europepmc.org/article/MED/42317861
+  doi: 10.48550/arxiv.2512.07081
   date: '2026-06-01'
   year: 2026
   venue: AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational
@@ -13008,7 +13013,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: alvessa-2025
   name: Alvessa
@@ -13035,7 +13040,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 4
+  citations: 7
   added: '2026-10-23'
 - id: s2fagent-2026
   name: S2F-Agent
@@ -13087,7 +13092,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: sofiya-2026
   name: Sofiya
@@ -13111,7 +13116,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: ggplotagent-2026
   name: ggplotAgent
@@ -13158,7 +13163,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 12
+  citations: 15
   added: '2026-10-23'
 - id: labscriptai-2025
   name: LabscriptAI
@@ -13267,7 +13272,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 9
+  citations: 15
   added: '2026-10-23'
 - id: clinagent-2026
   name: ClinAgent
@@ -13293,7 +13298,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentic-artificial-intelligence-for-hospital-2026
   title: 'Agentic Artificial Intelligence for Hospital Readmission Review: A Single-Center Blinded Evaluation
@@ -13364,7 +13369,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 6
+  citations: 8
   added: '2026-10-23'
 - id: an-agentic-system-for-natural-2025
   title: An Agentic System for Natural Language Querying of The Cancer Genome Atlas Clinical Data
@@ -13493,7 +13498,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 14
   added: '2026-10-23'
 - id: qspcopilot-2025
   name: QSP-Copilot
@@ -13519,7 +13524,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 7
+  citations: 8
   added: '2026-10-23'
 - id: virtual-2026
   title: Virtual-cell verification enables self-auditing AI discovery for immune rejuvenation
@@ -13569,7 +13574,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 7
   added: '2026-10-23'
 - id: gpcrnexus-2026
   name: GPCR-Nexus
@@ -13854,7 +13859,7 @@
   evaluation: []
   resources:
   - tool-augmented
-  citations: 5
+  citations: 7
   added: '2026-10-23'
 - id: longevityllm-2025
   name: LongevityLLM
@@ -13907,7 +13912,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 30
+  citations: 46
   added: '2026-10-23'
 - id: pathfound-2026
   name: PathFound
@@ -13930,7 +13935,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 2
+  citations: 4
   added: '2026-10-23'
 - id: enrichai-2026
   name: Enrich.AI
@@ -14039,7 +14044,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentic-trial-emulation-to-learn-2026
   title: Agentic Trial Emulation to Learn Health System-specific Drug Effects At Scale
@@ -14088,7 +14093,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: cognalign-2025
   name: CognAlign
@@ -14169,7 +14174,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 4
   added: '2026-10-23'
 - id: autocare-2026
   name: Auto-Care
@@ -14194,7 +14199,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 10
+  citations: 18
   added: '2026-10-23'
 - id: medea-2026
   name: Medea
@@ -14222,7 +14227,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 14
   added: '2026-10-23'
 - id: spatialclaw-2026
   name: SpatialClaw
@@ -14299,7 +14304,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 7
   added: '2026-10-23'
 - id: privacy-2025
   title: Privacy-, linguistic-, and information-preserving synthesis of clinical documentation through
@@ -14326,7 +14331,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 8
   added: '2026-10-23'
 - id: clinpreai-2025
   name: ClinPreAI
@@ -14353,7 +14358,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: paleorigor-2026
   name: PaleoRigor
@@ -14461,7 +14466,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: medagentpro-2025
   name: MedAgent-Pro
@@ -14487,7 +14492,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 13
+  citations: 17
   added: '2026-10-23'
 - id: enhancing-hepatopathy-clinical-trial-efficiency-2025
   title: 'Enhancing hepatopathy clinical trial efficiency: a secure, large language model-powered pre-screening
@@ -14512,7 +14517,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 7
+  citations: 10
   added: '2026-10-23'
 - id: liddia-2025
   name: LIDDiA
@@ -14539,7 +14544,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 10
+  citations: 32
   added: '2026-10-23'
 - id: mma-2025
   name: MMA
@@ -14562,7 +14567,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 22
+  citations: 25
   added: '2026-10-23'
 - id: q4dx-2025
   name: Q4Dx
@@ -14634,7 +14639,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 14
+  citations: 21
   added: '2026-10-23'
 - id: biomintrel-2026
   name: BioMINTREL
@@ -14787,7 +14792,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: development-and-validation-of-an-2025
   title: Development and validation of an autonomous artificial intelligence agent for clinical decision-making
@@ -14812,7 +14817,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 173
+  citations: 238
   added: '2026-10-23'
 - id: braced-2026
   name: BRACED
@@ -14966,7 +14971,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: metaclaw-2026
   name: MetaClaw
@@ -15043,7 +15048,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: trajectory-2026
   title: 'Trajectory-Level Stability of Agentic Clinical Reasoning in Sepsis: A Longitudinal Evaluation
@@ -15066,7 +15071,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: stella-2025
   name: STELLA
@@ -15094,7 +15099,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 4
+  citations: 14
   added: '2026-10-23'
 - id: closing-the-loop-2026
   title: 'Closing the Loop: A Custom Artificial Intelligence Agent to Improve Detection of Radiologist
@@ -15225,7 +15230,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: an-implantable-device-that-converses-2026
   title: An Implantable Device that Converses with Patients and Learns to Co-Manage Epilepsy
@@ -15380,7 +15385,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: ec2seq2sql-2026
   name: EC2Seq2Sql
@@ -15406,7 +15411,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: a-virtual-patients-ensemble-approach-2025
   title: A Virtual Patients Ensemble Approach for Predicting Surgical Complications
@@ -15485,7 +15490,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 23
+  citations: 60
   added: '2026-10-23'
 - id: praxismd-2026
   name: PRAXIS-MD
@@ -15537,7 +15542,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 9
   added: '2026-10-23'
 - id: aihopetgfbeta-2025
   name: AI-HOPE-TGFbeta
@@ -15590,7 +15595,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 46
+  citations: 44
   added: '2026-10-23'
 - id: aihopepm-2025
   name: AI-HOPE-PM
@@ -15616,7 +15621,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 8
   added: '2026-10-23'
 - id: agentmri-2025
   name: AgentMRI
@@ -15642,7 +15647,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 4
+  citations: 6
   added: '2026-10-23'
 - id: pkfm-2026
   name: PKFM
@@ -15696,7 +15701,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 7
+  citations: 8
   added: '2026-10-23'
 - id: aihopepi3k-2025
   name: AI-HOPE-PI3K
@@ -15748,7 +15753,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentographer-2025
   name: Agentographer
@@ -15825,7 +15830,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: atlasagent-2025
   name: AtlasAgent
@@ -15852,7 +15857,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: aihopepm-2025-2
   name: AI-HOPE-PM
@@ -15907,7 +15912,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 4
   added: '2026-10-23'
 - id: fleming-2025
   name: Fleming
@@ -15932,7 +15937,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 4
+  citations: 7
   added: '2026-10-23'
 - id: can-ai-conduct-autonomous-scientific-2026
   title: Can AI Conduct Autonomous Scientific Research? Case Studies on Two Real-World Tasks
@@ -15960,7 +15965,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 7
   added: '2026-10-23'
 - id: pmedagent-2025
   name: P-MedAgent
@@ -16012,7 +16017,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: perturboagent-2025
   name: PerTurboAgent
@@ -16090,7 +16095,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: cads-2026
   name: CADS
@@ -16304,7 +16309,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: large-language-model-agents-for-2026
   title: Large Language Model Agents for Evidence Based Genetic Disease Severity Classification
@@ -16354,7 +16359,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: agentic-ai-uncovers-conserved-cross-2026
   title: Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset
@@ -16408,7 +16413,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 9
   added: '2026-10-23'
 - id: federation-is-nearly-free-reasoning-2026
   title: 'Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization
@@ -16488,7 +16493,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: sable-2026
   name: SABLE
@@ -16649,7 +16654,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: deepbd-2026
   name: DeepBD
@@ -16676,7 +16681,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: medrlm-2026
   name: MedRLM
@@ -16732,7 +16737,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: gget-virus-2026
   name: gget virus
@@ -16757,7 +16762,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: agentplm-2026
   name: AgentPLM
@@ -16783,7 +16788,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: probe-2026
   name: PROBE
@@ -16810,7 +16815,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: praxis-2026
   name: PRAXIS
@@ -16893,7 +16898,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: beyond-manual-curation-2026
   title: 'Beyond Manual Curation: Augmenting Targeted Protein Degradation Databases via Agentic Literature
@@ -16919,7 +16924,6 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
   added: '2026-10-23'
 - id: assaybench-2026
   name: AssayBench
@@ -16944,7 +16948,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: vibeproteinbench-2026
   name: VibeProteinBench
@@ -16970,7 +16974,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: mechainistic-2026-2
   name: MechAInistic
@@ -17077,7 +17081,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: matcell-2026
   name: MAT-Cell
@@ -17101,7 +17105,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: acmgentic-2026
   name: AcmGENTIC
@@ -17128,7 +17132,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: acp-2026
   name: ACP
@@ -17210,7 +17214,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: ciwm-2026
   name: CIWM
@@ -17238,7 +17242,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: cellmaster-2026
   name: CellMaster
@@ -17263,7 +17267,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: beyond-smiles-2026
   title: 'Beyond SMILES: Evaluating Agentic Systems for Drug Discovery'
@@ -17287,7 +17291,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: seismo-2026
   name: SEISMO
@@ -17313,7 +17317,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: venusrar-2026
   name: VenusRAR
@@ -17341,7 +17345,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: autobinder-agent-2026
   name: AutoBinder Agent
@@ -17368,7 +17372,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: toward-auditable-neuro-2026
   title: 'Toward Auditable Neuro-Symbolic Reasoning in Pathology: SQL as an Explicit Trace of Evidence'
@@ -17497,7 +17501,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 6
   added: '2026-10-23'
 - id: bio-ai-agent-2025
   name: Bio AI Agent
@@ -17526,7 +17530,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: triagent-2025
   name: TriAgent
@@ -17553,7 +17557,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: gencellagent-2025
   name: GenCellAgent
@@ -17632,7 +17636,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: bioinfomcp-2025
   name: BioinfoMCP
@@ -17658,7 +17662,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: tissuelab-2025
   name: TissueLab
@@ -17685,7 +17689,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 24
   added: '2026-10-23'
 - id: nba-2025
   name: NBA
@@ -17739,7 +17743,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: dr-info-2025
   name: DR. INFO
@@ -17766,7 +17770,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 7
   added: '2026-10-23'
 - id: frogent-2025
   name: FROGENT
@@ -17843,7 +17847,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 20
   added: '2026-10-23'
 - id: genomas-2025
   name: GenoMAS
@@ -17923,7 +17927,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 16
   added: '2026-10-23'
 - id: stella-2025-2
   name: STELLA
@@ -18048,7 +18052,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: moremi-bio-agent-2025-4
   name: Moremi Bio Agent
@@ -18121,7 +18125,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: md2gps-2025
   name: MD2GPS
@@ -18149,7 +18153,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: olaf-2025
   name: OLAF
@@ -18176,7 +18180,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: pharmagents-2025
   name: PharmAgents
@@ -18278,7 +18282,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 158
+  citations: 947
   added: '2026-10-23'
 - id: biomaze-2025
   name: BioMaze
@@ -18304,7 +18308,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 14
   added: '2026-10-23'
 - id: popper-2025
   name: Popper
@@ -18330,7 +18334,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 7
+  citations: 48
   added: '2026-10-23'
 - id: grappi-2025
   name: GraPPI
@@ -18382,7 +18386,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentdiscover-2026
   name: AgentDiscover
@@ -18463,7 +18467,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: coscientist-2026
   name: Co-Scientist
@@ -18491,7 +18495,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: fisherr1-2026
   name: Fisher-R1
@@ -18517,7 +18521,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: cascade-2026
   name: CASCADE
@@ -18543,7 +18547,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: spacellagent-2026
   name: SpaCellAgent
@@ -18624,7 +18628,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: spatialbenchlong-2026
   name: SpatialBench-Long
@@ -18651,7 +18655,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: eos-ai-agent-2026
   name: EOS AI Agent
@@ -18703,7 +18707,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: vcragent-2026
   name: VCR-Agent
@@ -18729,7 +18733,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: epistemic-blinding-2026
   title: 'Epistemic Blinding: An Inference-Time Protocol for Auditing Prior Contamination in LLM-Assisted
@@ -18782,7 +18786,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 1
+  citations: 11
   added: '2026-10-23'
 - id: labbench2-2026
   name: LABBench2
@@ -18807,7 +18811,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 14
   added: '2026-10-23'
 - id: s1nexusagent-2026
   name: S1-NexusAgent
@@ -18835,7 +18839,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: pablo-2026
   name: PABLO
@@ -18863,7 +18867,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: heurekabench-2026
   name: HeurekaBench
@@ -18890,7 +18894,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 12
   added: '2026-10-23'
 - id: biosage-2025
   name: BioSage
@@ -18916,7 +18920,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: kosmos-2025
   name: KOSMOS
@@ -18942,7 +18946,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: deepevolve-2025
   name: DeepEvolve
@@ -18969,7 +18973,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 24
   added: '2026-10-23'
 - id: tusoai-2025
   name: TusoAI
@@ -18996,7 +19000,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 5
   added: '2026-10-23'
 - id: scigym-2025
   name: SciGym
@@ -19045,7 +19049,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: txgemma-2025
   name: TxGemma
@@ -19074,7 +19078,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 8
+  citations: 68
   added: '2026-10-23'
 - id: reprobait-2026
   name: ReproBAIT
@@ -19285,7 +19289,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: wetrobo-2026
   name: WetRobo
@@ -19311,7 +19315,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: hypoevolve-2026
   name: HypoEvolve
@@ -19337,7 +19341,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: an-agentic-retrobiosynthesis-framework-with-2026
   title: An Agentic Retrobiosynthesis Framework with Learned Frontier Selection
@@ -19468,7 +19472,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: mollingo-2026
   name: MolLingo
@@ -19495,7 +19499,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: lipoagent-2026
   name: LipoAgent
@@ -19545,7 +19549,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: bioprovlaagent-2026
   name: BioProVLA-Agent
@@ -19573,7 +19577,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: virtual-study-group-2026
   name: Virtual Study Group
@@ -19625,7 +19629,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: pfua-2026
   name: PFUA
@@ -19678,7 +19682,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: madd-2025
   name: MADD
@@ -19705,7 +19709,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 3
+  citations: 6
   added: '2026-10-23'
 - id: braincellaid-2025
   name: BRAINCELL-AID
@@ -19730,7 +19734,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: autoonboarder-2026
   name: AutoOnboarder
@@ -19815,7 +19819,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: sageagent-2026
   name: SAGEAgent
@@ -19973,7 +19977,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 4
   added: '2026-10-23'
 - id: paper2agent-2025
   name: Paper2Agent
@@ -20051,7 +20055,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: autoscientists-2026
   name: AutoScientists
@@ -20078,7 +20082,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 13
   added: '2026-10-23'
 - id: dsgym-2026
   name: DSGym
@@ -20106,7 +20110,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 23
   added: '2026-10-23'
 - id: scagent-2025
   name: scAgent
@@ -20131,7 +20135,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 9
   added: '2026-10-23'
 - id: maddie-2026
   name: MADDIE
@@ -20310,7 +20314,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: maricl-2026
   name: MARICL
@@ -20337,7 +20341,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: bloclaw-2026
   name: BloClaw
@@ -20390,7 +20394,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: protrlsearch-2026
   name: ProtRLSearch
@@ -20418,7 +20422,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: swarms-of-large-language-model-2025
   title: Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation
@@ -20472,7 +20476,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 59
   added: '2026-10-23'
 - id: an-auditable-agent-platform-for-2025
   title: An Auditable Agent Platform For Automated Molecular Optimisation
@@ -20521,7 +20525,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 9
   added: '2026-10-23'
 - id: connecting-large-language-model-agent-2025
   title: Connecting Large Language Model Agent to High Performance Computing Resource
@@ -20545,7 +20549,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: drugharness-2026
   name: DrugHarness
@@ -20652,7 +20656,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: deeproot-2026
   name: DeepRoot
@@ -20730,7 +20734,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: cacm-2026
   name: CACM
@@ -20783,7 +20787,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: autoct-2025
   name: AutoCT
@@ -20832,7 +20836,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 3
+  citations: 10
   added: '2026-10-23'
 - id: cladd-2025
   name: CLADD
@@ -20909,7 +20913,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: benchguard-2026
   name: BenchGuard
@@ -20933,7 +20937,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 19
   added: '2026-10-23'
 - id: bioagent-bench-2026
   name: BioAgent Bench
@@ -20959,7 +20963,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 14
   added: '2026-10-23'
 - id: marble-2026
   name: MARBLE
@@ -21035,7 +21039,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: auditing-escalation-reliability-in-healthcare-2026
   title: 'Auditing Escalation Reliability in Healthcare LLM Agents: A Perturbation-Controlled Benchmark
@@ -21061,7 +21065,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: gama-2026
   name: GAMA
@@ -21086,7 +21090,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: biolitbench-2026
   name: BioLitBench
@@ -21269,7 +21273,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: anchorre-2026
   name: ANCHOR-RE
@@ -21406,7 +21410,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: knowledge-2026
   title: 'Knowledge-Graph Grounding Helps LLMs Only for Out-of-Training Knowledge: A Controlled Study
@@ -21432,7 +21436,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: pathlab-2026
   name: PathLab
@@ -21459,7 +21463,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: surgent-2026
   name: SURGENT
@@ -21484,7 +21488,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: pubmed-reasoner-2026
   name: PubMed Reasoner
@@ -21664,7 +21668,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: cureagent-2025
   name: CureAgent
@@ -21690,7 +21694,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: mtbbench-2025
   name: MTBBench
@@ -21718,7 +21722,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: medsam3-2025
   name: MedSAM-3
@@ -21745,7 +21749,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 44
   added: '2026-10-23'
 - id: bioverge-agent-2025
   name: BioVerge Agent
@@ -21773,7 +21777,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: medtrustrag-2025
   name: MedTrust-RAG
@@ -21823,7 +21827,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: amanda-2025
   name: AMANDA
@@ -21875,7 +21879,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 9
   added: '2026-10-23'
 - id: towards-agents-that-know-when-2025
   title: 'Towards Agents That Know When They Don''t Know: Uncertainty as a Control Signal for Structured
@@ -21900,7 +21904,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 10
   added: '2026-10-23'
 - id: deepdxsearch-2025
   name: Deep-DxSearch
@@ -21926,7 +21930,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 21
   added: '2026-10-23'
 - id: biodisco-2025
   name: BioDisco
@@ -21978,7 +21982,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 12
   added: '2026-10-23'
 - id: agentdistill-2025
   name: AgentDistill
@@ -22004,7 +22008,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 31
   added: '2026-10-23'
 - id: medagentgym-2025
   name: MedAgentGym
@@ -22031,7 +22035,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 41
   added: '2026-10-23'
 - id: large-language-model-2025
   title: 'Large Language Model-Based Agents for Automated Research Reproducibility: An Exploratory Study
@@ -22057,7 +22061,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: ariel-2025
   name: ARIEL
@@ -22083,7 +22087,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 6
   added: '2026-10-23'
 - id: txagent-2025-2
   name: TxAgent
@@ -22110,7 +22114,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 19
+  citations: 94
   added: '2026-10-23'
 - id: an-evidence-2026
   title: An Evidence-Driven Multi-Agent Compound AI System for Head and Neck Proton Radiotherapy Planning
@@ -22519,7 +22523,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: activemedagent-2026
   name: ActiveMedAgent
@@ -22570,7 +22574,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: psycidra-2026
   name: PsyCIDRA
@@ -23038,7 +23042,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: emr-2026
   name: EMR
@@ -23064,7 +23068,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: same-patient-different-order-2026
   title: 'Same Patient, Different Order: Action-Level Reliability of Clinical LLM Agents Under Repeated
@@ -23315,7 +23319,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: diasentinel-2026
   name: DIASENTINEL
@@ -23421,7 +23425,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: cardi-2026
   name: CaRDI
@@ -23520,7 +23524,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: kmgen-2026
   name: KMGen
@@ -23931,7 +23935,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 5
   added: '2026-10-23'
 - id: residencyrl-2026
   name: ResidencyRL
@@ -23956,7 +23960,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: nmas-2026
   name: nMAS
@@ -24040,7 +24044,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: canoe-2026
   name: CANOE
@@ -24093,7 +24097,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: agents-catching-agents-2026
   title: 'Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems'
@@ -24165,7 +24169,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 3
   added: '2026-10-23'
 - id: marag-2026
   name: MA-RAG
@@ -24219,7 +24223,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: patientagentbench-2026
   name: PatientAgentBench
@@ -24247,7 +24251,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: cardiologent-2026
   name: Cardiologent
@@ -24298,7 +24302,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: evaluating-frontier-ai-agents-as-2026
   title: Evaluating Frontier AI Agents as Autonomous Clinical Security Auditors
@@ -24369,7 +24373,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: longmedbench-2026
   name: LongMedBench
@@ -24546,7 +24550,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 13
   added: '2026-10-23'
 - id: medguards-2026
   name: MedGuards
@@ -24572,7 +24576,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: healink-2026
   name: Healink
@@ -24702,7 +24706,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: emopatient-2026
   name: EmoPatient
@@ -24729,7 +24733,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: physassistbench-2026
   name: PhysAssistBench
@@ -24781,7 +24785,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: weqa-2026
   name: WEQA
@@ -24807,7 +24811,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: agentic-ai-2026-2
   title: Agentic AI-based Framework for Mitigating Premature Diagnostic Handoff and Silent Hallucination
@@ -24859,7 +24863,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: trust-but-verify-2026
   name: Trust but Verify
@@ -24884,7 +24888,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: latentdx-2026
   name: LatentDx
@@ -24908,7 +24912,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: arogyasutra-2026
   name: ArogyaSutra
@@ -24934,7 +24938,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: pathfinder-agent-2026
   name: PATHFinder Agent
@@ -25038,7 +25042,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: medsp1000-2026
   name: MedSP1000
@@ -25065,7 +25069,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: d2mdt-2026
   name: D2MDT
@@ -25113,7 +25117,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: clinicalmc-2026
   name: ClinicalMC
@@ -25166,7 +25170,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: drugclaw-2026
   name: DrugClaw
@@ -25215,7 +25219,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: hetmedagent-2026
   name: HetMedAgent
@@ -25373,7 +25377,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: pathnavigate-2026
   name: PathNavigate
@@ -25400,7 +25404,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: vdss-2026
   name: VDSS
@@ -25499,7 +25503,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: deeplens-diagnosis-agent-2026
   name: DeepLens Diagnosis Agent
@@ -25528,7 +25532,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: memisis-2026
   name: Memisis
@@ -25602,7 +25606,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: reinforcement-learning-for-tool-2026
   title: Reinforcement Learning for Tool-Calling Agents in Fast Healthcare Interoperability Resources
@@ -25629,7 +25633,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: protomedagent-2026
   name: ProtoMedAgent
@@ -25655,7 +25659,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: realicu-2026
   name: RealICU
@@ -25681,7 +25685,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: an-agentic-llm-2026
   title: An Agentic LLM-Based Framework for Population-Scale Mental Health Screening
@@ -25756,7 +25760,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: uts-at-psydefdetect-2026
   title: 'UTS at PsyDefDetect: Multi-Agent Councils and Absence-Based Reasoning for Defense Mechanism
@@ -25809,7 +25813,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: codeclinic-2026
   name: CodeClinic
@@ -25834,7 +25838,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: ai-coclinician-2026
   name: AI co-clinician
@@ -25860,7 +25864,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: human-2026
   title: Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related
@@ -25911,7 +25915,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: theraagent-2026
   name: TheraAgent
@@ -25962,7 +25966,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: adapts-2026
   name: ADAPTS
@@ -25988,7 +25992,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: physicianbench-2026
   name: PhysicianBench
@@ -26012,7 +26016,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 25
   added: '2026-10-23'
 - id: virtual-speech-therapist-2026
   title: 'Virtual Speech Therapist: A Clinician-in-the-Loop AI Agent for Speech Therapy Planning'
@@ -26087,7 +26091,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: scope-2026
   name: SCOPE
@@ -26138,7 +26142,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: fastomop-2026
   name: FastOMOP
@@ -26165,7 +26169,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentic-clinical-reasoning-over-longitudinal-2026
   title: 'Agentic clinical reasoning over longitudinal myeloma records: a retrospective evaluation against
@@ -26243,7 +26247,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentic-ai-for-personalized-physiotherapy-2026
   title: 'Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training
@@ -26293,7 +26297,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: neuro-2026
   title: Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines
@@ -26319,7 +26323,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: storymi-2026
   name: StoryMI
@@ -26370,7 +26374,7 @@
   - human-in-the-loop
   resources:
   - tool-augmented
-  citations: 0
+  citations: 9
   added: '2026-10-23'
 - id: evomedagent-2026
   name: Evo-MedAgent
@@ -26396,7 +26400,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: beyond-arrows-impossibility-2026
   title: 'Beyond Arrow''s Impossibility: Fairness as an Emergent Property of Multi-Agent Collaboration'
@@ -26421,7 +26425,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: caris-2026
   name: CARIS
@@ -26448,7 +26452,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: careecg-2026
   name: CARE-ECG
@@ -26524,7 +26528,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 13
   added: '2026-10-23'
 - id: medconceal-2026
   name: MedConceal
@@ -26548,7 +26552,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: asdagent-2026
   name: ASDAgent
@@ -26603,7 +26607,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: graphdx-2026
   name: GraphDx
@@ -26652,7 +26656,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: dosimetron-2026
   name: DosimeTron
@@ -26676,7 +26680,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: careguardai-2026
   name: CareGuardAI
@@ -26700,7 +26704,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: ogaaid-2026
   name: OGA-AID
@@ -26751,7 +26755,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: eslbench-2026
   name: ESL-Bench
@@ -26826,7 +26830,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 3
   added: '2026-10-23'
 - id: camp-2026
   name: CAMP
@@ -26877,7 +26881,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 11
   added: '2026-10-23'
 - id: improving-clinical-diagnosis-with-counterfactual-2026
   title: Improving Clinical Diagnosis with Counterfactual Multi-Agent Reasoning
@@ -26901,7 +26905,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: clinicalagents-2026
   name: ClinicalAgents
@@ -26926,7 +26930,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 8
   added: '2026-10-23'
 - id: skingptx-2026
   name: SkinGPT-X
@@ -26954,7 +26958,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: judge-agent-2026
   name: Judge Agent
@@ -26979,7 +26983,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: adcare-2026
   name: AD-CARE
@@ -27008,7 +27012,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: multi-2026-4
   title: Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical
@@ -27035,7 +27039,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: rwebench-2026
   name: RWE-bench
@@ -27062,7 +27066,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: evisearch-2026
   name: EviSearch
@@ -27091,7 +27095,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: gsem-2026
   name: GSEM
@@ -27224,7 +27228,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: when-openclaw-meets-hospital-2026
   title: 'When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows'
@@ -27250,7 +27254,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 6
   added: '2026-10-23'
 - id: pulse-2026-2
   name: PULSE
@@ -27300,7 +27304,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: fetalagents-2026
   name: FetalAgents
@@ -27351,7 +27355,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: agentic-llm-workflow-for-mr-2026
   title: Agentic LLM Workflow for MR Spectroscopy Volume-of-Interest Placements in Brain Tumors
@@ -27403,7 +27407,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: derm3r-2026
   name: DERM-3R
@@ -27458,7 +27462,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 11
   added: '2026-10-23'
 - id: medcorag-2026
   name: MedCoRAG
@@ -27485,7 +27489,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: glean-2026
   name: GLEAN
@@ -27511,7 +27515,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: care-2026-2
   name: CARE
@@ -27539,7 +27543,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: tarse-2026
   name: TARSE
@@ -27565,7 +27569,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: medcollab-2026
   name: MedCollab
@@ -27592,7 +27596,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: opgagent-2026
   name: OPGAgent
@@ -27644,7 +27648,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: agenticsum-2026
   name: AgenticSum
@@ -27668,7 +27672,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: assessing-risks-of-large-language-2026
   title: 'Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated
@@ -27693,7 +27697,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 8
   added: '2026-10-23'
 - id: ctflow-2026
   name: CT-Flow
@@ -27718,7 +27722,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: nutriorion-2026
   name: NutriOrion
@@ -27743,7 +27747,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: marlrad-2026
   name: MARL-Rad
@@ -27770,7 +27774,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: respagent-2026
   name: Resp-Agent
@@ -27795,7 +27799,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: mac-2026
   name: MAC
@@ -27845,7 +27849,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: vital-trace-2026
   name: Vital Trace
@@ -27896,7 +27900,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: drl-2026
   name: DRL
@@ -27924,7 +27928,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: lingxidiagbench-2026
   name: LingxiDiagBench
@@ -27950,7 +27954,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: comma-2026
   name: CoMMa
@@ -28027,7 +28031,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medsamagent-2026
   name: MedSAM-Agent
@@ -28054,7 +28058,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 13
   added: '2026-10-23'
 - id: remcdf-2026
   name: RE-MCDF
@@ -28128,7 +28132,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: plannerauditor-twin-2026
   name: Planner-Auditor Twin
@@ -28153,7 +28157,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: scaling-medical-reasoning-verification-via-2026
   title: Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning
@@ -28177,7 +28181,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: agentseval-2026
   name: AgentsEval
@@ -28230,7 +28234,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 15
   added: '2026-10-23'
 - id: retrieval-2026
   title: Retrieval-Augmented Agentic Rubric Generation for Reliable Medical Response Evaluation
@@ -28330,7 +28334,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: pairsafe-2026
   name: PAIR-SAFE
@@ -28354,7 +28358,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 12
   added: '2026-10-23'
 - id: medconsultbench-2026
   name: MedConsultBench
@@ -28378,7 +28382,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: art-2026
   name: ART
@@ -28402,7 +28406,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: ecragent-2026
   name: ECR-Agent
@@ -28457,7 +28461,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: meddialogrubrics-2026
   name: MedDialogRubrics
@@ -28483,7 +28487,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 26
   added: '2026-10-23'
 - id: mamamemeia-2025
   name: MAMA-Memeia
@@ -28532,7 +28536,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: harmone-2025
   name: HARMON-E
@@ -28559,7 +28563,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: an-agentic-ai-framework-for-2025
   title: An Agentic AI Framework for Training General Practitioner Student Skills
@@ -28613,7 +28617,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 14
   added: '2026-10-23'
 - id: cpenv-2025
   name: CP-Env
@@ -28640,7 +28644,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: informct-2025
   name: INFORM-CT
@@ -28665,7 +28669,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: multi-2025-3
   title: Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology
@@ -28710,7 +28714,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: clintutorr1-2025
   name: ClinTutor-R1
@@ -28737,7 +28741,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: radiologist-copilot-2025
   name: Radiologist Copilot
@@ -28764,7 +28768,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: ucagents-2025
   name: UCAgents
@@ -28787,7 +28791,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: many-2025
   title: 'Many-to-One Adversarial Consensus: Exposing Multi-Agent Collusion Risks in AI-Based Healthcare'
@@ -28810,7 +28814,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: auditable-context-2025
   title: Auditable Context-Aware HFMD Forecasting with Structured LLM Agents
@@ -28861,7 +28865,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: pathreasoning-2025
   name: PathReasoning
@@ -28886,7 +28890,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medbench-v4-2025
   name: MedBench v4
@@ -28911,7 +28915,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 9
   added: '2026-10-23'
 - id: meddcr-2025
   name: MedDCR
@@ -28960,7 +28964,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: multi-2025-4
   title: Multi-agent Self-triage System with Medical Flowcharts
@@ -29080,7 +29084,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 5
   added: '2026-10-23'
 - id: ftarm-2025
   name: FT-ARM
@@ -29154,7 +29158,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: medkgeval-2025
   name: MedKGEval
@@ -29181,7 +29185,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 12
   added: '2026-10-23'
 - id: zero-2025
   title: Zero-Shot Large Language Model Agents for Fully Automated Radiotherapy Treatment Planning
@@ -29204,7 +29208,7 @@
   evaluation:
   - human-in-the-loop
   resources: []
-  citations: 0
+  citations: 5
   added: '2026-10-23'
 - id: medcoact-2025
   name: MedCoAct
@@ -29296,7 +29300,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 2
+  citations: 17
   added: '2026-10-23'
 - id: medpao-2025
   name: MedPAO
@@ -29323,7 +29327,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 2
   added: '2026-10-23'
 - id: doctorr1-2025
   name: Doctor-R1
@@ -29350,7 +29354,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 15
   added: '2026-10-23'
 - id: graphmedlt-2025
   name: GraphMed-LT
@@ -29403,7 +29407,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: emragent-2025
   name: EMR-AGENT
@@ -29430,7 +29434,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: radoncgpt-2025
   name: RadOnc-GPT
@@ -29478,7 +29482,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 1
+  citations: 15
   added: '2026-10-23'
 - id: medmmv-2025
   name: MedMMV
@@ -29506,7 +29510,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 9
   added: '2026-10-23'
 - id: ehrchatqa-2025
   name: EHR-ChatQA
@@ -29535,7 +29539,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-23'
 - id: lightweight-structured-multimodal-reasoning-for-2025
   title: Lightweight Structured Multimodal Reasoning for Clinical Scene Understanding in Robotics
@@ -29582,7 +29586,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: scan-2025
   title: 'Scan-do Attitude: Towards Autonomous CT Protocol Management using a Large Language Model Agent'
@@ -29632,7 +29636,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 10
   added: '2026-10-23'
 - id: medical-ai-consensus-2025
   name: Medical AI Consensus
@@ -29659,7 +29663,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 6
   added: '2026-10-23'
 - id: ehrmcp-2025
   name: EHR-MCP
@@ -29685,7 +29689,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 12
   added: '2026-10-23'
 - id: kamac-2025
   name: KAMAC
@@ -29737,7 +29741,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 14
   added: '2026-10-23'
 - id: medicalos-2025
   name: MedicalOS
@@ -29763,7 +29767,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 4
   added: '2026-10-23'
 - id: designing-and-evaluating-a-conversational-2025
   title: Designing and Evaluating a Conversational Agent for Early Diagnosis of Alzheimer's Disease and
@@ -29836,7 +29840,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 24
   added: '2026-10-23'
 - id: cancerguide-2025
   name: CancerGUIDE
@@ -29864,7 +29868,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: hao-2025
   name: HAO
@@ -29890,7 +29894,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 2
+  citations: 10
   added: '2026-10-23'
 - id: code-like-humans-2025
   name: Code Like Humans
@@ -30064,7 +30068,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 31
   added: '2026-10-23'
 - id: llm-2025-3
   title: LLM-Powered Virtual Patient Agents for Interactive Clinical Skills Training with Automated Feedback
@@ -30138,7 +30142,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: standardization-of-neuromuscular-reflex-analysis-2025
   title: Standardization of Neuromuscular Reflex Analysis -- Role of Fine-Tuned Vision-Language Model
@@ -30188,7 +30192,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 7
   added: '2026-10-23'
 - id: medorch-2025
   name: MedOrch
@@ -30312,7 +30316,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: aura-2025
   name: AURA
@@ -30336,7 +30340,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 1
+  citations: 5
   added: '2026-10-23'
 - id: infherno-2025
   name: Infherno
@@ -30362,7 +30366,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: drcopilot-2025
   name: Dr.Copilot
@@ -30411,7 +30415,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: rdma-2025
   name: RDMA
@@ -30554,7 +30558,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 14
   added: '2026-10-23'
 - id: tiered-agentic-oversight-2025
   title: 'Tiered Agentic Oversight: A Hierarchical Multi-Agent System for Healthcare Safety'
@@ -30578,7 +30582,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 1
+  citations: 28
   added: '2026-10-23'
 - id: mcpfhir-2025
   name: MCP-FHIR
@@ -30654,7 +30658,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 5
+  citations: 15
   added: '2026-10-23'
 - id: chatmyopia-2025-2
   name: ChatMyopia
@@ -30705,7 +30709,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 1
+  citations: 10
   added: '2026-10-23'
 - id: moodangels-2025
   name: MoodAngels
@@ -30751,7 +30755,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 47
   added: '2026-10-23'
 - id: medorch-2025-2
   name: MedOrch
@@ -30777,7 +30781,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 14
   added: '2026-10-23'
 - id: consensus-mechanism-2025
   name: Consensus Mechanism
@@ -30802,7 +30806,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: cdragent-2025
   name: CDR-Agent
@@ -30830,7 +30834,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: fuasagents-2025
   name: FUAS-Agents
@@ -30858,7 +30862,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 11
   added: '2026-10-23'
 - id: mrgagents-2025
   name: MRGAgents
@@ -30908,7 +30912,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 36
   added: '2026-10-23'
 - id: medagentboard-2025
   name: MedAgentBoard
@@ -31006,7 +31010,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 11
+  citations: 16
   added: '2026-10-23'
 - id: learning-to-be-a-doctor-2025
   title: 'Learning to Be A Doctor: Searching for Effective Medical Agent Architectures'
@@ -31057,7 +31061,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 43
   added: '2026-10-23'
 - id: dementiaplan-2025
   name: DEMENTIA-PLAN
@@ -31085,7 +31089,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
-  citations: 4
+  citations: 7
   added: '2026-10-23'
 - id: tama-2025
   name: TAMA
@@ -31161,7 +31165,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 8
   added: '2026-10-23'
 - id: surgraw-2025
   name: SurgRAW
@@ -31187,7 +31191,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 8
+  citations: 31
   added: '2026-10-23'
 - id: amie-2025
   name: AMIE
@@ -31260,7 +31264,7 @@
   evaluation:
   - automated
   resources: []
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: amgrag-2025
   name: AMG-RAG
@@ -31361,7 +31365,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 4
+  citations: 86
   added: '2026-10-23'
 - id: jingfang-2025
   name: JingFang
@@ -31388,7 +31392,7 @@
   - automated
   resources:
   - knowledge-augmented
-  citations: 1
+  citations: 11
   added: '2026-10-23'
 - id: an-agentic-ai-workflow-for-2025
   title: An Agentic AI Workflow for Detecting Cognitive Concerns in Real-world Data
@@ -31412,7 +31416,7 @@
   - automated
   - human-in-the-loop
   resources: []
-  citations: 4
+  citations: 11
   added: '2026-10-23'
 - id: retrace-2026
   name: ReTRACE
@@ -31539,7 +31543,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 2
   added: '2026-10-23'
 - id: my-chemical-harness-2026
   name: My Chemical Harness
@@ -31671,7 +31675,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 2
+  citations: 8
   added: '2026-10-23'
 - id: m4olgen-2026
   name: M^4olGen
@@ -31698,7 +31702,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 4
   added: '2026-10-23'
 - id: molact-2025
   name: MolAct
@@ -31723,7 +31727,7 @@
   - automated
   resources:
   - tool-augmented
-  citations: 0
+  citations: 3
   added: '2026-10-23'
 - id: llms-for-bayesian-optimization-in-2025
   title: 'LLMs for Bayesian Optimization in Scientific Domains: Are We There Yet?'
@@ -31957,7 +31961,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
-  citations: 0
+  citations: 1
   added: '2026-10-30'
 - id: agentk-2026
   name: Agent_K
@@ -32221,6 +32225,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
+  citations: 0
   added: '2026-10-30'
 - id: cedar-2026
   name: CEDAR
@@ -32246,6 +32251,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
+  citations: 0
   added: '2026-10-30'
 - id: evaluating-and-improving-ai-agents-2026
   title: Evaluating and improving AI agents for sequencing protocol understanding
@@ -32270,6 +32276,7 @@
   - human-in-the-loop
   resources:
   - knowledge-augmented
+  citations: 0
   added: '2026-10-30'
 - id: protagent-2026
   name: ProtAgent
@@ -32510,6 +32517,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
+  citations: 0
   added: '2026-10-30'
 - id: benchbenchcloning-2026
   name: BenchBench-Cloning
@@ -32563,6 +32571,7 @@
   resources:
   - knowledge-augmented
   - tool-augmented
+  citations: 0
   added: '2026-10-30'
 - id: autonomous-structural-discovery-of-bioprocess-2026
   title: Autonomous Structural Discovery Of Bioprocess Dynamics And Kinetics Via LLM-Driven Agents
@@ -32951,3 +32960,847 @@
   - tool-augmented
   citations: 0
   added: '2026-10-30'
+- id: abcdstack-2026
+  name: ABCD-Stack
+  title: Harness engineering enables a multi-agent LLM system to generate cross-domain hypotheses beyond
+    single-investigator reach
+  url: https://doi.org/10.64898/2026.10.25.761203
+  doi: 10.64898/2026.10.25.761203
+  date: '2026-10-30'
+  year: 2026
+  venue: bioRxiv
+  preprint: true
+  summary: The ABCD-Stack system uses a multi-agent architecture to generate scientific hypotheses in
+    biology by integrating an LLM with external tools, demonstrating that the quality of generated hypotheses
+    is more influenced by the prompting harness than the model itself. The system produces falsifiable
+    hypotheses beyond the scope of single-domain expertise.
+  task:
+  - knowledge-discovery
+  architecture:
+  - multi-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: collaborative-multi-2026-2
+  title: Collaborative Multi-Agent Screening Framework for Efficient Eligibility Evaluation of Clinical
+    Trial Patients
+  url: https://doi.org/10.21203/rs.3.rs-11347072/v1
+  doi: 10.21203/rs.3.rs-11347072/v1
+  date: '2026-11-01'
+  year: 2026
+  venue: Research Square
+  preprint: true
+  summary: The paper introduces a modular multi-agent framework for automating clinical trial patient
+    eligibility screening, using large language models (LLMs) for text understanding and deterministic
+    rules for matching criteria. The system achieves perfect accuracy in retrospective simulation experiments
+    on synthetic EHR data.
+  task:
+  - clinical-decision-support
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: lpt-2026
+  name: LPT
+  title: 'LPT: Orchestrating bounded agentic loops for automated protein binder design'
+  url: https://doi.org/10.64898/2026.10.29.762730
+  doi: 10.64898/2026.10.29.762730
+  date: '2026-10-30'
+  year: 2026
+  venue: bioRxiv
+  preprint: true
+  summary: LPT is a framework that uses large language models to design protein binders through an orchestrated
+    series of bounded agentic loops. It demonstrated high in silico success rates in designing candidate
+    binders for disrupting specific protein interactions, while minimizing computational costs and token
+    consumption.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: silent-methodological-failures-in-ai-2026
+  title: 'Silent methodological failures in AI-assisted science: benchmarking large language model agents
+    for virtual gene knockout analysis'
+  url: https://doi.org/10.21203/rs.3.rs-11399586/v1
+  doi: 10.21203/rs.3.rs-11399586/v1
+  date: '2026-11-03'
+  year: 2026
+  venue: Research Square
+  preprint: true
+  summary: The study evaluates five large language model agents on virtual gene knockout analysis tasks,
+    finding significant variability in execution times and biological plausibility of results. It highlights
+    the importance of cross-model concordance and biological validation for ensuring scientific validity
+    in AI-assisted computational biology.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: llmbased-agentic-workflow-2026
+  name: LLM-based agentic workflow
+  title: 'Beyond Billing Codes: An Agentic Large Language Model Pipeline for Extracting Glaucoma Procedural
+    Data from Free-Text Clinical Notes'
+  url: https://doi.org/10.64898/2026.10.29.26366154
+  doi: 10.64898/2026.10.29.26366154
+  date: '2026-10-30'
+  year: 2026
+  venue: medRxiv
+  preprint: true
+  summary: The paper describes an LLM-based pipeline that accurately extracts glaucoma procedural data
+    from free-text clinical notes, outperforming existing EHR coding systems. The system uses a three-step
+    agentic workflow to enhance the extraction and validation of procedural information for research and
+    clinical applications.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: findings-workflow-2026
+  name: Findings Workflow
+  title: 'The Findings Workflow: An agentic, collaborative, provenance-tracked framework for scientific
+    data analysis with Claude Code'
+  url: https://doi.org/10.64898/2026.10.28.762630
+  doi: 10.64898/2026.10.28.762630
+  date: '2026-11-01'
+  year: 2026
+  venue: bioRxiv
+  preprint: true
+  summary: The Findings Workflow is a structured framework that uses Claude Code to facilitate reproducible
+    and verifiable scientific data analysis through conversational interaction. It demonstrates its utility
+    by reproducing findings from an Alzheimer's disease proteomics dataset, showcasing the plugin's ability
+    to ensure correctness and provenance in LLM-assisted research.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: labweaver-2026
+  name: LabWeaver
+  title: 'LabWeaver: reliable agentic data analysis grounded in laboratory knowledge'
+  url: https://doi.org/10.64898/2026.10.28.762601
+  doi: 10.64898/2026.10.28.762601
+  date: '2026-11-03'
+  year: 2026
+  venue: bioRxiv
+  preprint: true
+  summary: LabWeaver is an agentic data analysis framework designed to enhance the reliability of biological
+    data analysis by incorporating laboratory-specific knowledge and context. It demonstrated improved
+    accuracy in analyzing a single-cell RNA-seq dataset for synovial sarcoma, recovering reporter expression
+    and identifying distinct tumor cell states when experimental context was available.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - multi-agent
+  interaction:
+  - hybrid
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: discoveryagent-2026
+  name: DISCOVERY-AGENT
+  title: 'Human-Governed Multi-Agent AI for Biological Hypothesis Generation: An Evidence-Grounded Framework
+    Using JUMP Cell Painting Profiles'
+  url: https://doi.org/10.21203/rs.3.rs-11555250/v1
+  doi: 10.21203/rs.3.rs-11555250/v1
+  date: '2026-11-02'
+  year: 2026
+  venue: Research Square
+  preprint: true
+  summary: DISCOVERY-AGENT is a multi-agent system designed to generate biological hypotheses from high-dimensional
+    cellular phenotypes, using JUMP Cell Painting profiles. The system demonstrates the feasibility of
+    auditable evidence processing and independent critique but highlights the need for human oversight
+    in hypothesis generation and validation.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - multi-agent
+  interaction:
+  - hybrid
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: sensorwm-2026
+  name: SensorWM
+  title: Personalized health coaching via coachable health age and counterfactual wearable trajectories
+  url: https://arxiv.org/abs/2611.08568
+  doi: 10.48550/arxiv.2611.08568
+  date: '2026-11-05'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: The paper introduces SensorWM, a wearable world model that forecasts physiological responses
+    to lifestyle changes using longitudinal sensor data. It shows improved prognostic discrimination for
+    cardiovascular and metabolic diseases compared to generic time-series models, and generates personalized
+    coaching plans preferred by certified coaches and clinicians.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  added: '2026-11-09'
+- id: biobulbul-2026
+  name: BioBulbul
+  title: 'Building Barricades: Red-Teaming Agentic Biosynthesis Planning'
+  url: https://arxiv.org/abs/2611.08218
+  doi: 10.48550/arxiv.2611.08218
+  date: '2026-11-05'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: BioBulbul is an agentic system that uses large language models and open-source biodesign tools
+    to autonomously generate biosynthesis pathways for small molecule toxins. The paper demonstrates the
+    feasibility of non-experts using such systems, highlighting potential risks and recommending measures
+    to mitigate misuse.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: el-agente-frmaco-2026
+  name: El Agente Fármaco
+  title: 'El Agente Fármaco: A Scalable AI Scientist for Drug Discovery'
+  url: https://arxiv.org/abs/2611.03832
+  doi: 10.48550/arxiv.2611.03832
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: El Agente Fármaco is an AI scientist designed for drug discovery that uses large language models
+    to create complex, scalable computational screening workflows based on user goals. It demonstrated
+    competitive performance in docking scores and higher drug-likeness compared to expert-led campaigns
+    while using fewer tokens.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: v2g-2026
+  name: V2G
+  title: An auditable agentic pipeline for variant-to-gene prioritisation, validated against orthogonal
+    functional evidence
+  url: https://arxiv.org/abs/2611.01461
+  doi: 10.48550/arxiv.2611.01461
+  date: '2026-11-01'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: V2G is an agentic pipeline that prioritizes genes from GWAS variants by recording and reranking
+    evidence retrieved from multiple resources. The study demonstrates that language model reranking improves
+    gene prioritization accuracy, especially when the model operates with shuffled gene symbols, indicating
+    its ability to anchor to provided evidence while making informed decisions.
+  task:
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: can-agents-reliably-design-therapeutic-2026
+  title: Can agents reliably design therapeutic antibodies?
+  url: https://arxiv.org/abs/2611.00558
+  doi: 10.48550/arxiv.2611.00558
+  date: '2026-10-31'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: 'The paper evaluates the reliability of AI agents in designing therapeutic antibodies under
+    two scenarios: task-guided and black-box design. It demonstrates that while tools improve instruction
+    following and exploration, they reduce optimization performance; conversely, design history improves
+    optimization but reduces exploration.'
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  - zero-shot-planner
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: morpheusai-2026
+  name: Morpheus.AI
+  title: 'Morpheus.AI: agents autonomously generate, execute and refine virtual tissue models'
+  url: https://arxiv.org/abs/2611.05413
+  doi: 10.48550/arxiv.2611.05413
+  date: '2026-10-29'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: Morpheus.AI uses large language model agents to autonomously generate, execute, and refine
+    virtual tissue models from biological studies. The system demonstrated high accuracy in meeting study-specific
+    criteria for both benchmarked and non-benchmarked cases.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: agentcount-2026
+  name: AgentCount
+  title: 'AgentCount: An Agentic Workflow for Traceable Colony Counting and Insight Generation from Agar
+    Plate Images'
+  url: https://arxiv.org/abs/2611.05398
+  doi: 10.48550/arxiv.2611.05398
+  date: '2026-10-16'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: AgentCount is an agentic workflow designed to automate colony counting from agar plate images,
+    enhancing traceability and accuracy in microbiological studies. It demonstrates high agreement with
+    manual counts, showcasing its potential for improving efficiency and reliability in food safety testing.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: tcmsea-2026
+  name: TCM-SEA
+  title: 'Learning from Expert-Corrected Misdiagnoses: A Self-Evolving Consultation Agent for Traditional
+    Chinese Medicine after Failed Treatment'
+  url: https://arxiv.org/abs/2610.40663
+  doi: 10.48550/arxiv.2610.40663
+  date: '2026-10-09'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: TCM-SEA is an interactive agent designed to assist in traditional Chinese medicine consultations,
+    particularly after treatment failures. It learns from expert-corrected misdiagnoses and improves its
+    clinical skills by proposing minimal edits based on comparison with expert analyses.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: river-2026
+  name: RIVER
+  title: 'RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery'
+  url: https://arxiv.org/abs/2611.07757
+  doi: 10.48550/arxiv.2611.07757
+  date: '2026-11-05'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: RIVER is a multi-agent framework that retrieves and ranks enzyme-reaction pairs by integrating
+    biochemical evidence from various sources. It outperforms existing methods in both enzyme retrieval
+    and annotation tasks, demonstrating its effectiveness in prioritizing biochemically supported relationships
+    for further experimental validation.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: operons1-2026
+  name: Operon-S1
+  title: 'Operon-S1: a fast decision controller for long-horizon biomedical agents'
+  url: https://arxiv.org/abs/2610.41350
+  doi: 10.48550/arxiv.2610.41350
+  date: '2026-10-30'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: Operon-S1 is a decision-making system designed to separate the judgement and execution processes
+    in biomedical agents, enabling more efficient and measurable control over long-horizon tasks. The
+    paper demonstrates that Operon-S1 can significantly reduce task costs while maintaining performance
+    across various benchmarks, and it also showcases its utility in troubleshooting wet-laboratory protocols
+    and designing target enrichment panels.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: knowevo-2026
+  name: KnowEvo
+  title: 'KnowEvo: Knowledge Evolution for Protein Optimization'
+  url: https://arxiv.org/abs/2611.09013
+  doi: 10.48550/arxiv.2611.09013
+  date: '2026-11-06'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: KnowEvo is a framework that optimizes scientific knowledge for protein optimization tasks,
+    treating externalized knowledge as the target of improvement. It uses executable expertise blocks
+    and strategy mutation trees to systematically refine knowledge, demonstrating consistent performance
+    improvements over initial strategies in benchmarks like pass@k and MRR.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  - neuro-symbolic
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  added: '2026-11-09'
+- id: what-are-llm-agents-actually-2026
+  title: What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?
+  url: https://arxiv.org/abs/2611.08522
+  doi: 10.48550/arxiv.2611.08522
+  date: '2026-10-30'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: The paper evaluates the performance of large language model agents in molecular optimization
+    tasks, finding that their success is heavily influenced by task information retrieval and permissive
+    oracle landscapes. It suggests inexpensive sanity checks for future evaluations to ensure that observed
+    improvements are due to genuine learning rather than retrieval or random walk strategies.
+  task:
+  - molecular-drug-design
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  added: '2026-11-09'
+- id: virtualtrialharness-2026
+  name: VirtualTrialHarness
+  title: 'VirtualTrialHarness: Coordinating Agentic Operationalization of Virtual Trial Protocols Across
+    Complex Clinical Schemas'
+  url: https://arxiv.org/abs/2611.05551
+  doi: 10.48550/arxiv.2611.05551
+  date: '2026-11-03'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: VirtualTrialHarness is an agent framework that coordinates the operationalization of virtual
+    trial protocols by selecting reusable procedural skills for each workflow stage and maintaining consistent
+    study decisions across stages. The system demonstrated improved source recovery and cohort construction
+    accuracy compared to retrieval methods, supporting complex clinical schema implementation in virtual
+    trials.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: dxrx-2026
+  name: Dx-Rx
+  title: 'Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D
+    MRI'
+  url: https://arxiv.org/abs/2611.03996
+  doi: 10.48550/arxiv.2611.03996
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: Dx-Rx is an explainable agent designed to restore 3-D MRI volumes by identifying and correcting
+    multiple unknown artifacts. It demonstrated superior performance in artifact correction compared to
+    models that only look at the image, nearly matching the ground-truth artifact removal rate of expert
+    tools.
+  task:
+  - knowledge-discovery
+  - exploratory
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: fitter-2026
+  name: FITTER
+  title: A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical
+    and Wearable Data
+  url: https://arxiv.org/abs/2611.03983
+  doi: 10.48550/arxiv.2611.03983
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: FITTER is a multi-agent framework that integrates clinical and wearable data to generate personalized
+    exercise prescriptions, ensuring safety through deterministic audits. The system was evaluated using
+    both computational benchmarks and clinician reviews, demonstrating high compliance with safety constraints
+    and better dosing precision compared to large language model comparators.
+  task:
+  - clinical-decision-support
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: longinus-2026
+  name: LONGINUS
+  title: 'Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent
+    Adjudication'
+  url: https://arxiv.org/abs/2611.03826
+  doi: 10.48550/arxiv.2611.03826
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: LONGINUS is a retrieval-memory multi-agent system designed to predict the next visit diagnosis
+    for patients by combining evidence from patient records with structured memory of their medical history.
+    The study shows that LONGINUS outperforms other large language model-based approaches in specific
+    temporal transitions and maintains competitive performance on aggregate metrics.
+  task:
+  - clinical-decision-support
+  architecture:
+  - multi-agent
+  interaction:
+  - hybrid
+  evaluation:
+  - human-in-the-loop
+  - automated
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: diabagent-2026
+  name: DiabAgent
+  title: 'DiabAgent: Toward Agentic Physiological Control'
+  url: https://arxiv.org/abs/2611.03601
+  doi: 10.48550/arxiv.2611.03601
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: DiabAgent is a research suite that includes an agentic physiological control framework, a diabetes
+    simulator (DiabetSim), and a benchmark (SweetBench) to evaluate agents' ability to manage glucose
+    levels in type 1 diabetic patients. The system demonstrates improved glucose control compared to existing
+    open-source solutions through systematic quantitative evaluation.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources:
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: smile-2026
+  name: SMILE
+  title: 'SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding'
+  url: https://arxiv.org/abs/2611.02581
+  doi: 10.48550/arxiv.2611.02581
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: SMILE is a multi-agent system designed to generate structured liver ultrasound reports, using
+    specialized agents for image interpretation and clinical reasoning. It demonstrated superior performance
+    compared to existing vision-language models in generating clinically coherent outputs across public
+    and internal datasets.
+  task:
+  - clinical-decision-support
+  architecture:
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  resources: []
+  citations: 0
+  added: '2026-11-09'
+- id: thred-2026
+  name: THReD
+  title: 'Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic
+    Health Records into AI-Ready Datasets'
+  url: https://arxiv.org/abs/2611.02484
+  doi: 10.5281/zenodo.23820292
+  date: '2026-11-02'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: THReD is a web-based system that uses an LLM agent to preprocess electronic health records
+    into AI-ready datasets, with user confirmation for each step. The benchmarking of THReD shows high
+    reliability and accuracy in processing tasks, validating its tools through real-world data experiments.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  added: '2026-11-09'
+- id: state-2026
+  title: State-Aware Virtual Patient Simulation for Training Psychiatrists in Challenging Clinical Scenarios
+  url: https://arxiv.org/abs/2611.02067
+  doi: 10.48550/arxiv.2611.02067
+  date: '2026-11-01'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: The system simulates challenging clinical scenarios for psychiatrist training, maintaining
+    a consistent psychological state and adapting to clinician responses. It provides feedback on communication
+    and patient management after each session.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  - multi-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: a-prospective-randomized-study-of-2026
+  title: A prospective randomized study of patient-centered AI for clinical visit preparation
+  url: https://arxiv.org/abs/2610.41437
+  doi: 10.48550/arxiv.2610.41437
+  date: '2026-10-30'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: The paper describes a large language model-based agent designed to help patients prepare for
+    clinical visits by gathering context, setting expectations, and generating questions. The study shows
+    that the agent significantly improves patient visit preparedness and satisfaction compared to a control
+    chatbot, as assessed by both clinicians and patients.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources: []
+  citations: 0
+  added: '2026-11-09'
+- id: recite-2026
+  name: RECITE
+  title: 'RECITE: Revising Eligibility Criteria Incorporating Textual Evidence'
+  url: https://arxiv.org/abs/2610.41368
+  doi: 10.1145/3770855.3819027
+  date: '2026-10-30'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: RECITE is a framework that uses large language models to revise clinical trial eligibility
+    criteria based on textual evidence, aiming to improve patient enrollment. The system was evaluated
+    by domain experts who found it effective in generating contextually relevant revisions with high agreement.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - zero-shot-planner
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: bababench-2026
+  name: BABA-Bench
+  title: 'BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents'
+  url: https://arxiv.org/abs/2610.41076
+  doi: 10.48550/arxiv.2610.41076
+  date: '2026-10-29'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: BABA-Bench is a benchmark designed to evaluate long-horizon patient advocacy agents, focusing
+    on their ability to navigate complex healthcare scenarios while adhering to ethical and procedural
+    guidelines. The evaluation reveals that many advanced models can achieve the correct outcomes but
+    often fail to follow necessary procedures, highlighting the need for more robust adherence to ethical
+    standards in AI-driven clinical decision support systems.
+  task:
+  - clinical-decision-support
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - automated
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  citations: 0
+  added: '2026-11-09'
+- id: noura-2026
+  name: Noura
+  title: Can Personal Requirements Become Supervision for Planning?
+  url: https://arxiv.org/abs/2610.40992
+  doi: 10.48550/arxiv.2610.40992
+  date: '2026-10-29'
+  year: 2026
+  venue: arXiv
+  preprint: true
+  summary: Noura is a system that uses large language models to generate personalized dietary plans for
+    managing chronic conditions, incorporating public clinical guidelines and individual health profiles.
+    It demonstrates significant improvements in plan feasibility and adherence when using executed plans
+    as supervision for model training.
+  task:
+  - clinical-decision-support
+  - knowledge-discovery
+  architecture:
+  - single-agent
+  interaction:
+  - step-by-step
+  evaluation:
+  - human-in-the-loop
+  resources:
+  - knowledge-augmented
+  - tool-augmented
+  citations: 0
+  added: '2026-11-09'

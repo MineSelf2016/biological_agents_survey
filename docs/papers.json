@@ -2,7 +2,7 @@
  "name": "AI Agents in Biology",
  "description": "A curated, weekly updated collection of LLM-driven AI agents for biological and biomedical research, tagged by the five-dimension taxonomy of Qi et al., Briefings in Bioinformatics 2026.",
  "homepage": "https://mineself2016.github.io/biological_agents_survey/",
- "updated": "2026-10-30",
+ "updated": "2026-11-09",
  "cite": {
   "title": "Artificial Intelligence agents for biological research: a survey",
   "authors": [
@@ -62,8 +62,759 @@
    }
   }
  },
- "count": 1280,
+ "count": 1312,
  "papers": [
+  {
+   "id": "knowevo-2026",
+   "name": "KnowEvo",
+   "title": "KnowEvo: Knowledge Evolution for Protein Optimization",
+   "url": "https://arxiv.org/abs/2611.09013",
+   "doi": "10.48550/arxiv.2611.09013",
+   "date": "2026-11-06",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "KnowEvo is a framework that optimizes scientific knowledge for protein optimization tasks, treating externalized knowledge as the target of improvement. It uses executable expertise blocks and strategy mutation trees to systematically refine knowledge, demonstrating consistent performance improvements over initial strategies in benchmarks like pass@k and MRR.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ]
+  },
+  {
+   "id": "sensorwm-2026",
+   "name": "SensorWM",
+   "title": "Personalized health coaching via coachable health age and counterfactual wearable trajectories",
+   "url": "https://arxiv.org/abs/2611.08568",
+   "doi": "10.48550/arxiv.2611.08568",
+   "date": "2026-11-05",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper introduces SensorWM, a wearable world model that forecasts physiological responses to lifestyle changes using longitudinal sensor data. It shows improved prognostic discrimination for cardiovascular and metabolic diseases compared to generic time-series models, and generates personalized coaching plans preferred by certified coaches and clinicians.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "biobulbul-2026",
+   "name": "BioBulbul",
+   "title": "Building Barricades: Red-Teaming Agentic Biosynthesis Planning",
+   "url": "https://arxiv.org/abs/2611.08218",
+   "doi": "10.48550/arxiv.2611.08218",
+   "date": "2026-11-05",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "BioBulbul is an agentic system that uses large language models and open-source biodesign tools to autonomously generate biosynthesis pathways for small molecule toxins. The paper demonstrates the feasibility of non-experts using such systems, highlighting potential risks and recommending measures to mitigate misuse.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "river-2026",
+   "name": "RIVER",
+   "title": "RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery",
+   "url": "https://arxiv.org/abs/2611.07757",
+   "doi": "10.48550/arxiv.2611.07757",
+   "date": "2026-11-05",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "RIVER is a multi-agent framework that retrieves and ranks enzyme-reaction pairs by integrating biochemical evidence from various sources. It outperforms existing methods in both enzyme retrieval and annotation tasks, demonstrating its effectiveness in prioritizing biochemically supported relationships for further experimental validation.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "silent-methodological-failures-in-ai-2026",
+   "title": "Silent methodological failures in AI-assisted science: benchmarking large language model agents for virtual gene knockout analysis",
+   "url": "https://doi.org/10.21203/rs.3.rs-11399586/v1",
+   "doi": "10.21203/rs.3.rs-11399586/v1",
+   "date": "2026-11-03",
+   "year": 2026,
+   "venue": "Research Square",
+   "summary": "The study evaluates five large language model agents on virtual gene knockout analysis tasks, finding significant variability in execution times and biological plausibility of results. It highlights the importance of cross-model concordance and biological validation for ensuring scientific validity in AI-assisted computational biology.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "labweaver-2026",
+   "name": "LabWeaver",
+   "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowledge",
+   "url": "https://doi.org/10.64898/2026.10.28.762601",
+   "doi": "10.64898/2026.10.28.762601",
+   "date": "2026-11-03",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "LabWeaver is an agentic data analysis framework designed to enhance the reliability of biological data analysis by incorporating laboratory-specific knowledge and context. It demonstrated improved accuracy in analyzing a single-cell RNA-seq dataset for synovial sarcoma, recovering reporter expression and identifying distinct tumor cell states when experimental context was available.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "virtualtrialharness-2026",
+   "name": "VirtualTrialHarness",
+   "title": "VirtualTrialHarness: Coordinating Agentic Operationalization of Virtual Trial Protocols Across Complex Clinical Schemas",
+   "url": "https://arxiv.org/abs/2611.05551",
+   "doi": "10.48550/arxiv.2611.05551",
+   "date": "2026-11-03",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "VirtualTrialHarness is an agent framework that coordinates the operationalization of virtual trial protocols by selecting reusable procedural skills for each workflow stage and maintaining consistent study decisions across stages. The system demonstrated improved source recovery and cohort construction accuracy compared to retrieval methods, supporting complex clinical schema implementation in virtual trials.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "discoveryagent-2026",
+   "name": "DISCOVERY-AGENT",
+   "title": "Human-Governed Multi-Agent AI for Biological Hypothesis Generation: An Evidence-Grounded Framework Using JUMP Cell Painting Profiles",
+   "url": "https://doi.org/10.21203/rs.3.rs-11555250/v1",
+   "doi": "10.21203/rs.3.rs-11555250/v1",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "Research Square",
+   "summary": "DISCOVERY-AGENT is a multi-agent system designed to generate biological hypotheses from high-dimensional cellular phenotypes, using JUMP Cell Painting profiles. The system demonstrates the feasibility of auditable evidence processing and independent critique but highlights the need for human oversight in hypothesis generation and validation.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "el-agente-frmaco-2026",
+   "name": "El Agente Fármaco",
+   "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+   "url": "https://arxiv.org/abs/2611.03832",
+   "doi": "10.48550/arxiv.2611.03832",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "El Agente Fármaco is an AI scientist designed for drug discovery that uses large language models to create complex, scalable computational screening workflows based on user goals. It demonstrated competitive performance in docking scores and higher drug-likeness compared to expert-led campaigns while using fewer tokens.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "dxrx-2026",
+   "name": "Dx-Rx",
+   "title": "Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI",
+   "url": "https://arxiv.org/abs/2611.03996",
+   "doi": "10.48550/arxiv.2611.03996",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "Dx-Rx is an explainable agent designed to restore 3-D MRI volumes by identifying and correcting multiple unknown artifacts. It demonstrated superior performance in artifact correction compared to models that only look at the image, nearly matching the ground-truth artifact removal rate of expert tools.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "fitter-2026",
+   "name": "FITTER",
+   "title": "A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data",
+   "url": "https://arxiv.org/abs/2611.03983",
+   "doi": "10.48550/arxiv.2611.03983",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "FITTER is a multi-agent framework that integrates clinical and wearable data to generate personalized exercise prescriptions, ensuring safety through deterministic audits. The system was evaluated using both computational benchmarks and clinician reviews, demonstrating high compliance with safety constraints and better dosing precision compared to large language model comparators.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "longinus-2026",
+   "name": "LONGINUS",
+   "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+   "url": "https://arxiv.org/abs/2611.03826",
+   "doi": "10.48550/arxiv.2611.03826",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "LONGINUS is a retrieval-memory multi-agent system designed to predict the next visit diagnosis for patients by combining evidence from patient records with structured memory of their medical history. The study shows that LONGINUS outperforms other large language model-based approaches in specific temporal transitions and maintains competitive performance on aggregate metrics.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "hybrid"
+   ],
+   "evaluation": [
+    "human-in-the-loop",
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "diabagent-2026",
+   "name": "DiabAgent",
+   "title": "DiabAgent: Toward Agentic Physiological Control",
+   "url": "https://arxiv.org/abs/2611.03601",
+   "doi": "10.48550/arxiv.2611.03601",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "DiabAgent is a research suite that includes an agentic physiological control framework, a diabetes simulator (DiabetSim), and a benchmark (SweetBench) to evaluate agents' ability to manage glucose levels in type 1 diabetic patients. The system demonstrates improved glucose control compared to existing open-source solutions through systematic quantitative evaluation.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "smile-2026",
+   "name": "SMILE",
+   "title": "SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding",
+   "url": "https://arxiv.org/abs/2611.02581",
+   "doi": "10.48550/arxiv.2611.02581",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "SMILE is a multi-agent system designed to generate structured liver ultrasound reports, using specialized agents for image interpretation and clinical reasoning. It demonstrated superior performance compared to existing vision-language models in generating clinically coherent outputs across public and internal datasets.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "thred-2026",
+   "name": "THReD",
+   "title": "Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets",
+   "url": "https://arxiv.org/abs/2611.02484",
+   "doi": "10.5281/zenodo.23820292",
+   "date": "2026-11-02",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "THReD is a web-based system that uses an LLM agent to preprocess electronic health records into AI-ready datasets, with user confirmation for each step. The benchmarking of THReD shows high reliability and accuracy in processing tasks, validating its tools through real-world data experiments.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "collaborative-multi-2026-2",
+   "title": "Collaborative Multi-Agent Screening Framework for Efficient Eligibility Evaluation of Clinical Trial Patients",
+   "url": "https://doi.org/10.21203/rs.3.rs-11347072/v1",
+   "doi": "10.21203/rs.3.rs-11347072/v1",
+   "date": "2026-11-01",
+   "year": 2026,
+   "venue": "Research Square",
+   "summary": "The paper introduces a modular multi-agent framework for automating clinical trial patient eligibility screening, using large language models (LLMs) for text understanding and deterministic rules for matching criteria. The system achieves perfect accuracy in retrospective simulation experiments on synthetic EHR data.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "findings-workflow-2026",
+   "name": "Findings Workflow",
+   "title": "The Findings Workflow: An agentic, collaborative, provenance-tracked framework for scientific data analysis with Claude Code",
+   "url": "https://doi.org/10.64898/2026.10.28.762630",
+   "doi": "10.64898/2026.10.28.762630",
+   "date": "2026-11-01",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "The Findings Workflow is a structured framework that uses Claude Code to facilitate reproducible and verifiable scientific data analysis through conversational interaction. It demonstrates its utility by reproducing findings from an Alzheimer's disease proteomics dataset, showcasing the plugin's ability to ensure correctness and provenance in LLM-assisted research.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "v2g-2026",
+   "name": "V2G",
+   "title": "An auditable agentic pipeline for variant-to-gene prioritisation, validated against orthogonal functional evidence",
+   "url": "https://arxiv.org/abs/2611.01461",
+   "doi": "10.48550/arxiv.2611.01461",
+   "date": "2026-11-01",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "V2G is an agentic pipeline that prioritizes genes from GWAS variants by recording and reranking evidence retrieved from multiple resources. The study demonstrates that language model reranking improves gene prioritization accuracy, especially when the model operates with shuffled gene symbols, indicating its ability to anchor to provided evidence while making informed decisions.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "state-2026",
+   "title": "State-Aware Virtual Patient Simulation for Training Psychiatrists in Challenging Clinical Scenarios",
+   "url": "https://arxiv.org/abs/2611.02067",
+   "doi": "10.48550/arxiv.2611.02067",
+   "date": "2026-11-01",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The system simulates challenging clinical scenarios for psychiatrist training, maintaining a consistent psychological state and adapting to clinician responses. It provides feedback on communication and patient management after each session.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent",
+    "multi-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "can-agents-reliably-design-therapeutic-2026",
+   "title": "Can agents reliably design therapeutic antibodies?",
+   "url": "https://arxiv.org/abs/2611.00558",
+   "doi": "10.48550/arxiv.2611.00558",
+   "date": "2026-10-31",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper evaluates the reliability of AI agents in designing therapeutic antibodies under two scenarios: task-guided and black-box design. It demonstrates that while tools improve instruction following and exploration, they reduce optimization performance; conversely, design history improves optimization but reduces exploration.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step",
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "abcdstack-2026",
+   "name": "ABCD-Stack",
+   "title": "Harness engineering enables a multi-agent LLM system to generate cross-domain hypotheses beyond single-investigator reach",
+   "url": "https://doi.org/10.64898/2026.10.25.761203",
+   "doi": "10.64898/2026.10.25.761203",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "The ABCD-Stack system uses a multi-agent architecture to generate scientific hypotheses in biology by integrating an LLM with external tools, demonstrating that the quality of generated hypotheses is more influenced by the prompting harness than the model itself. The system produces falsifiable hypotheses beyond the scope of single-domain expertise.",
+   "task": [
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "multi-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "lpt-2026",
+   "name": "LPT",
+   "title": "LPT: Orchestrating bounded agentic loops for automated protein binder design",
+   "url": "https://doi.org/10.64898/2026.10.29.762730",
+   "doi": "10.64898/2026.10.29.762730",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "summary": "LPT is a framework that uses large language models to design protein binders through an orchestrated series of bounded agentic loops. It demonstrated high in silico success rates in designing candidate binders for disrupting specific protein interactions, while minimizing computational costs and token consumption.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "llmbased-agentic-workflow-2026",
+   "name": "LLM-based agentic workflow",
+   "title": "Beyond Billing Codes: An Agentic Large Language Model Pipeline for Extracting Glaucoma Procedural Data from Free-Text Clinical Notes",
+   "url": "https://doi.org/10.64898/2026.10.29.26366154",
+   "doi": "10.64898/2026.10.29.26366154",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "medRxiv",
+   "summary": "The paper describes an LLM-based pipeline that accurately extracts glaucoma procedural data from free-text clinical notes, outperforming existing EHR coding systems. The system uses a three-step agentic workflow to enhance the extraction and validation of procedural information for research and clinical applications.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "operons1-2026",
+   "name": "Operon-S1",
+   "title": "Operon-S1: a fast decision controller for long-horizon biomedical agents",
+   "url": "https://arxiv.org/abs/2610.41350",
+   "doi": "10.48550/arxiv.2610.41350",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "Operon-S1 is a decision-making system designed to separate the judgement and execution processes in biomedical agents, enabling more efficient and measurable control over long-horizon tasks. The paper demonstrates that Operon-S1 can significantly reduce task costs while maintaining performance across various benchmarks, and it also showcases its utility in troubleshooting wet-laboratory protocols and designing target enrichment panels.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "what-are-llm-agents-actually-2026",
+   "title": "What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?",
+   "url": "https://arxiv.org/abs/2611.08522",
+   "doi": "10.48550/arxiv.2611.08522",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper evaluates the performance of large language model agents in molecular optimization tasks, finding that their success is heavily influenced by task information retrieval and permissive oracle landscapes. It suggests inexpensive sanity checks for future evaluations to ensure that observed improvements are due to genuine learning rather than retrieval or random walk strategies.",
+   "task": [
+    "molecular-drug-design"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ]
+  },
+  {
+   "id": "a-prospective-randomized-study-of-2026",
+   "title": "A prospective randomized study of patient-centered AI for clinical visit preparation",
+   "url": "https://arxiv.org/abs/2610.41437",
+   "doi": "10.48550/arxiv.2610.41437",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "The paper describes a large language model-based agent designed to help patients prepare for clinical visits by gathering context, setting expectations, and generating questions. The study shows that the agent significantly improves patient visit preparedness and satisfaction compared to a control chatbot, as assessed by both clinicians and patients.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "recite-2026",
+   "name": "RECITE",
+   "title": "RECITE: Revising Eligibility Criteria Incorporating Textual Evidence",
+   "url": "https://arxiv.org/abs/2610.41368",
+   "doi": "10.1145/3770855.3819027",
+   "date": "2026-10-30",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "RECITE is a framework that uses large language models to revise clinical trial eligibility criteria based on textual evidence, aiming to improve patient enrollment. The system was evaluated by domain experts who found it effective in generating contextually relevant revisions with high agreement.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "zero-shot-planner"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
   {
    "id": "evaluating-large-language-models-versus-2026",
    "title": "Evaluating large language models versus human therapists in generating interventions for patients with depression in psychodynamic psychotherapy. ",
@@ -257,7 +1008,8 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "cedar-2026",
@@ -285,7 +1037,8 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "epidemia-2026",
@@ -313,7 +1066,8 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "molrsi-2026",
@@ -341,7 +1095,93 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
+  },
+  {
+   "id": "morpheusai-2026",
+   "name": "Morpheus.AI",
+   "title": "Morpheus.AI: agents autonomously generate, execute and refine virtual tissue models",
+   "url": "https://arxiv.org/abs/2611.05413",
+   "doi": "10.48550/arxiv.2611.05413",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "Morpheus.AI uses large language model agents to autonomously generate, execute, and refine virtual tissue models from biological studies. The system demonstrated high accuracy in meeting study-specific criteria for both benchmarked and non-benchmarked cases.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated"
+   ],
+   "resources": [
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "bababench-2026",
+   "name": "BABA-Bench",
+   "title": "BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents",
+   "url": "https://arxiv.org/abs/2610.41076",
+   "doi": "10.48550/arxiv.2610.41076",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "BABA-Bench is a benchmark designed to evaluate long-horizon patient advocacy agents, focusing on their ability to navigate complex healthcare scenarios while adhering to ethical and procedural guidelines. The evaluation reveals that many advanced models can achieve the correct outcomes but often fail to follow necessary procedures, highlighting the need for more robust adherence to ethical standards in AI-driven clinical decision support systems.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "automated",
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
+   "id": "noura-2026",
+   "name": "Noura",
+   "title": "Can Personal Requirements Become Supervision for Planning?",
+   "url": "https://arxiv.org/abs/2610.40992",
+   "doi": "10.48550/arxiv.2610.40992",
+   "date": "2026-10-29",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "Noura is a system that uses large language models to generate personalized dietary plans for managing chronic conditions, incorporating public clinical guidelines and individual health profiles. It demonstrates significant improvements in plan feasibility and adherence when using executed plans as supervision for model training.",
+   "task": [
+    "clinical-decision-support",
+    "knowledge-discovery"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
   },
   {
    "id": "claude-opus-55-2026",
@@ -447,7 +1287,8 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "m4bench-2026",
@@ -1108,7 +1949,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "locally-deployed-ai-agents-for-2026",
@@ -1495,7 +2336,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "does-multi-2026",
@@ -1594,7 +2435,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "cads-2026",
@@ -1733,7 +2574,8 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "biomintrel-2026",
@@ -1847,6 +2689,35 @@
    "citations": 0
   },
   {
+   "id": "agentcount-2026",
+   "name": "AgentCount",
+   "title": "AgentCount: An Agentic Workflow for Traceable Colony Counting and Insight Generation from Agar Plate Images",
+   "url": "https://arxiv.org/abs/2611.05398",
+   "doi": "10.48550/arxiv.2611.05398",
+   "date": "2026-10-16",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "AgentCount is an agentic workflow designed to automate colony counting from agar plate images, enhancing traceability and accuracy in microbiological studies. It demonstrates high agreement with manual counts, showcasing its potential for improving efficiency and reliability in food safety testing.",
+   "task": [
+    "knowledge-discovery",
+    "exploratory"
+   ],
+   "architecture": [
+    "single-agent"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented",
+    "tool-augmented"
+   ],
+   "citations": 0
+  },
+  {
    "id": "inclinico-agent-2026",
    "name": "inClinico Agent",
    "title": "inClinico Agent for clinical trial endpoint prediction and prospective evaluation",
@@ -1872,7 +2743,8 @@
    "resources": [
     "knowledge-augmented",
     "tool-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "experttwins-2026",
@@ -1981,7 +2853,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "the-model-knows-better-2026",
@@ -2116,7 +2988,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "reprobait-2026",
@@ -2365,7 +3237,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "maddie-2026",
@@ -2477,7 +3349,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "autonomous-ai-agents-discover-reverse-2026",
@@ -2504,7 +3376,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "gnqa-2026",
@@ -2624,6 +3496,34 @@
    "citations": 0
   },
   {
+   "id": "tcmsea-2026",
+   "name": "TCM-SEA",
+   "title": "Learning from Expert-Corrected Misdiagnoses: A Self-Evolving Consultation Agent for Traditional Chinese Medicine after Failed Treatment",
+   "url": "https://arxiv.org/abs/2610.40663",
+   "doi": "10.48550/arxiv.2610.40663",
+   "date": "2026-10-09",
+   "year": 2026,
+   "venue": "arXiv",
+   "summary": "TCM-SEA is an interactive agent designed to assist in traditional Chinese medicine consultations, particularly after treatment failures. It learns from expert-corrected misdiagnoses and improves its clinical skills by proposing minimal edits based on comparison with expert analyses.",
+   "task": [
+    "clinical-decision-support"
+   ],
+   "architecture": [
+    "single-agent",
+    "neuro-symbolic"
+   ],
+   "interaction": [
+    "step-by-step"
+   ],
+   "evaluation": [
+    "human-in-the-loop"
+   ],
+   "resources": [
+    "knowledge-augmented"
+   ],
+   "citations": 0
+  },
+  {
    "id": "kgrmas-2026",
    "name": "KGR-MAS",
    "title": "KGR-MAS: Knowledge Graph-Enhanced Multi-Agent LLM Framework for Evidence-Based Medical Diagnosis and Clinical Decision Support",
@@ -2649,7 +3549,8 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "evaluating-autonomous-llm-agents-across-2026",
@@ -2898,7 +3799,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "magi-2026",
@@ -2986,7 +3887,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "targetagent-2026",
@@ -3268,7 +4169,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "templar-2026",
@@ -3569,7 +4470,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "sentinel-2026",
@@ -3820,7 +4721,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "audiologist-2026",
@@ -3899,7 +4800,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "ehrrobustgym-2026",
@@ -4367,8 +5268,7 @@
    "evaluation": [
     "automated",
     "human-in-the-loop"
-   ],
-   "citations": 0
+   ]
   },
   {
    "id": "biolitbench-2026",
@@ -4623,7 +5523,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "labfactory-2026",
@@ -4826,7 +5726,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "eli5a-v20-2026",
@@ -4990,7 +5890,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "a-modular-multi-2026",
@@ -5292,7 +6192,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "on-2026",
@@ -5319,7 +6219,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 4
   },
   {
    "id": "cpsnet-2026",
@@ -5374,7 +6274,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "emr-2026",
@@ -5402,7 +6302,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "clinagent-2026-3",
@@ -5832,7 +6732,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "medcp-2026",
@@ -5961,7 +6861,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "verge-2026",
@@ -6092,7 +6992,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "metaboannotate-2026",
@@ -6121,7 +7021,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "planningcopilot-2026",
@@ -6150,7 +7050,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "dda-2026",
@@ -6235,7 +7135,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "elisa-2026",
@@ -6349,7 +7249,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "evoscm-2026",
@@ -6377,7 +7277,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "clintracebench-2026",
@@ -6508,7 +7408,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "diasentinel-2026",
@@ -6649,7 +7549,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "cardi-2026",
@@ -6762,7 +7662,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "agentfold-2026",
@@ -6846,7 +7746,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 9
   },
   {
    "id": "interoperable-web-platform-based-on-2026",
@@ -7013,7 +7913,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "biocheck-agent-2026",
@@ -7069,7 +7969,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "trialcode-agent-2026",
@@ -7098,7 +7998,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "kmgen-2026",
@@ -7485,7 +8385,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 39
+   "citations": 258
   },
   {
    "id": "agvf-2026",
@@ -7590,7 +8490,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "histagent-2026",
@@ -7728,7 +8628,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "accredit-2026",
@@ -7840,7 +8740,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "unionthenfilter-framework-2026",
@@ -8119,7 +9019,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "fisherr1-2026",
@@ -8146,7 +9046,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "clinicarebench-2026",
@@ -8175,7 +9075,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "residencyrl-2026",
@@ -8202,7 +9102,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "research-assistant-2026",
@@ -8232,7 +9132,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "nmas-2026",
@@ -8320,7 +9220,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "towards-accessible-radiological-image-analysis-2026",
@@ -8489,7 +9389,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "canoe-2026",
@@ -8545,7 +9445,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "anchorre-2026",
@@ -8649,7 +9549,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "architectural-safety-mechanisms-for-multi-2026",
@@ -8788,7 +9688,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "relagent-2026",
@@ -8871,7 +9771,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "cmind-2026",
@@ -8927,7 +9827,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "a-multiagent-large-language-model-2026",
@@ -9069,7 +9969,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "a-large-language-model-2026",
@@ -9096,7 +9996,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "swinqwen3-2026",
@@ -9182,7 +10082,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "patientagentbench-2026",
@@ -9211,7 +10111,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "cardiologent-2026",
@@ -9354,7 +10254,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 22
   },
   {
    "id": "metaclaw-2026",
@@ -9438,7 +10338,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "pulse-2026",
@@ -9493,7 +10393,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "cardioagent-2026",
@@ -9633,7 +10533,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "agentic-calibration-of-grey-2026",
@@ -9656,7 +10556,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "multi-2026",
@@ -9743,7 +10643,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "radfabric-2026",
@@ -9801,7 +10701,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "meda-2026",
@@ -9883,7 +10783,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "autonomous-agents-for-auditable-cardiovascular-2026",
@@ -10073,7 +10973,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "cellpilot-2026",
@@ -10156,7 +11056,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 4
   },
   {
    "id": "sageagent-2026",
@@ -10325,7 +11225,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 29
   },
   {
    "id": "octopus-2026",
@@ -10494,7 +11394,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "sofiya-2026",
@@ -10521,7 +11421,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "medcalcpro-2026",
@@ -10633,7 +11533,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 11
   },
   {
    "id": "doctor-xiao-yi-2026",
@@ -10692,7 +11592,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 9
   },
   {
    "id": "agentic-ai-integrated-with-scientific-2026",
@@ -10720,7 +11620,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 6
   },
   {
    "id": "nova-2026",
@@ -10776,7 +11676,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 7
   },
   {
    "id": "rescue-2026",
@@ -10830,7 +11730,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 1
+   "citations": 5
   },
   {
    "id": "baisbench-2026",
@@ -10857,7 +11757,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 25
   },
   {
    "id": "artificial-intelligence-agent-for-delirium-2026",
@@ -10884,7 +11784,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4
+   "citations": 7
   },
   {
    "id": "faithmed-2026",
@@ -10969,7 +11869,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 3
+   "citations": 5
   },
   {
    "id": "genebenchpro-2026",
@@ -11052,7 +11952,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 13
   },
   {
    "id": "phoagents-2026",
@@ -11195,7 +12095,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "gnps2-agentic-ai-2026",
@@ -11224,7 +12124,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "vst-2026",
@@ -11280,7 +12180,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "abcd-2026",
@@ -11332,7 +12232,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "healink-2026",
@@ -11417,7 +12317,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "knowmol-2026",
@@ -11584,7 +12484,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "vista-architect-2026",
@@ -11666,7 +12566,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "medrlm-2026",
@@ -11778,7 +12678,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 31
+   "citations": 57
   },
   {
    "id": "amie-2026",
@@ -11805,7 +12705,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 14
+   "citations": 49
   },
   {
    "id": "medagent-2026",
@@ -11861,7 +12761,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "emopatient-2026",
@@ -11889,7 +12789,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "physassistbench-2026",
@@ -11947,7 +12847,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "flowbench-2026",
@@ -11975,7 +12875,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "scisoagent-2026",
@@ -12056,7 +12956,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "weqa-2026",
@@ -12085,7 +12985,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "agentic-ai-2026-2",
@@ -12140,7 +13040,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "an-agentic-llm-framework-for-2026",
@@ -12192,7 +13092,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 3
   },
   {
    "id": "trustworthy-agentic-genomics-through-versioned-2026",
@@ -12221,7 +13121,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "deeproot-2026",
@@ -12277,7 +13177,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "automedic-2026",
@@ -12305,7 +13205,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "deeptcm10-2026",
@@ -12360,7 +13260,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "pathlab-2026",
@@ -12389,7 +13289,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "trust-but-verify-2026",
@@ -12416,7 +13316,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "clinagent-2026",
@@ -12445,7 +13345,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "aimah-2026",
@@ -12501,7 +13401,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "arogyasutra-2026",
@@ -12530,7 +13430,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "governagent-2026",
@@ -12583,7 +13483,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "m3a-2026",
@@ -12613,7 +13513,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "abcbench-2026",
@@ -12643,7 +13543,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "pathfinder-agent-2026",
@@ -12891,7 +13791,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "a-large-language-model-2026-2",
@@ -12918,7 +13818,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "gget-virus-2026",
@@ -12946,7 +13846,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "amrec-2026",
@@ -13001,7 +13901,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "agentic-authoring-of-omop-concept-2026",
@@ -13135,7 +14035,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "medsp1000-2026",
@@ -13163,7 +14063,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "cpagent-2026",
@@ -13243,7 +14143,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "clinicalmc-2026",
@@ -13348,13 +14248,14 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "dynamicare-2026",
    "name": "DynamiCare",
    "title": "DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making",
    "url": "https://europepmc.org/article/MED/42317840",
+   "doi": "10.48550/arxiv.2507.02616",
    "date": "2026-06-01",
    "year": 2026,
    "venue": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
@@ -13375,7 +14276,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "map-2026",
@@ -13396,7 +14297,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 1
+   "citations": 17
   },
   {
    "id": "medai-ask-2026",
@@ -13425,13 +14326,14 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "clinnoteagents-2026",
    "name": "ClinNoteAgents",
    "title": "ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes",
    "url": "https://europepmc.org/article/MED/42317861",
+   "doi": "10.48550/arxiv.2512.07081",
    "date": "2026-06-01",
    "year": 2026,
    "venue": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
@@ -13452,7 +14354,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "agentplm-2026",
@@ -13479,7 +14381,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "clinenv-2026",
@@ -13507,7 +14409,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "drugclaw-2026",
@@ -13563,7 +14465,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "biogen-2026",
@@ -13591,7 +14493,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "agentic-authoring-of-interactive-multiview-2026",
@@ -13647,7 +14549,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 7
   },
   {
    "id": "surgent-2026",
@@ -13674,7 +14576,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "counterfactual-evaluation-reveals-hidden-capability-2026",
@@ -13692,7 +14594,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "hetmedagent-2026",
@@ -13777,7 +14679,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "viral-sentry-ai-2026",
@@ -13805,7 +14707,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "automated-de-2026",
@@ -13857,7 +14759,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "pkfm-2026",
@@ -13913,7 +14815,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "mollingo-2026",
@@ -13942,7 +14844,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "autoscientists-2026",
@@ -13971,7 +14873,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 13
   },
   {
    "id": "saferxagent-2026",
@@ -14138,7 +15040,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "praxis-2026",
@@ -14199,7 +15101,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "vdss-2026",
@@ -14251,7 +15153,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "nanocortex-2026",
@@ -14280,7 +15182,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "trace-2026",
@@ -14338,7 +15240,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "standalone-llm-and-a-pre-2026",
@@ -14391,7 +15293,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "medexpmem-2026",
@@ -14446,7 +15348,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "deeplens-diagnosis-agent-2026",
@@ -14475,7 +15377,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "evaluating-open-llms-for-agentic-2026",
@@ -14530,7 +15432,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "memisis-2026",
@@ -14608,7 +15510,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "echoagent-2026",
@@ -14637,7 +15539,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "s2fagent-2026",
@@ -14747,7 +15649,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 14
   },
   {
    "id": "drugsage-2026",
@@ -14774,7 +15676,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "sepsisagent-2026",
@@ -14802,7 +15704,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "mechainistic-2026",
@@ -14859,7 +15761,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "protomedagent-2026",
@@ -14887,7 +15789,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "realicu-2026",
@@ -14915,7 +15817,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "an-agentic-llm-2026",
@@ -14999,7 +15901,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "toolmol-2026",
@@ -15027,7 +15929,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "beyond-manual-curation-2026",
@@ -15053,8 +15955,7 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ],
-   "citations": 0
+   ]
   },
   {
    "id": "assaybench-2026",
@@ -15082,7 +15983,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "agentrx-2026",
@@ -15110,7 +16011,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "uts-at-psydefdetect-2026",
@@ -15163,7 +16064,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "codeclinic-2026",
@@ -15190,7 +16091,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "ai-coclinician-2026",
@@ -15218,7 +16119,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "vibeproteinbench-2026",
@@ -15244,7 +16145,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "human-2026",
@@ -15324,7 +16225,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 6
   },
   {
    "id": "biodesignbench-2026",
@@ -15353,7 +16254,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "woundscribeai-2026",
@@ -15494,7 +16395,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "medexagent-2026",
@@ -15523,7 +16424,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "bioresearcher-2026",
@@ -15694,7 +16595,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "agenticposesranker-2026",
@@ -15749,7 +16650,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "adapts-2026",
@@ -15777,7 +16678,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "physicianbench-2026",
@@ -15804,7 +16705,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 25
   },
   {
    "id": "medicare-2026",
@@ -15861,7 +16762,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "alex-2026",
@@ -15917,7 +16818,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "automated-symptom-identification-from-clinical-2026",
@@ -15971,7 +16872,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 16
   },
   {
    "id": "aero-2026",
@@ -16131,7 +17032,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "bioagent-2026",
@@ -16217,7 +17118,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 17
+   "citations": 344
   },
   {
    "id": "nsmas-2026",
@@ -16269,7 +17170,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 19
   },
   {
    "id": "case-2026",
@@ -16296,7 +17197,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "fastomop-2026",
@@ -16324,7 +17225,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "agentic-clinical-reasoning-over-longitudinal-2026",
@@ -16407,7 +17308,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "msagent-2026",
@@ -16436,7 +17337,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "investigating-the-application-of-a-2026",
@@ -16486,7 +17387,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 3
+   "citations": 7
   },
   {
    "id": "rosie-2026",
@@ -16571,7 +17472,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "caes-2026",
@@ -16769,7 +17670,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "neuro-2026",
@@ -16797,7 +17698,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "pkgpt-2026",
@@ -16852,7 +17753,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "storymi-2026",
@@ -16937,7 +17838,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 9
   },
   {
    "id": "an-agentic-ai-system-for-2026",
@@ -16964,7 +17865,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "metamuse-2026",
@@ -17048,7 +17949,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "beyond-arrows-impossibility-2026",
@@ -17075,7 +17976,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "ophagent-2026",
@@ -17160,7 +18061,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "vcragent-2026",
@@ -17188,7 +18089,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "pipette-2026",
@@ -17355,7 +18256,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 13
   },
   {
    "id": "ghealth-2026",
@@ -17412,7 +18313,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "compbiobench-2026",
@@ -17439,7 +18340,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 12
   },
   {
    "id": "medconceal-2026",
@@ -17464,7 +18365,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "asdagent-2026",
@@ -17550,7 +18451,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "graphdx-2026",
@@ -17602,7 +18503,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "oncoagents-2026",
@@ -17631,7 +18532,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 8
+   "citations": 12
   },
   {
    "id": "matcell-2026",
@@ -17655,7 +18556,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "epistemic-blinding-2026",
@@ -17710,7 +18611,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "careguardai-2026",
@@ -17734,7 +18635,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "ogaaid-2026",
@@ -17786,7 +18687,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "medice-2026",
@@ -17866,7 +18767,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "drugagent-2026",
@@ -18088,7 +18989,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 3
   },
   {
    "id": "emergent-misinformation-genesis-in-multi-2026",
@@ -18196,7 +19097,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "camp-2026",
@@ -18250,7 +19151,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 25
+   "citations": 63
   },
   {
    "id": "biomedagent-2026",
@@ -18278,7 +19179,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 13
+   "citations": 29
   },
   {
    "id": "vaas-2026",
@@ -18306,7 +19207,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "medical-ai-scientist-2026",
@@ -18335,7 +19236,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 11
   },
   {
    "id": "improving-clinical-diagnosis-with-counterfactual-2026",
@@ -18359,7 +19260,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "collaborative-multi-2026",
@@ -18387,7 +19288,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 3
   },
   {
    "id": "pubmed-reasoner-2026",
@@ -18470,7 +19371,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 8
   },
   {
    "id": "skingptx-2026",
@@ -18499,7 +19400,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "a-large-language-model-2026-3",
@@ -18554,7 +19455,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "adcare-2026",
@@ -18584,7 +19485,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "wisemind-2026",
@@ -18612,7 +19513,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 16
   },
   {
    "id": "multi-2026-4",
@@ -18639,7 +19540,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "medclarify-2026",
@@ -18746,7 +19647,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "togomcp-2026",
@@ -18833,7 +19734,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "gsem-2026",
@@ -19024,7 +19925,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "chat-2026",
@@ -19078,7 +19979,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "acp-2026",
@@ -19137,7 +20038,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 32
+   "citations": 49
   },
   {
    "id": "convict-2026",
@@ -19276,7 +20177,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "stmcp-2026",
@@ -19333,7 +20234,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "ensagent-2026",
@@ -19361,7 +20262,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "maesd-2026",
@@ -19417,7 +20318,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "when-openclaw-meets-hospital-2026",
@@ -19445,7 +20346,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 6
   },
   {
    "id": "automated-extraction-and-optimization-of-2026",
@@ -19552,7 +20453,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "fetalagents-2026",
@@ -19635,7 +20536,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "agentic-llm-workflow-for-mr-2026",
@@ -19690,7 +20591,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "derm3r-2026",
@@ -19747,7 +20648,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 11
   },
   {
    "id": "medcorag-2026",
@@ -19776,7 +20677,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "formalized-scientific-methodology-enables-rigorous-2026",
@@ -19830,7 +20731,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 11
   },
   {
    "id": "rbra-2026",
@@ -19886,7 +20787,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "enzyseek-2026",
@@ -19971,7 +20872,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "protrlsearch-2026",
@@ -20000,7 +20901,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "care-2026-2",
@@ -20029,7 +20930,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "chatspatial-2026",
@@ -20058,7 +20959,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "a-multiagent-large-language-model-2026-2",
@@ -20138,7 +21039,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "tarse-2026",
@@ -20166,7 +21067,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "medcollab-2026",
@@ -20194,7 +21095,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "eubiota-2026",
@@ -20224,7 +21125,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 4
   },
   {
    "id": "opgagent-2026",
@@ -20281,7 +21182,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 3
   },
   {
    "id": "bridging-the-computational-2026",
@@ -20364,7 +21265,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "benchmarking-llm-2026",
@@ -20393,7 +21294,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 11
   },
   {
    "id": "care-plan-generation-for-underserved-2026",
@@ -20496,7 +21397,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "assessing-risks-of-large-language-2026",
@@ -20523,7 +21424,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 8
   },
   {
    "id": "ctflow-2026",
@@ -20550,7 +21451,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "hevadx-2026",
@@ -20608,7 +21509,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "agentic-trial-emulation-to-learn-2026",
@@ -20660,7 +21561,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "deeprare-2026",
@@ -20689,7 +21590,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 62
+   "citations": 119
   },
   {
    "id": "openmanus-and-manus-2026",
@@ -20718,7 +21619,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 22
+   "citations": 38
   },
   {
    "id": "das-2026",
@@ -20805,7 +21706,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "closing-the-loop-2026",
@@ -20855,7 +21756,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 5
+   "citations": 8
   },
   {
    "id": "marlrad-2026",
@@ -20884,7 +21785,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "representation-before-retrieval-2026",
@@ -20911,7 +21812,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "livemat-2026",
@@ -20968,7 +21869,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "macamp-2026",
@@ -21101,7 +22002,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "vital-trace-2026",
@@ -21159,7 +22060,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "ec2seq2sql-2026",
@@ -21188,7 +22089,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "cellmaster-2026",
@@ -21216,7 +22117,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "scchat-2026",
@@ -21246,7 +22147,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 9
   },
   {
    "id": "medscope-2026",
@@ -21273,7 +22174,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "bioguider-2026",
@@ -21328,7 +22229,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "drl-2026",
@@ -21358,7 +22259,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "lingxidiagbench-2026",
@@ -21386,7 +22287,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "large-language-model-agent-for-2026",
@@ -21414,7 +22315,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 12
   },
   {
    "id": "toxmcp-2026",
@@ -21439,7 +22340,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "fhiragenteval-2026",
@@ -21545,7 +22446,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "agentic-memory-2026",
@@ -21573,7 +22474,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 6
   },
   {
    "id": "pbioagent-2026",
@@ -21601,7 +22502,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "bole-2026",
@@ -21686,7 +22587,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "drug-safety-agents-using-graphs-2026",
@@ -21741,7 +22642,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 14
   },
   {
    "id": "medsamagent-2026",
@@ -21769,7 +22670,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 13
   },
   {
    "id": "s1nexusagent-2026",
@@ -21799,7 +22700,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "an-ai-2026",
@@ -21878,7 +22779,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "seismo-2026",
@@ -21905,7 +22806,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "medtextweaver-2026",
@@ -21963,7 +22864,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "pablo-2026",
@@ -21992,7 +22893,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "bioagent-bench-2026",
@@ -22021,7 +22922,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 14
   },
   {
    "id": "agentscore-2026",
@@ -22048,7 +22949,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "plannerauditor-twin-2026",
@@ -22075,7 +22976,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "scaling-medical-reasoning-verification-via-2026",
@@ -22101,7 +23002,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "an-implantable-device-that-converses-2026",
@@ -22212,7 +23113,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 8
   },
   {
    "id": "q4dx-2026",
@@ -22239,7 +23140,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "sage-2026-2",
@@ -22268,7 +23169,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "agentseval-2026",
@@ -22324,7 +23225,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 15
   },
   {
    "id": "gastrotcm-2026",
@@ -22352,7 +23253,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 3
+   "citations": 6
   },
   {
    "id": "bayesian-optimization-for-biochemical-discovery-2026",
@@ -22406,7 +23307,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "making-large-language-models-reliable-2026",
@@ -22433,7 +23334,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 15
   },
   {
    "id": "dsgym-2026",
@@ -22463,7 +23364,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 23
   },
   {
    "id": "retrieval-2026",
@@ -22520,7 +23421,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 14
   },
   {
    "id": "marble-2026",
@@ -22629,7 +23530,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4
+   "citations": 5
   },
   {
    "id": "improving-the-safety-and-trustworthiness-2026",
@@ -22655,7 +23556,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "pairsafe-2026",
@@ -22679,7 +23580,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 12
   },
   {
    "id": "medconsultbench-2026",
@@ -22697,7 +23598,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "chatinvent-2026",
@@ -22725,7 +23626,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 17
+   "citations": 23
   },
   {
    "id": "clinagent-2026-2",
@@ -22784,7 +23685,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "genomagent-2026",
@@ -22840,7 +23741,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "art-2026",
@@ -22862,7 +23763,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "ktllm-2026",
@@ -22948,7 +23849,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 12
   },
   {
    "id": "tumor-board-2026",
@@ -23004,7 +23905,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 12
+   "citations": 18
   },
   {
    "id": "pfua-2026",
@@ -23061,7 +23962,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "vibe-coding-omics-data-analysis-2026",
@@ -23089,7 +23990,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 15
   },
   {
    "id": "can-ai-conduct-autonomous-scientific-2026",
@@ -23119,7 +24020,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 7
   },
   {
    "id": "meddialogrubrics-2026",
@@ -23147,7 +24048,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 26
   },
   {
    "id": "hierarchical-agent-reflection-for-aligning-2026",
@@ -23250,7 +24151,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 12
   },
   {
    "id": "biotrouble-2026",
@@ -23333,7 +24234,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "llm-agent-based-protein-function-2026",
@@ -23361,7 +24262,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "autocare-2026",
@@ -23388,7 +24289,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 10
+   "citations": 18
   },
   {
    "id": "medhopper-2026",
@@ -23445,7 +24346,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 7
   },
   {
    "id": "mamamemeia-2025",
@@ -23497,7 +24398,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "queryome-2025",
@@ -23553,7 +24454,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 10
   },
   {
    "id": "molact-2025",
@@ -23580,7 +24481,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "harmone-2025",
@@ -23608,7 +24509,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "an-agentic-ai-framework-for-2025",
@@ -23693,7 +24594,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 44
+   "citations": 92
   },
   {
    "id": "moremi-bio-agent-2025-2",
@@ -23774,7 +24675,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 20
+   "citations": 33
   },
   {
    "id": "clinikiosk-2025",
@@ -23800,7 +24701,8 @@
    ],
    "resources": [
     "knowledge-augmented"
-   ]
+   ],
+   "citations": 0
   },
   {
    "id": "a-self-2025",
@@ -23827,7 +24729,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 11
+   "citations": 17
   },
   {
    "id": "ai-2025-2",
@@ -23884,7 +24786,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 14
   },
   {
    "id": "txagent-2025",
@@ -23913,7 +24815,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "cpenv-2025",
@@ -23942,7 +24844,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "development-of-an-agentic-ai-2025",
@@ -23998,7 +24900,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "hopeai-2025",
@@ -24027,7 +24929,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 9
   },
   {
    "id": "moma-2025",
@@ -24051,7 +24953,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 2
+   "citations": 10
   },
   {
    "id": "multi-2025-3",
@@ -24101,7 +25003,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "cassia-2025",
@@ -24128,7 +25030,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 13
+   "citations": 25
   },
   {
    "id": "sigspace-2025",
@@ -24296,7 +25198,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "moa-2025",
@@ -24353,7 +25255,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "clintutorr1-2025",
@@ -24382,7 +25284,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "a-multi-2025",
@@ -24410,7 +25312,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 8
   },
   {
    "id": "radiologist-copilot-2025",
@@ -24438,7 +25340,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "ucagents-2025",
@@ -24462,7 +25364,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "many-2025",
@@ -24488,7 +25390,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "selfai-2025",
@@ -24517,7 +25419,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "auditable-context-2025",
@@ -24600,7 +25502,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "kai-2025",
@@ -24680,7 +25582,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "mtbbench-2025",
@@ -24709,7 +25611,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "geniecat-2025",
@@ -24739,7 +25641,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 6
   },
   {
    "id": "medsam3-2025",
@@ -24768,7 +25670,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 44
   },
   {
    "id": "biosage-2025",
@@ -24795,7 +25697,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "longevityllm-2025",
@@ -24854,7 +25756,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "openbiollm-2025",
@@ -24883,7 +25785,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 4
   },
   {
    "id": "clinpreai-2025",
@@ -24911,7 +25813,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 3
   },
   {
    "id": "medbench-v4-2025",
@@ -24936,7 +25838,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 9
   },
   {
    "id": "kosmos-2025",
@@ -24965,7 +25867,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "meddcr-2025",
@@ -25019,7 +25921,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "multi-2025-4",
@@ -25075,7 +25977,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 10
   },
   {
    "id": "enhancing-large-language-models-with-2025",
@@ -25103,7 +26005,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 4
   },
   {
    "id": "bioverge-agent-2025",
@@ -25132,7 +26034,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "easymed-2025",
@@ -25179,7 +26081,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "bio-ai-agent-2025",
@@ -25209,7 +26111,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "madd-2025",
@@ -25238,7 +26140,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 6
   },
   {
    "id": "can-lightweight-llm-agents-improve-2025",
@@ -25293,7 +26195,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "visa-2025",
@@ -25345,7 +26247,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 59
   },
   {
    "id": "cytetype-2025",
@@ -25372,7 +26274,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 5
+   "citations": 8
   },
   {
    "id": "mskmatch-2025",
@@ -25427,7 +26329,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 5
   },
   {
    "id": "uorca-2025",
@@ -25566,7 +26468,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 7
   },
   {
    "id": "maria-2025",
@@ -25590,7 +26492,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 6
+   "citations": 8
   },
   {
    "id": "liddia-2025",
@@ -25619,7 +26521,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 10
+   "citations": 32
   },
   {
    "id": "agentic-generative-artificial-intelligence-system-2025",
@@ -25645,7 +26547,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "qspcopilot-2025",
@@ -25673,7 +26575,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "ftarm-2025",
@@ -25749,7 +26651,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 23
+   "citations": 60
   },
   {
    "id": "ebmchat-2025",
@@ -25777,7 +26679,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4
+   "citations": 5
   },
   {
    "id": "braincellaid-2025",
@@ -25805,7 +26707,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "clinical-agents-dont-care-2025",
@@ -25889,7 +26791,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "teamphi-2025",
@@ -25917,7 +26819,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "molagent-2025",
@@ -25946,7 +26848,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 8
   },
   {
    "id": "medtrustrag-2025",
@@ -26028,7 +26930,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 12
   },
   {
    "id": "medarc-2025",
@@ -26054,7 +26956,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 9
+   "citations": 10
   },
   {
    "id": "openpfx-2025",
@@ -26107,7 +27009,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 11
+   "citations": 13
   },
   {
    "id": "zero-2025",
@@ -26130,7 +27032,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "medcoact-2025",
@@ -26224,7 +27126,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 2
+   "citations": 17
   },
   {
    "id": "an-agentic-system-for-natural-2025",
@@ -26280,7 +27182,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "rapid-development-of-omics-data-2025",
@@ -26332,7 +27234,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 4
+   "citations": 6
   },
   {
    "id": "cascade-framework-2025",
@@ -26359,7 +27261,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 14
+   "citations": 17
   },
   {
    "id": "deepevolve-2025",
@@ -26388,7 +27290,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 24
   },
   {
    "id": "llm-2025-2",
@@ -26441,7 +27343,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "mreason-2025",
@@ -26470,7 +27372,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "medpao-2025",
@@ -26500,7 +27402,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 2
   },
   {
    "id": "doctorr1-2025",
@@ -26529,7 +27431,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 15
   },
   {
    "id": "graphmedlt-2025",
@@ -26675,7 +27577,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "clarity-2025",
@@ -26704,7 +27606,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "ldpr-2025",
@@ -26758,7 +27660,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "drugpilot-2025",
@@ -26785,7 +27687,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 26
   },
   {
    "id": "radoncgpt-2025",
@@ -26836,7 +27738,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 1
+   "citations": 15
   },
   {
    "id": "medmmv-2025",
@@ -26865,7 +27767,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 9
   },
   {
    "id": "tusoai-2025",
@@ -26894,7 +27796,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 5
   },
   {
    "id": "ehrchatqa-2025",
@@ -26923,7 +27825,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "amanda-2025",
@@ -27000,7 +27902,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "tissuelab-2025",
@@ -27030,7 +27932,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 24
   },
   {
    "id": "scan-2025",
@@ -27084,7 +27986,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 10
   },
   {
    "id": "llms-for-bayesian-optimization-in-2025",
@@ -27190,7 +28092,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "ehrmcp-2025",
@@ -27218,7 +28120,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 12
   },
   {
    "id": "openlens-ai-2025",
@@ -27247,7 +28149,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 9
   },
   {
    "id": "kamac-2025",
@@ -27330,7 +28232,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "privacy-2025",
@@ -27358,7 +28260,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "dr-cabot-2025",
@@ -27386,7 +28288,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 14
   },
   {
    "id": "medicalos-2025",
@@ -27414,7 +28316,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 4
   },
   {
    "id": "designing-and-evaluating-a-conversational-2025",
@@ -27490,7 +28392,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 24
   },
   {
    "id": "mavericad-2025",
@@ -27546,7 +28448,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "biolab-2025",
@@ -27574,7 +28476,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 3,
+   "citations": 5,
    "in_survey": true
   },
   {
@@ -27599,7 +28501,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 42
+   "citations": 49
   },
   {
    "id": "cancerguide-2025",
@@ -27629,7 +28531,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "a-multimodal-llm-2025",
@@ -27657,7 +28559,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 11
+   "citations": 14
   },
   {
    "id": "paper2agent-2025",
@@ -27717,7 +28619,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 2
+   "citations": 10
   },
   {
    "id": "biomlbench-2025",
@@ -27746,7 +28648,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 19
   },
   {
    "id": "code-like-humans-2025",
@@ -27801,7 +28703,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 10
+   "citations": 17
   },
   {
    "id": "towards-agents-that-know-when-2025",
@@ -27827,7 +28729,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 10
   },
   {
    "id": "auragenome-2025",
@@ -27855,7 +28757,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 9
   },
   {
    "id": "rdguru-2025",
@@ -27885,7 +28787,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 28
+   "citations": 35
   },
   {
    "id": "aihopetp53-2025-2",
@@ -27914,7 +28816,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 9
   },
   {
    "id": "dr-info-2025",
@@ -27942,7 +28844,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 7
   },
   {
    "id": "automated-clinical-problem-detection-from-2025",
@@ -28120,7 +29022,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 41
+   "citations": 55
   },
   {
    "id": "orchestrated-multi-agents-sustain-accuracy-2025",
@@ -28226,7 +29128,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 21
   },
   {
    "id": "scitoolagent-2025",
@@ -28256,7 +29158,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 44
+   "citations": 73
   },
   {
    "id": "medresearcherr1-2025",
@@ -28285,7 +29187,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 31
   },
   {
    "id": "prince-2025",
@@ -28314,7 +29216,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 7
   },
   {
    "id": "llm-2025-3",
@@ -28390,7 +29292,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 32,
+   "citations": 46,
    "in_survey": true
   },
   {
@@ -28419,7 +29321,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 10
+   "citations": 15
   },
   {
    "id": "cardaicagents-2025",
@@ -28448,7 +29350,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "standardization-of-neuromuscular-reflex-analysis-2025",
@@ -28634,7 +29536,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 12,
+   "citations": 14,
    "in_survey": true
   },
   {
@@ -28659,7 +29561,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "mirkatai-2025",
@@ -28716,7 +29618,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 20
   },
   {
    "id": "ai-2025",
@@ -28896,7 +29798,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "biodisco-2025",
@@ -28953,7 +29855,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 9
   },
   {
    "id": "cellatria-2025",
@@ -29012,7 +29914,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 146,
+   "citations": 247,
    "in_survey": true
   },
   {
@@ -29042,7 +29944,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 8
   },
   {
    "id": "virtual-lab-2025",
@@ -29070,7 +29972,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 167
+   "citations": 352
   },
   {
    "id": "geneagent-2025",
@@ -29098,7 +30000,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 65
+   "citations": 98
   },
   {
    "id": "genomas-2025",
@@ -29152,7 +30054,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 7,
+   "citations": 8,
    "in_survey": true
   },
   {
@@ -29181,7 +30083,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 9
+   "citations": 10
   },
   {
    "id": "q4dx-2025",
@@ -29235,7 +30137,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 30
+   "citations": 46
   },
   {
    "id": "reasonagent-2025",
@@ -29264,7 +30166,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 9
   },
   {
    "id": "agentmri-2025",
@@ -29292,7 +30194,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 6
   },
   {
    "id": "pmedagent-2025",
@@ -29347,7 +30249,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 5
   },
   {
    "id": "comparison-of-the-performance-of-2025",
@@ -29397,7 +30299,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 5
+   "citations": 6
   },
   {
    "id": "atlasagent-2025",
@@ -29425,7 +30327,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "doctronic-2025",
@@ -29450,7 +30352,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 12
+   "citations": 16
   },
   {
    "id": "transplantagents-2025",
@@ -29535,7 +30437,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "drcopilot-2025",
@@ -29582,7 +30484,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 3
   },
   {
    "id": "uncertainty-2025",
@@ -29602,7 +30504,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 1,
+   "citations": 2,
    "in_survey": true
   },
   {
@@ -29687,7 +30589,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 9
   },
   {
    "id": "doccha-2025",
@@ -29740,7 +30642,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 11
+   "citations": 14
   },
   {
    "id": "medscrubcrew-2025",
@@ -29764,7 +30666,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 13
+   "citations": 18
   },
   {
    "id": "architecting-clinical-collaboration-2025",
@@ -29818,7 +30720,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 52
+   "citations": 198
   },
   {
    "id": "stella-2025",
@@ -29848,7 +30750,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 14
   },
   {
    "id": "aivaxguide-2025",
@@ -29925,7 +30827,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 12
   },
   {
    "id": "biomars-2025",
@@ -29954,7 +30856,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 16
   },
   {
    "id": "scigym-2025",
@@ -30008,7 +30910,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 20
   },
   {
    "id": "towards-intelligent-agents-for-radiotherapy-2025",
@@ -30065,7 +30967,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 9
+   "citations": 10
   },
   {
    "id": "aihope-2025",
@@ -30094,7 +30996,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 46
+   "citations": 44
   },
   {
    "id": "stella-2025-2",
@@ -30149,7 +31051,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 8,
+   "citations": 10,
    "in_survey": true
   },
   {
@@ -30197,7 +31099,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 31
   },
   {
    "id": "lacdm-2025",
@@ -30222,7 +31124,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 14
   },
   {
    "id": "inspire-2025",
@@ -30250,7 +31152,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 21
+   "citations": 22
   },
   {
    "id": "enhancing-hepatopathy-clinical-trial-efficiency-2025",
@@ -30277,7 +31179,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 7
+   "citations": 10
   },
   {
    "id": "deepseq-2025",
@@ -30330,7 +31232,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 1
+   "citations": 28
   },
   {
    "id": "exploring-the-potential-of-ai-2025",
@@ -30354,7 +31256,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 10,
+   "citations": 11,
    "in_survey": true
   },
   {
@@ -30396,7 +31298,7 @@
    "task": [
     "clinical-decision-support"
    ],
-   "citations": 5,
+   "citations": 7,
    "in_survey": true
   },
   {
@@ -30424,7 +31326,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 3
+   "citations": 4
   },
   {
    "id": "norddrgaibenchmark-2025",
@@ -30481,7 +31383,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 6
   },
   {
    "id": "medchat-2025",
@@ -30508,7 +31410,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 15
   },
   {
    "id": "healkggen-2025",
@@ -30537,7 +31439,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 13
+   "citations": 17
   },
   {
    "id": "origene-2025",
@@ -30566,7 +31468,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 12
+   "citations": 16
   },
   {
    "id": "development-and-validation-of-an-2025",
@@ -30594,7 +31496,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 173
+   "citations": 238
   },
   {
    "id": "chatmyopia-2025-2",
@@ -30649,7 +31551,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "autoct-2025",
@@ -30704,7 +31606,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 41
   },
   {
    "id": "ai-agents-for-conversational-patient-2025",
@@ -30731,7 +31633,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 10
   },
   {
    "id": "moodangels-2025",
@@ -30814,7 +31716,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 8,
+   "citations": 9,
    "in_survey": true
   },
   {
@@ -30872,7 +31774,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 21
+   "citations": 22
   },
   {
    "id": "mmedagentrl-2025",
@@ -30896,7 +31798,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 47
   },
   {
    "id": "potato-knowledge-hub-2025",
@@ -30951,7 +31853,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 14
   },
   {
    "id": "large-language-model-2025",
@@ -30978,7 +31880,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "consensus-mechanism-2025",
@@ -31006,7 +31908,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "cdragent-2025",
@@ -31034,7 +31936,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 2
   },
   {
    "id": "integrating-large-language-model-2025",
@@ -31061,7 +31963,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 25
+   "citations": 32
   },
   {
    "id": "genebreaker-2025",
@@ -31140,7 +32042,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 5
   },
   {
    "id": "fuasagents-2025",
@@ -31169,7 +32071,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 11
   },
   {
    "id": "mtmol-2025",
@@ -31364,7 +32266,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 6
+   "citations": 7
   },
   {
    "id": "medbrowsecomp-2025",
@@ -31392,7 +32294,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 36
   },
   {
    "id": "medagentboard-2025",
@@ -31444,7 +32346,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 12
+   "citations": 15
   },
   {
    "id": "case-study-of-using-ai-2025",
@@ -31472,7 +32374,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "a-multimodal-multi-2025",
@@ -31628,7 +32530,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0,
+   "citations": 1,
    "in_survey": true
   },
   {
@@ -31653,7 +32555,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 15
+   "citations": 16
   },
   {
    "id": "assessing-large-language-model-performance-2025",
@@ -31677,7 +32579,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 4,
+   "citations": 5,
    "in_survey": true
   },
   {
@@ -31704,7 +32606,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 1
+   "citations": 6
   },
   {
    "id": "automatic-biomarker-discovery-and-enrichment-2025",
@@ -31733,7 +32635,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 14,
+   "citations": 17,
    "in_survey": true
   },
   {
@@ -31762,7 +32664,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 11
+   "citations": 16
   },
   {
    "id": "knowledge-2025",
@@ -31789,7 +32691,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 7
   },
   {
    "id": "deep-thought-2025",
@@ -31816,7 +32718,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 3
+   "citations": 10
   },
   {
    "id": "comprehensive-molecular-analyses-of-an-2025",
@@ -31888,7 +32790,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 6
   },
   {
    "id": "multimodal-cell-maps-as-a-2025",
@@ -31924,7 +32826,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 9,
+   "citations": 11,
    "in_survey": true
   },
   {
@@ -31954,7 +32856,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 8
   },
   {
    "id": "txgemma-2025",
@@ -31985,7 +32887,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 8
+   "citations": 68
   },
   {
    "id": "fleming-2025",
@@ -32012,7 +32914,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 7
   },
   {
    "id": "scagent-2025",
@@ -32039,7 +32941,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 0
+   "citations": 9
   },
   {
    "id": "spatialagent-2025",
@@ -32069,7 +32971,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 50,
+   "citations": 60,
    "in_survey": true
   },
   {
@@ -32098,7 +33000,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 14,
+   "citations": 18,
    "in_survey": true
   },
   {
@@ -32127,7 +33029,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 5
   },
   {
    "id": "pcmr-2025",
@@ -32267,7 +33169,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 2
+   "citations": 43
   },
   {
    "id": "exploring-new-drug-treatment-targets-2025",
@@ -32312,7 +33214,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 13
+   "citations": 17
   },
   {
    "id": "dementiaplan-2025",
@@ -32340,7 +33242,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4
+   "citations": 7
   },
   {
    "id": "tama-2025",
@@ -32388,7 +33290,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 5
+   "citations": 7
   },
   {
    "id": "chatbot-for-the-return-of-2025",
@@ -32411,7 +33313,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 14,
+   "citations": 17,
    "in_survey": true
   },
   {
@@ -32440,7 +33342,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 28
+   "citations": 36
   },
   {
    "id": "dola-2025",
@@ -32494,7 +33396,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 8
   },
   {
    "id": "large-language-model-agents-can-2025",
@@ -32522,7 +33424,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 48
+   "citations": 66
   },
   {
    "id": "mma-2025",
@@ -32546,7 +33448,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 22
+   "citations": 25
   },
   {
    "id": "agentographer-2025",
@@ -32603,7 +33505,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 19
+   "citations": 94
   },
   {
    "id": "mac-2025",
@@ -32631,7 +33533,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 119
+   "citations": 147
   },
   {
    "id": "surgraw-2025",
@@ -32660,7 +33562,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 8
+   "citations": 31
   },
   {
    "id": "talk2biomodels-2025",
@@ -32734,7 +33636,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 12,
+   "citations": 16,
    "in_survey": true
   },
   {
@@ -32815,7 +33717,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 20,
+   "citations": 24,
    "in_survey": true
   },
   {
@@ -32925,7 +33827,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 158
+   "citations": 947
   },
   {
    "id": "meddxagent-2025",
@@ -32975,7 +33877,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "biomaze-2025",
@@ -33003,7 +33905,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 14
   },
   {
    "id": "an-active-inference-strategy-for-2025",
@@ -33026,7 +33928,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 23
+   "citations": 22
   },
   {
    "id": "cladd-2025",
@@ -33074,7 +33976,7 @@
    "interaction": [
     "hybrid"
    ],
-   "citations": 3,
+   "citations": 4,
    "in_survey": true
   },
   {
@@ -33098,7 +34000,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 2,
+   "citations": 13,
    "in_survey": true
   },
   {
@@ -33180,7 +34082,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 4
   },
   {
    "id": "moremi-bio-agent-2025-3",
@@ -33207,7 +34109,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 0
+   "citations": 1
   },
   {
    "id": "popper-2025",
@@ -33235,7 +34137,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 7
+   "citations": 48
   },
   {
    "id": "chatexosome-2025",
@@ -33266,7 +34168,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 46
+   "citations": 49
   },
   {
    "id": "ask-patients-with-patience-2025",
@@ -33375,7 +34277,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4,
+   "citations": 16,
    "in_survey": true
   },
   {
@@ -33403,7 +34305,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 14
+   "citations": 21
   },
   {
    "id": "improving-drug-repositioning-with-negative-2025",
@@ -33455,7 +34357,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 4
+   "citations": 86
   },
   {
    "id": "jingfang-2025",
@@ -33483,7 +34385,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 1
+   "citations": 11
   },
   {
    "id": "an-agentic-ai-workflow-for-2025",
@@ -33507,7 +34409,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 4
+   "citations": 11
   },
   {
    "id": "escargot-2025",
@@ -33535,7 +34437,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 25
+   "citations": 30
   },
   {
    "id": "grappi-2025",
@@ -33577,7 +34479,7 @@
     "exploratory",
     "clinical-decision-support"
    ],
-   "citations": 94,
+   "citations": 128,
    "in_survey": true
   },
   {
@@ -33592,7 +34494,7 @@
    "task": [
     "clinical-decision-support"
    ],
-   "citations": 52,
+   "citations": 60,
    "in_survey": true
   },
   {
@@ -33647,7 +34549,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 9
+   "citations": 10
   },
   {
    "id": "maids-2025",
@@ -33699,7 +34601,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 0,
+   "citations": 2,
    "in_survey": true
   },
   {
@@ -33727,7 +34629,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 201
+   "citations": 241
   },
   {
    "id": "assessing-the-performance-of-generative-2025",
@@ -33751,7 +34653,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 16,
+   "citations": 15,
    "in_survey": true
   },
   {
@@ -33802,7 +34704,7 @@
     "knowledge-augmented",
     "tool-augmented"
    ],
-   "citations": 51
+   "citations": 74
   },
   {
    "id": "network-for-knowledge-organization-neko-2025",
@@ -33828,7 +34730,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 22,
+   "citations": 23,
    "in_survey": true
   },
   {
@@ -33852,7 +34754,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 4,
+   "citations": 9,
    "in_survey": true
   },
   {
@@ -33913,7 +34815,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 14,
+   "citations": 20,
    "in_survey": true
   },
   {
@@ -33940,7 +34842,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 9,
+   "citations": 17,
    "in_survey": true
   },
   {
@@ -33961,7 +34863,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 4,
+   "citations": 5,
    "in_survey": true
   },
   {
@@ -33991,7 +34893,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 9,
+   "citations": 10,
    "in_survey": true
   },
   {
@@ -34018,7 +34920,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 1,
+   "citations": 14,
    "in_survey": true
   },
   {
@@ -34066,7 +34968,7 @@
    "interaction": [
     "zero-shot-planner"
    ],
-   "citations": 52,
+   "citations": 61,
    "in_survey": true
   },
   {
@@ -34090,7 +34992,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 4,
+   "citations": 20,
    "in_survey": true
   },
   {
@@ -34114,7 +35016,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 1,
+   "citations": 3,
    "in_survey": true
   },
   {
@@ -34143,7 +35045,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 5,
+   "citations": 10,
    "in_survey": true
   },
   {
@@ -34187,7 +35089,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 4,
+   "citations": 6,
    "in_survey": true
   },
   {
@@ -34206,7 +35108,7 @@
     "automated",
     "human-in-the-loop"
    ],
-   "citations": 12,
+   "citations": 13,
    "in_survey": true
   },
   {
@@ -34227,7 +35129,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 31,
+   "citations": 35,
    "in_survey": true
   },
   {
@@ -34251,7 +35153,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 38,
+   "citations": 42,
    "in_survey": true
   },
   {
@@ -34275,7 +35177,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 38,
+   "citations": 40,
    "in_survey": true
   },
   {
@@ -34303,7 +35205,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 16,
+   "citations": 71,
    "in_survey": true
   },
   {
@@ -34331,7 +35233,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 35,
+   "citations": 39,
    "in_survey": true
   },
   {
@@ -34346,7 +35248,7 @@
    "task": [
     "clinical-decision-support"
    ],
-   "citations": 27,
+   "citations": 31,
    "in_survey": true
   },
   {
@@ -34424,7 +35326,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 9,
+   "citations": 19,
    "in_survey": true
   },
   {
@@ -34448,7 +35350,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 116,
+   "citations": 135,
    "in_survey": true
   },
   {
@@ -34476,7 +35378,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 176,
+   "citations": 214,
    "in_survey": true
   },
   {
@@ -34500,7 +35402,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 17,
+   "citations": 20,
    "in_survey": true
   },
   {
@@ -34515,7 +35417,7 @@
    "task": [
     "clinical-decision-support"
    ],
-   "citations": 28,
+   "citations": 31,
    "in_survey": true
   },
   {
@@ -34566,7 +35468,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 34,
+   "citations": 72,
    "in_survey": true
   },
   {
@@ -34655,7 +35557,7 @@
     "tool-augmented",
     "knowledge-augmented"
    ],
-   "citations": 1050,
+   "citations": 1676,
    "in_survey": true
   },
   {
@@ -34679,7 +35581,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 7,
+   "citations": 10,
    "in_survey": true
   },
   {
@@ -34704,7 +35606,7 @@
    "evaluation": [
     "automated"
    ],
-   "citations": 70,
+   "citations": 84,
    "in_survey": true
   },
   {
@@ -34719,7 +35621,7 @@
    "task": [
     "multi-omics"
    ],
-   "citations": 11,
+   "citations": 12,
    "in_survey": true
   },
   {
@@ -34743,7 +35645,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 306,
+   "citations": 326,
    "in_survey": true
   },
   {
@@ -34769,7 +35671,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 40,
+   "citations": 43,
    "in_survey": true
   },
   {
@@ -34820,7 +35722,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 6,
+   "citations": 10,
    "in_survey": true
   },
   {
@@ -34881,7 +35783,7 @@
    "resources": [
     "knowledge-augmented"
    ],
-   "citations": 16,
+   "citations": 18,
    "in_survey": true
   },
   {
@@ -34922,7 +35824,7 @@
    "evaluation": [
     "human-in-the-loop"
    ],
-   "citations": 26,
+   "citations": 100,
    "in_survey": true
   },
   {
@@ -34964,7 +35866,7 @@
    "resources": [
     "tool-augmented"
    ],
-   "citations": 39,
+   "citations": 49,
    "in_survey": true
   }
  ]

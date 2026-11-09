@@ -1,6 +1,141 @@
-# AI Agents in Biology: all 1280 papers (updated 2026-10-30)
+# AI Agents in Biology: all 1312 papers (updated 2026-11-09)
 
 Source: https://mineself2016.github.io/biological_agents_survey/ · Cite: Qi et al., Artificial Intelligence agents for biological research: a survey, Briefings in Bioinformatics 27(1), bbag075 (2026), doi:10.1093/bib/bbag075
+
+## KnowEvo: KnowEvo: Knowledge Evolution for Protein Optimization
+2026-11 · arXiv · doi:10.48550/arxiv.2611.09013 · https://arxiv.org/abs/2611.09013
+Biological task: Molecular & drug design; System architecture: Single-agent, Neuro-symbolic; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented
+KnowEvo is a framework that optimizes scientific knowledge for protein optimization tasks, treating externalized knowledge as the target of improvement. It uses executable expertise blocks and strategy mutation trees to systematically refine knowledge, demonstrating consistent performance improvements over initial strategies in benchmarks like pass@k and MRR.
+
+## SensorWM: Personalized health coaching via coachable health age and counterfactual wearable trajectories
+2026-11 · arXiv · doi:10.48550/arxiv.2611.08568 · https://arxiv.org/abs/2611.08568
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+The paper introduces SensorWM, a wearable world model that forecasts physiological responses to lifestyle changes using longitudinal sensor data. It shows improved prognostic discrimination for cardiovascular and metabolic diseases compared to generic time-series models, and generates personalized coaching plans preferred by certified coaches and clinicians.
+
+## BioBulbul: Building Barricades: Red-Teaming Agentic Biosynthesis Planning
+2026-11 · arXiv · doi:10.48550/arxiv.2611.08218 · https://arxiv.org/abs/2611.08218
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+BioBulbul is an agentic system that uses large language models and open-source biodesign tools to autonomously generate biosynthesis pathways for small molecule toxins. The paper demonstrates the feasibility of non-experts using such systems, highlighting potential risks and recommending measures to mitigate misuse.
+
+## RIVER: RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery
+2026-11 · arXiv · doi:10.48550/arxiv.2611.07757 · https://arxiv.org/abs/2611.07757
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+RIVER is a multi-agent framework that retrieves and ranks enzyme-reaction pairs by integrating biochemical evidence from various sources. It outperforms existing methods in both enzyme retrieval and annotation tasks, demonstrating its effectiveness in prioritizing biochemically supported relationships for further experimental validation.
+
+## Silent methodological failures in AI-assisted science: benchmarking large language model agents for virtual gene knockout analysis
+2026-11 · Research Square · doi:10.21203/rs.3.rs-11399586/v1 · https://doi.org/10.21203/rs.3.rs-11399586/v1
+Biological task: Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Zero-shot planner; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Tool-augmented
+The study evaluates five large language model agents on virtual gene knockout analysis tasks, finding significant variability in execution times and biological plausibility of results. It highlights the importance of cross-model concordance and biological validation for ensuring scientific validity in AI-assisted computational biology.
+
+## LabWeaver: LabWeaver: reliable agentic data analysis grounded in laboratory knowledge
+2026-11 · bioRxiv · doi:10.64898/2026.10.28.762601 · https://doi.org/10.64898/2026.10.28.762601
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Multi-agent; Interaction mode: Hybrid; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+LabWeaver is an agentic data analysis framework designed to enhance the reliability of biological data analysis by incorporating laboratory-specific knowledge and context. It demonstrated improved accuracy in analyzing a single-cell RNA-seq dataset for synovial sarcoma, recovering reporter expression and identifying distinct tumor cell states when experimental context was available.
+
+## VirtualTrialHarness: VirtualTrialHarness: Coordinating Agentic Operationalization of Virtual Trial Protocols Across Complex Clinical Schemas
+2026-11 · arXiv · doi:10.48550/arxiv.2611.05551 · https://arxiv.org/abs/2611.05551
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+VirtualTrialHarness is an agent framework that coordinates the operationalization of virtual trial protocols by selecting reusable procedural skills for each workflow stage and maintaining consistent study decisions across stages. The system demonstrated improved source recovery and cohort construction accuracy compared to retrieval methods, supporting complex clinical schema implementation in virtual trials.
+
+## DISCOVERY-AGENT: Human-Governed Multi-Agent AI for Biological Hypothesis Generation: An Evidence-Grounded Framework Using JUMP Cell Painting Profiles
+2026-11 · Research Square · doi:10.21203/rs.3.rs-11555250/v1 · https://doi.org/10.21203/rs.3.rs-11555250/v1
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Multi-agent; Interaction mode: Hybrid; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+DISCOVERY-AGENT is a multi-agent system designed to generate biological hypotheses from high-dimensional cellular phenotypes, using JUMP Cell Painting profiles. The system demonstrates the feasibility of auditable evidence processing and independent critique but highlights the need for human oversight in hypothesis generation and validation.
+
+## El Agente Fármaco: El Agente Fármaco: A Scalable AI Scientist for Drug Discovery
+2026-11 · arXiv · doi:10.48550/arxiv.2611.03832 · https://arxiv.org/abs/2611.03832
+Biological task: Molecular & drug design; System architecture: Single-agent, Neuro-symbolic; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+El Agente Fármaco is an AI scientist designed for drug discovery that uses large language models to create complex, scalable computational screening workflows based on user goals. It demonstrated competitive performance in docking scores and higher drug-likeness compared to expert-led campaigns while using fewer tokens.
+
+## Dx-Rx: Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI
+2026-11 · arXiv · doi:10.48550/arxiv.2611.03996 · https://arxiv.org/abs/2611.03996
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Tool-augmented
+Dx-Rx is an explainable agent designed to restore 3-D MRI volumes by identifying and correcting multiple unknown artifacts. It demonstrated superior performance in artifact correction compared to models that only look at the image, nearly matching the ground-truth artifact removal rate of expert tools.
+
+## FITTER: A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data
+2026-11 · arXiv · doi:10.48550/arxiv.2611.03983 · https://arxiv.org/abs/2611.03983
+Biological task: Clinical decision support; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented
+FITTER is a multi-agent framework that integrates clinical and wearable data to generate personalized exercise prescriptions, ensuring safety through deterministic audits. The system was evaluated using both computational benchmarks and clinician reviews, demonstrating high compliance with safety constraints and better dosing precision compared to large language model comparators.
+
+## LONGINUS: Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication
+2026-11 · arXiv · doi:10.48550/arxiv.2611.03826 · https://arxiv.org/abs/2611.03826
+Biological task: Clinical decision support; System architecture: Multi-agent; Interaction mode: Hybrid; Evaluation strategy: Human-in-the-loop, Automated, model-centric; Resource integration: Knowledge-augmented
+LONGINUS is a retrieval-memory multi-agent system designed to predict the next visit diagnosis for patients by combining evidence from patient records with structured memory of their medical history. The study shows that LONGINUS outperforms other large language model-based approaches in specific temporal transitions and maintains competitive performance on aggregate metrics.
+
+## DiabAgent: DiabAgent: Toward Agentic Physiological Control
+2026-11 · arXiv · doi:10.48550/arxiv.2611.03601 · https://arxiv.org/abs/2611.03601
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Tool-augmented
+DiabAgent is a research suite that includes an agentic physiological control framework, a diabetes simulator (DiabetSim), and a benchmark (SweetBench) to evaluate agents' ability to manage glucose levels in type 1 diabetic patients. The system demonstrates improved glucose control compared to existing open-source solutions through systematic quantitative evaluation.
+
+## SMILE: SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding
+2026-11 · arXiv · doi:10.48550/arxiv.2611.02581 · https://arxiv.org/abs/2611.02581
+Biological task: Clinical decision support; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric
+SMILE is a multi-agent system designed to generate structured liver ultrasound reports, using specialized agents for image interpretation and clinical reasoning. It demonstrated superior performance compared to existing vision-language models in generating clinically coherent outputs across public and internal datasets.
+
+## THReD: Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets
+2026-11 · arXiv · doi:10.5281/zenodo.23820292 · https://arxiv.org/abs/2611.02484
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+THReD is a web-based system that uses an LLM agent to preprocess electronic health records into AI-ready datasets, with user confirmation for each step. The benchmarking of THReD shows high reliability and accuracy in processing tasks, validating its tools through real-world data experiments.
+
+## Collaborative Multi-Agent Screening Framework for Efficient Eligibility Evaluation of Clinical Trial Patients
+2026-11 · Research Square · doi:10.21203/rs.3.rs-11347072/v1 · https://doi.org/10.21203/rs.3.rs-11347072/v1
+Biological task: Clinical decision support; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+The paper introduces a modular multi-agent framework for automating clinical trial patient eligibility screening, using large language models (LLMs) for text understanding and deterministic rules for matching criteria. The system achieves perfect accuracy in retrospective simulation experiments on synthetic EHR data.
+
+## Findings Workflow: The Findings Workflow: An agentic, collaborative, provenance-tracked framework for scientific data analysis with Claude Code
+2026-11 · bioRxiv · doi:10.64898/2026.10.28.762630 · https://doi.org/10.64898/2026.10.28.762630
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+The Findings Workflow is a structured framework that uses Claude Code to facilitate reproducible and verifiable scientific data analysis through conversational interaction. It demonstrates its utility by reproducing findings from an Alzheimer's disease proteomics dataset, showcasing the plugin's ability to ensure correctness and provenance in LLM-assisted research.
+
+## V2G: An auditable agentic pipeline for variant-to-gene prioritisation, validated against orthogonal functional evidence
+2026-11 · arXiv · doi:10.48550/arxiv.2611.01461 · https://arxiv.org/abs/2611.01461
+Biological task: Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented
+V2G is an agentic pipeline that prioritizes genes from GWAS variants by recording and reranking evidence retrieved from multiple resources. The study demonstrates that language model reranking improves gene prioritization accuracy, especially when the model operates with shuffled gene symbols, indicating its ability to anchor to provided evidence while making informed decisions.
+
+## State-Aware Virtual Patient Simulation for Training Psychiatrists in Challenging Clinical Scenarios
+2026-11 · arXiv · doi:10.48550/arxiv.2611.02067 · https://arxiv.org/abs/2611.02067
+Biological task: Clinical decision support; System architecture: Single-agent, Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+The system simulates challenging clinical scenarios for psychiatrist training, maintaining a consistent psychological state and adapting to clinician responses. It provides feedback on communication and patient management after each session.
+
+## Can agents reliably design therapeutic antibodies?
+2026-10 · arXiv · doi:10.48550/arxiv.2611.00558 · https://arxiv.org/abs/2611.00558
+Biological task: Molecular & drug design; System architecture: Single-agent; Interaction mode: Step-by-step, Zero-shot planner; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+The paper evaluates the reliability of AI agents in designing therapeutic antibodies under two scenarios: task-guided and black-box design. It demonstrates that while tools improve instruction following and exploration, they reduce optimization performance; conversely, design history improves optimization but reduces exploration.
+
+## ABCD-Stack: Harness engineering enables a multi-agent LLM system to generate cross-domain hypotheses beyond single-investigator reach
+2026-10 · bioRxiv · doi:10.64898/2026.10.25.761203 · https://doi.org/10.64898/2026.10.25.761203
+Biological task: Knowledge discovery & hypothesis generation; System architecture: Multi-agent, Neuro-symbolic; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+The ABCD-Stack system uses a multi-agent architecture to generate scientific hypotheses in biology by integrating an LLM with external tools, demonstrating that the quality of generated hypotheses is more influenced by the prompting harness than the model itself. The system produces falsifiable hypotheses beyond the scope of single-domain expertise.
+
+## LPT: LPT: Orchestrating bounded agentic loops for automated protein binder design
+2026-10 · bioRxiv · doi:10.64898/2026.10.29.762730 · https://doi.org/10.64898/2026.10.29.762730
+Biological task: Molecular & drug design; System architecture: Single-agent, Neuro-symbolic; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
+LPT is a framework that uses large language models to design protein binders through an orchestrated series of bounded agentic loops. It demonstrated high in silico success rates in designing candidate binders for disrupting specific protein interactions, while minimizing computational costs and token consumption.
+
+## LLM-based agentic workflow: Beyond Billing Codes: An Agentic Large Language Model Pipeline for Extracting Glaucoma Procedural Data from Free-Text Clinical Notes
+2026-10 · medRxiv · doi:10.64898/2026.10.29.26366154 · https://doi.org/10.64898/2026.10.29.26366154
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented
+The paper describes an LLM-based pipeline that accurately extracts glaucoma procedural data from free-text clinical notes, outperforming existing EHR coding systems. The system uses a three-step agentic workflow to enhance the extraction and validation of procedural information for research and clinical applications.
+
+## Operon-S1: Operon-S1: a fast decision controller for long-horizon biomedical agents
+2026-10 · arXiv · doi:10.48550/arxiv.2610.41350 · https://arxiv.org/abs/2610.41350
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+Operon-S1 is a decision-making system designed to separate the judgement and execution processes in biomedical agents, enabling more efficient and measurable control over long-horizon tasks. The paper demonstrates that Operon-S1 can significantly reduce task costs while maintaining performance across various benchmarks, and it also showcases its utility in troubleshooting wet-laboratory protocols and designing target enrichment panels.
+
+## What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?
+2026-10 · arXiv · doi:10.48550/arxiv.2611.08522 · https://arxiv.org/abs/2611.08522
+Biological task: Molecular & drug design; System architecture: Single-agent; Interaction mode: Zero-shot planner; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+The paper evaluates the performance of large language model agents in molecular optimization tasks, finding that their success is heavily influenced by task information retrieval and permissive oracle landscapes. It suggests inexpensive sanity checks for future evaluations to ensure that observed improvements are due to genuine learning rather than retrieval or random walk strategies.
+
+## A prospective randomized study of patient-centered AI for clinical visit preparation
+2026-10 · arXiv · doi:10.48550/arxiv.2610.41437 · https://arxiv.org/abs/2610.41437
+Biological task: Clinical decision support; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop
+The paper describes a large language model-based agent designed to help patients prepare for clinical visits by gathering context, setting expectations, and generating questions. The study shows that the agent significantly improves patient visit preparedness and satisfaction compared to a control chatbot, as assessed by both clinicians and patients.
+
+## RECITE: RECITE: Revising Eligibility Criteria Incorporating Textual Evidence
+2026-10 · arXiv · doi:10.1145/3770855.3819027 · https://arxiv.org/abs/2610.41368
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Zero-shot planner; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+RECITE is a framework that uses large language models to revise clinical trial eligibility criteria based on textual evidence, aiming to improve patient enrollment. The system was evaluated by domain experts who found it effective in generating contextually relevant revisions with high agreement.
 
 ## Evaluating large language models versus human therapists in generating interventions for patients with depression in psychodynamic psychotherapy. 
 2026-10 · Journal of consulting and clinical psychology · doi:10.1037/ccp0001034 · https://doi.org/10.1037/ccp0001034
@@ -51,6 +186,21 @@ EpidemIA is an AI multi-agent system that enables clinicians and hospital admini
 2026-10 · arXiv · doi:10.48550/arxiv.2610.39714 · https://arxiv.org/abs/2610.39714
 Biological task: Molecular & drug design, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
 MoLRSI is an AI agent designed to optimize molecular discovery workflows by recursively improving its search policies based on performance and feedback. It demonstrated superior experimental hit rates in antibiotic discovery and successfully developed peptide-MHC binders with high specificity, outperforming a human expert-led approach.
+
+## Morpheus.AI: Morpheus.AI: agents autonomously generate, execute and refine virtual tissue models
+2026-10 · arXiv · doi:10.48550/arxiv.2611.05413 · https://arxiv.org/abs/2611.05413
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Tool-augmented
+Morpheus.AI uses large language model agents to autonomously generate, execute, and refine virtual tissue models from biological studies. The system demonstrated high accuracy in meeting study-specific criteria for both benchmarked and non-benchmarked cases.
+
+## BABA-Bench: BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents
+2026-10 · arXiv · doi:10.48550/arxiv.2610.41076 · https://arxiv.org/abs/2610.41076
+Biological task: Clinical decision support; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric, Human-in-the-loop; Resource integration: Knowledge-augmented
+BABA-Bench is a benchmark designed to evaluate long-horizon patient advocacy agents, focusing on their ability to navigate complex healthcare scenarios while adhering to ethical and procedural guidelines. The evaluation reveals that many advanced models can achieve the correct outcomes but often fail to follow necessary procedures, highlighting the need for more robust adherence to ethical standards in AI-driven clinical decision support systems.
+
+## Noura: Can Personal Requirements Become Supervision for Planning?
+2026-10 · arXiv · doi:10.48550/arxiv.2610.40992 · https://arxiv.org/abs/2610.40992
+Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+Noura is a system that uses large language models to generate personalized dietary plans for managing chronic conditions, incorporating public clinical guidelines and individual health profiles. It demonstrates significant improvements in plan feasibility and adherence when using executed plans as supervision for model training.
 
 ## Claude Opus 5.5: The Generalist Strikes Back:\\A General LLM Agent Outperforms Specialist Bioinformatics Agents on Free-Form, End-to-End Benchmark Analysis
 2026-10 · Research Square · doi:10.21203/rs.3.rs-11485353/v1 · https://doi.org/10.21203/rs.3.rs-11485353/v1
@@ -327,6 +477,11 @@ FusionRare is a unified framework that integrates multiple AI paradigms to diagn
 Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
 The paper describes the use of Claude, a large language model configured with neuro-oncology instructions, to integrate various molecular and clinical data for a patient with SHH-activated medulloblastoma. The system helped resolve conflicting diagnostic results and informed the decision against using SMO inhibitors, leading to successful close surveillance without recurrence.
 
+## AgentCount: AgentCount: An Agentic Workflow for Traceable Colony Counting and Insight Generation from Agar Plate Images
+2026-10 · arXiv · doi:10.48550/arxiv.2611.05398 · https://arxiv.org/abs/2611.05398
+Biological task: Knowledge discovery & hypothesis generation, Exploratory applications; System architecture: Single-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented, Tool-augmented
+AgentCount is an agentic workflow designed to automate colony counting from agar plate images, enhancing traceability and accuracy in microbiological studies. It demonstrates high agreement with manual counts, showcasing its potential for improving efficiency and reliability in food safety testing.
+
 ## inClinico Agent: inClinico Agent for clinical trial endpoint prediction and prospective evaluation
 2026-10 · medRxiv · doi:10.64898/2026.10.13.26365373 · https://doi.org/10.64898/2026.10.13.26365373
 Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Single-agent; Interaction mode: Zero-shot planner; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
@@ -466,6 +621,11 @@ DRYLAB-Bench is a benchmark designed to evaluate the biosecurity risks posed by 
 2026-10 · arXiv · doi:10.48550/arxiv.2610.33022 · https://arxiv.org/abs/2610.33022
 Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
 PhysioCircuit is a multi-agent system that models each organ as an agent and physiological relations as editable mechanism cards, enabling controlled interventions for longitudinal patient forecasting. The system demonstrates superior performance in predicting the effects of interventions compared to random or reversed graph topologies, supported by independent clinician adjudication.
+
+## TCM-SEA: Learning from Expert-Corrected Misdiagnoses: A Self-Evolving Consultation Agent for Traditional Chinese Medicine after Failed Treatment
+2026-10 · arXiv · doi:10.48550/arxiv.2610.40663 · https://arxiv.org/abs/2610.40663
+Biological task: Clinical decision support; System architecture: Single-agent, Neuro-symbolic; Interaction mode: Step-by-step; Evaluation strategy: Human-in-the-loop; Resource integration: Knowledge-augmented
+TCM-SEA is an interactive agent designed to assist in traditional Chinese medicine consultations, particularly after treatment failures. It learns from expert-corrected misdiagnoses and improves its clinical skills by proposing minimal edits based on comparison with expert analyses.
 
 ## KGR-MAS: KGR-MAS: Knowledge Graph-Enhanced Multi-Agent LLM Framework for Evidence-Based Medical Diagnosis and Clinical Decision Support
 2026-10 · IEEE journal of biomedical and health informatics · doi:10.1109/jbhi.2026.3740738 · https://doi.org/10.1109/jbhi.2026.3740738
@@ -2403,7 +2563,7 @@ Biological task: Clinical decision support; System architecture: Neuro-symbolic,
 The paper presents a genetic neuro-symbolic LLM system that integrates multiple AI agents for managing cholangitis, demonstrating superior accuracy compared to conventional AI models and human experts in a multi-center study. The results suggest potential for advanced AI architectures in clinical decision support for complex medical conditions.
 
 ## DynamiCare: DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making
-2026-06 · AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science · https://europepmc.org/article/MED/42317840
+2026-06 · AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science · doi:10.48550/arxiv.2507.02616 · https://europepmc.org/article/MED/42317840
 Biological task: Clinical decision support; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented, Tool-augmented
 DynamiCare is a dynamic multi-agent framework designed to simulate interactive and iterative clinical decision-making processes, using MIMIC-Patient dataset for patient-level simulations. The system demonstrates the feasibility of modeling complex medical scenarios through iterative queries and adaptive strategies by specialist agents.
 
@@ -2418,7 +2578,7 @@ Biological task: Knowledge discovery & hypothesis generation; System architectur
 A ReAct-style agent selects among biomedical knowledge bases, vector retrieval over 44 million documents, external APIs and NER tools to answer scientists' questions. It led on long-form accuracy and faithfulness, was competitive on short-form questions, and serves over 1,600 users in production.
 
 ## ClinNoteAgents: ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes
-2026-06 · AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science · https://europepmc.org/article/MED/42317861
+2026-06 · AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science · doi:10.48550/arxiv.2512.07081 · https://europepmc.org/article/MED/42317861
 Biological task: Clinical decision support, Knowledge discovery & hypothesis generation; System architecture: Multi-agent; Interaction mode: Step-by-step; Evaluation strategy: Automated, model-centric; Resource integration: Knowledge-augmented
 ClinNoteAgents is an LLM-based multi-agent system designed to predict heart failure 30-day readmission risk from clinical notes, transforming free-text into structured representations and clinician-style abstractions. The system demonstrates high extraction fidelity for clinical variables and key risk factor identification while preserving predictive signal with significant text reduction.
 
